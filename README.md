@@ -9,7 +9,7 @@
 </a>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=subrat-sahu444&label=DATABASE_LOGINS&color=ff6b00&style=flat-square" alt="Visitor Counter" />
+  <img src="https://komarev.com/ghpvc/?username=subratsahu3&label=DATABASE_LOGINS&color=ff6b00&style=flat-square" alt="Visitor Counter" />
   <img src="https://img.shields.io/badge/GUILD-LOG_HORIZON-5865F2?style=flat-square" alt="Log Horizon Guild" />
   <img src="https://img.shields.io/badge/CLASS-ENCHANTER_%2F_SCRIBE-9D4EDD?style=flat-square" alt="Enchanter Class" />
   <img src="https://img.shields.io/badge/TACTIC-FULL_CONTROL_ENCOUNTER-00F0FF?style=flat-square" alt="Full Control Encounter" />
@@ -28,13 +28,23 @@
 ╔══════════════════════════════════════════════════════════════════════════════════════╗
 ║  [ ELDER TALE PROTOCOL ] :: FULL CONTROL ENCOUNTER ACTIVE                            ║
 ╠══════════════════════════════════════════════════════════════════════════════════════╣
-║  • GUILD MASTER   : Subrat Sahu (Callsign: Shiroe / @subrat-sahu444)                 ║
+║  • GUILD MASTER   : Subrat Sahu (Callsign: Shiroe / @subratsahu3)                    ║
 ║  • MAIN CLASS     : Enchanter (Buffer / System Architect / Raid Commander)           ║
 ║  • SUB-CLASS      : Scribe (Author of New World Laws & Contract Spells)              ║
 ║  • SPECIAL ABILITY: Full Control Encounter (Predicting bugs 30s before runtime)      ║
 ║  • ALLIANCE       : Akiba Round Table Council // Future Gadget Laboratory            ║
 ║  • STRATEGY       : "If the rules don't exist in this database... we rewrite them."  ║
 ╚══════════════════════════════════════════════════════════════════════════════════════╝
+```
+
+```text
+┌─── [OPERATOR LIFE PHILOSOPHY] ────────────────────────────────────────┐
+│  🔭 Exploring the Universe & Tech.                                     │
+│  😈 Psycho. 🎵 Audiophile.                                             │
+│  🚫 3D Girls = Syntax Error.                                           │
+│  ⛩️ 2D Waifus = Compiled Successfully.                                 │
+│  🚶‍♂️ Solitude is peace. 🌑                                               │
+└────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -77,12 +87,12 @@
 <div align="center">
 
 <!-- RADICAL / STEINS GATE & LOG HORIZON THEME -->
-<img src="https://github-readme-stats.vercel.app/api?username=subrat-sahu444&show_icons=true&theme=radical&bg_color=0a0b10&title_color=FFE600&text_color=00F0FF&icon_color=FF6B00&border_color=9D4EDD&hide_border=false" width="48%" alt="Raid Stats" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=subrat-sahu444&theme=radical&background=0A0B10&border=9D4EDD&stroke=9D4EDD&ring=FFE600&fire=FF0033&currStreakLabel=00F0FF&sideLabels=FFE600&dates=FFFFFF" width="48%" alt="Continuous Raid Streak" />
+<img src="https://github-readme-stats.vercel.app/api?username=subratsahu3&show_icons=true&theme=radical&bg_color=0a0b10&title_color=FFE600&text_color=00F0FF&icon_color=FF6B00&border_color=9D4EDD&hide_border=false" width="48%" alt="Raid Stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=subratsahu3&theme=radical&background=0A0B10&border=9D4EDD&stroke=9D4EDD&ring=FFE600&fire=FF0033&currStreakLabel=00F0FF&sideLabels=FFE600&dates=FFFFFF" width="48%" alt="Continuous Raid Streak" />
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=subrat-sahu444&layout=compact&theme=radical&bg_color=0a0b10&title_color=FFE600&text_color=00F0FF&border_color=9D4EDD&hide_border=false" width="58%" alt="Dialects Mastered" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=subratsahu3&layout=compact&theme=radical&bg_color=0a0b10&title_color=FFE600&text_color=00F0FF&border_color=9D4EDD&hide_border=false" width="58%" alt="Dialects Mastered" />
 
 </div>
 
@@ -92,10 +102,10 @@
 
 | TIER | LORE UNIVERSE | RAID CODEBASE | CLASS & SPECIFICATION | PROTOCOL STATUS |
 | :---: | :--- | :--- | :--- | :---: |
-| 🧪 | **Dr. STONE** | **[SpecLab-Spectrum-Analyzer](https://github.com/subrat-sahu444/SpecLab-Spectrum-Analyzer)** | Scientific IR & Raman spectral analysis toolkit + Streamlit web UI | `10_BILLION_%` |
-| 🤖 | **Dr. STONE / Cyber** | **[Senku-AI-Assistant](https://github.com/subrat-sahu444/FriendlyAIBot)** | Autonomous conversational multi-provider AI engine (Gemini & Groq) | `[CHROMED]` |
-| 👓 | **Log Horizon** | **[Round-Table-Engine](https://github.com/subrat-sahu444)** | Scribe Contract Protocol & Distributed Raid Matchmaker | `[OVERSKILL]` |
-| ⏳ | **Steins;Gate** | **[Future Gadget #204](https://github.com/subrat-sahu444)** | Event-driven microservices across worldline branch points | `[1.048596%]` |
+| 🧪 | **Dr. STONE** | **[SpecLab-Spectrum-Analyzer](https://github.com/subratsahu3/SpecLab-Spectrum-Analyzer)** | Scientific IR & Raman spectral analysis toolkit + Streamlit web UI | `10_BILLION_%` |
+| 🤖 | **Dr. STONE / Cyber** | **[Senku-AI-Assistant](https://github.com/subratsahu3/FriendlyAIBot)** | Autonomous conversational multi-provider AI engine (Gemini & Groq) | `[CHROMED]` |
+| 👓 | **Log Horizon** | **[Round-Table-Engine](https://github.com/subratsahu3)** | Scribe Contract Protocol & Distributed Raid Matchmaker | `[OVERSKILL]` |
+| ⏳ | **Steins;Gate** | **[Future Gadget #204](https://github.com/subratsahu3)** | Event-driven microservices across worldline branch points | `[1.048596%]` |
 
 ---
 
@@ -112,7 +122,7 @@
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GITHUB-subrat--sahu444-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/subrat-sahu444)
+[![GitHub](https://img.shields.io/badge/GITHUB-subratsahu3-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/subratsahu3)
 [![Encrypted Comms](https://img.shields.io/badge/ENCRYPTED_MAIL-subratsahu195-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:subratsahu195@gmail.com)
 
 <br/>
