@@ -102,7 +102,7 @@
 
 | TIER | LORE UNIVERSE | RAID CODEBASE | CLASS & SPECIFICATION | PROTOCOL STATUS |
 | :---: | :--- | :--- | :--- | :---: |
-| 🧪 | **Dr. STONE** | **[SpecLab-Spectrum-Analyzer](https://github.com/subratsahu3/SpecLab-Spectrum-Analyzer)** | Scientific IR & Raman spectral analysis toolkit + Streamlit web UI | `10_BILLION_%` |
+| ?? | **Dr. STONE** | **[SpecLab](https://github.com/subratsahu3/SpecLab-Spectrum-Analyzer)** ([PyPI](https://pypi.org/project/speclab-spectrum-analyzer/)) | Scientific IR & Raman analyzer (pip install speclab-spectrum-analyzer) | 10_BILLION_% |
 | 🤖 | **Dr. STONE / Cyber** | **[Senku-AI-Assistant](https://github.com/subratsahu3/FriendlyAIBot)** | Autonomous conversational multi-provider AI engine (Gemini & Groq) | `[CHROMED]` |
 | 👓 | **Log Horizon** | **[Round-Table-Engine](https://github.com/subratsahu3)** | Scribe Contract Protocol & Distributed Raid Matchmaker | `[OVERSKILL]` |
 | ⏳ | **Steins;Gate** | **[Future Gadget #204](https://github.com/subratsahu3)** | Event-driven microservices across worldline branch points | `[1.048596%]` |
