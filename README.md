@@ -40,7 +40,7 @@
 ```text
 ┌─── [OPERATOR LIFE PHILOSOPHY] ────────────────────────────────────────┐
 │  🔭 Exploring the Universe & Tech.                                     │
-│  😈 Psycho. 🎵 Audiophile.                                             │
+│  😈 Scico. 🎵 Audiophile.                                              │
 │  🚫 3D Girls = Syntax Error.                                           │
 │  ⛩️ 2D Waifus = Compiled Successfully.                                 │
 │  🚶‍♂️ Solitude is peace. 🌑                                               │
