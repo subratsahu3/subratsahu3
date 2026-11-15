@@ -1,0 +1,284 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 290" width="1280" height="290" role="img" aria-label="Bleach Bankai Realm Shift Engine">
+<title>Bleach Bankai Cycle Engine — Soul Society Special Protocol</title>
+<desc>Dynamic cycling SVG card transitioning between 6 supreme Bankai manifestations: Kyoka Suigetsu, Senbonzakura Kageyoshi, Zanka no Tachi, Daiguren Hyorinmaru, Tensa Zangetsu, and Kannonbiraki Benihime Aratame.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#050612"/>
+    <stop offset="50%" stop-color="#0b081e"/>
+    <stop offset="100%" stop-color="#060714"/>
+  </linearGradient>
+  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="3.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="intenseGlow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="6" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <style>
+    @keyframes frameBreathe {
+      0%, 100% { stroke: #9d4edd; stroke-opacity: 0.6; }
+      20% { stroke: #00f0ff; stroke-opacity: 0.9; }
+      40% { stroke: #ff0055; stroke-opacity: 0.8; }
+      60% { stroke: #ffe600; stroke-opacity: 0.9; }
+      80% { stroke: #00ff66; stroke-opacity: 0.8; }
+    }
+    @keyframes scanLine {
+      0% { transform: translateY(0); opacity: 0.2; }
+      50% { opacity: 0.6; }
+      100% { transform: translateY(220px); opacity: 0.2; }
+    }
+    @keyframes floatParticle {
+      0% { transform: translateY(0) scale(0.8); opacity: 0; }
+      20% { opacity: 0.9; }
+      80% { opacity: 0.7; }
+      100% { transform: translateY(-260px) scale(1.3); opacity: 0; }
+    }
+    
+    /* 6 BANKAI STAGES: 30s cycle total, 5s per stage */
+    .bankai-stage {
+      opacity: 0;
+      animation: bankaiCycle 30s infinite;
+    }
+    @keyframes bankaiCycle {
+      0% { opacity: 0; transform: scale(0.98); }
+      1.5%, 15% { opacity: 1; transform: scale(1); }
+      16.67%, 100% { opacity: 0; transform: scale(1.02); }
+    }
+
+    .p { animation: floatParticle ease-in-out infinite; }
+    .frame { animation: frameBreathe 12s linear infinite; }
+    .scan { animation: scanLine 4s linear infinite; }
+    .kanji-title {
+      font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', 'Noto Sans JP', 'Yu Gothic', sans-serif;
+      font-weight: 900;
+      letter-spacing: 5px;
+    }
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
+    .sans { font-family: 'SF Pro Display', -apple-system, 'Segoe UI', Roboto, sans-serif; }
+  </style>
+</defs>
+
+<!-- BASE CONTAINER -->
+<rect x="20" y="15" width="1240" height="260" rx="10" fill="url(#bg)"/>
+<rect class="frame" x="20" y="15" width="1240" height="260" rx="10" fill="none" stroke="#9d4edd" stroke-width="1.8" filter="url(#glow)"/>
+
+<!-- SCANLINE -->
+<line class="scan" x1="22" y1="58" x2="1258" y2="58" stroke="#00f0ff" stroke-width="1.2" opacity="0.4"/>
+
+<!-- CORNER BRACKETS -->
+<path d="M20 45 V15 H50" fill="none" stroke="#00f0ff" stroke-width="3.5"/>
+<path d="M1260 45 V15 H1230" fill="none" stroke="#00f0ff" stroke-width="3.5"/>
+<path d="M20 245 V275 H50" fill="none" stroke="#ffe600" stroke-width="3.5"/>
+<path d="M1260 245 V275 H1230" fill="none" stroke="#ffe600" stroke-width="3.5"/>
+
+<!-- HEADER BAR -->
+<rect x="20" y="15" width="1240" height="40" rx="10" fill="#9d4edd" fill-opacity="0.15"/>
+<line x1="20" y1="55" x2="1260" y2="55" stroke="#9d4edd" stroke-opacity="0.5" stroke-width="1"/>
+<circle cx="48" cy="35" r="5" fill="#ff0055"/>
+<text x="68" y="39" class="mono" font-size="12" fill="#00f0ff" font-weight="700" letter-spacing="2">
+  ⟨ SOUL SOCIETY TELEMETRY // REALM SHIFT BANKAI ENGINE ⟩
+</text>
+<text x="1230" y="39" class="mono" font-size="11" fill="#ffe600" text-anchor="end" font-weight="700">
+  6 CYCLING MANIFESTATIONS · REIATSU OVERLOAD
+</text>
+
+<!-- FLOATING PARTICLES (RANDOM DELAYS & POSITIONS) -->
+<g fill="#9d4edd">
+  <circle class="p" cx="160" cy="260" r="2.5" style="animation-duration: 6s; animation-delay: 0.3s;"/>
+  <circle class="p" cx="390" cy="260" r="2" style="animation-duration: 7.5s; animation-delay: 2.1s;"/>
+  <circle class="p" cx="680" cy="260" r="3" style="animation-duration: 5.5s; animation-delay: 1.2s;"/>
+  <circle class="p" cx="940" cy="260" r="2" style="animation-duration: 8s; animation-delay: 3.5s;"/>
+  <circle class="p" cx="1160" cy="260" r="2.5" style="animation-duration: 6.8s; animation-delay: 0.8s;"/>
+</g>
+<g fill="#00f0ff">
+  <circle class="p" cx="240" cy="260" r="2" style="animation-duration: 7s; animation-delay: 1.7s;"/>
+  <circle class="p" cx="520" cy="260" r="1.5" style="animation-duration: 6.2s; animation-delay: 3.1s;"/>
+  <circle class="p" cx="820" cy="260" r="2.5" style="animation-duration: 8.5s; animation-delay: 0.5s;"/>
+  <circle class="p" cx="1050" cy="260" r="2" style="animation-duration: 5.8s; animation-delay: 2.7s;"/>
+</g>
+
+<!-- ======================================================== -->
+<!-- BANKAI 1: KYŌKA SUIGETSU (SŌSUKE AIZEN) [0s - 5s]        -->
+<!-- ======================================================== -->
+<g class="bankai-stage" style="animation-delay: 0s;">
+  <!-- LEFT EMBLEM -->
+  <rect x="55" y="80" width="70" height="150" rx="6" fill="#120c28" stroke="#00f0ff" stroke-width="1.8" filter="url(#glow)"/>
+  <text x="90" y="125" class="kanji-title" font-size="28" fill="#ffe600" text-anchor="middle">卍</text>
+  <text x="90" y="165" class="kanji-title" font-size="28" fill="#ffe600" text-anchor="middle">解</text>
+  <text x="90" y="195" class="mono" font-size="10" fill="#00f0ff" text-anchor="middle" font-weight="700">AIZEN</text>
+
+  <!-- CONTENT -->
+  <g transform="translate(150, 75)">
+    <text x="0" y="32" class="kanji-title" font-size="26" fill="#00f0ff" filter="url(#intenseGlow)">
+      【 卍 解 】 鏡 花 水 月  <tspan font-size="16" fill="#c77dff" font-family="'Fira Code', monospace">(KYŌKA SUIGETSU)</tspan>
+    </text>
+    <text x="0" y="66" class="kanji-title" font-size="17" fill="#ffe600">
+      「やれやれ… ようこそ、私の尸魂界へ。一体いつから鏡花水月を使っていないと錯覚していた？」
+    </text>
+    <text x="0" y="98" class="mono" font-size="13" fill="#ffffff">
+      COMMAND: <tspan fill="#00f0ff">「砕けろ、鏡花水月」</tspan> · ATTRIBUTE: Complete Hypnosis &amp; Neural Mind Warp
+    </text>
+    <text x="0" y="128" class="mono" font-size="12" fill="#7b82aa">
+      REIATSU SIGNATURE: Sovereign Transcendence · ALL 5 SENSES UNDER ABSOLUTE COMMAND
+    </text>
+    <rect x="0" y="142" width="1040" height="4" rx="2" fill="#1b143c"/>
+    <rect x="0" y="142" width="1040" height="4" rx="2" fill="#00f0ff"/>
+  </g>
+</g>
+
+<!-- ======================================================== -->
+<!-- BANKAI 2: SENBONZAKURA KAGEYOSHI (BYAKUYA) [5s - 10s]    -->
+<!-- ======================================================== -->
+<g class="bankai-stage" style="animation-delay: 5s;">
+  <!-- LEFT EMBLEM -->
+  <rect x="55" y="80" width="70" height="150" rx="6" fill="#200a18" stroke="#ff0055" stroke-width="1.8" filter="url(#glow)"/>
+  <text x="90" y="125" class="kanji-title" font-size="28" fill="#ff70a6" text-anchor="middle">卍</text>
+  <text x="90" y="165" class="kanji-title" font-size="28" fill="#ff70a6" text-anchor="middle">解</text>
+  <text x="90" y="195" class="mono" font-size="10" fill="#ff0055" text-anchor="middle" font-weight="700">BYAKUYA</text>
+
+  <!-- CONTENT -->
+  <g transform="translate(150, 75)">
+    <text x="0" y="32" class="kanji-title" font-size="26" fill="#ff70a6" filter="url(#intenseGlow)">
+      【 卍 解 】 千 本 桜 景 厳  <tspan font-size="16" fill="#ff0055" font-family="'Fira Code', monospace">(SENBONZAKURA KAGEYOSHI)</tspan>
+    </text>
+    <text x="0" y="66" class="kanji-title" font-size="17" fill="#ffe600">
+      「散れ、千本桜。千億の刃が舞い散り、貴様のすべてを切り裂く」
+    </text>
+    <text x="0" y="98" class="mono" font-size="13" fill="#ffffff">
+      COMMAND: <tspan fill="#ff70a6">「散れ」 (SCATTER)</tspan> · ATTRIBUTE: 1,000,000,000 Microscopic Blade Petals
+    </text>
+    <text x="0" y="128" class="mono" font-size="12" fill="#7b82aa">
+      REIATSU SIGNATURE: Flawless Petal Deluge · ZERO ESCAPE VECTORS · HAKUTEIKEN READY
+    </text>
+    <rect x="0" y="142" width="1040" height="4" rx="2" fill="#301020"/>
+    <rect x="0" y="142" width="980" height="4" rx="2" fill="#ff0055"/>
+  </g>
+</g>
+
+<!-- ======================================================== -->
+<!-- BANKAI 3: ZANKA NO TACHI (YAMAMOTO) [10s - 15s]          -->
+<!-- ======================================================== -->
+<g class="bankai-stage" style="animation-delay: 10s;">
+  <!-- LEFT EMBLEM -->
+  <rect x="55" y="80" width="70" height="150" rx="6" fill="#241406" stroke="#ffe600" stroke-width="1.8" filter="url(#glow)"/>
+  <text x="90" y="125" class="kanji-title" font-size="28" fill="#ffe600" text-anchor="middle">卍</text>
+  <text x="90" y="165" class="kanji-title" font-size="28" fill="#ffe600" text-anchor="middle">解</text>
+  <text x="90" y="195" class="mono" font-size="10" fill="#ff5400" text-anchor="middle" font-weight="700">GENRYUSAI</text>
+
+  <!-- CONTENT -->
+  <g transform="translate(150, 75)">
+    <text x="0" y="32" class="kanji-title" font-size="26" fill="#ffe600" filter="url(#intenseGlow)">
+      【 卍 解 】 残 火 の 太 刀  <tspan font-size="16" fill="#ff5400" font-family="'Fira Code', monospace">(ZANKA NO TACHI)</tspan>
+    </text>
+    <text x="0" y="66" class="kanji-title" font-size="17" fill="#ff5400">
+      「万象一切灰燼と為せ、流刃若火。太陽の中心、一千五百万度の業火を纏う」
+    </text>
+    <text x="0" y="98" class="mono" font-size="13" fill="#ffffff">
+      COMMAND: <tspan fill="#ffe600">「灰燼と為せ」</tspan> · ATTRIBUTE: 15,000,000°C Solar Mantle Heat
+    </text>
+    <text x="0" y="128" class="mono" font-size="12" fill="#7b82aa">
+      REIATSU SIGNATURE: East, West, South, North Extinction · EVAPORATES ALL DEFECTS
+    </text>
+    <rect x="0" y="142" width="1040" height="4" rx="2" fill="#321808"/>
+    <rect x="0" y="142" width="1040" height="4" rx="2" fill="#ffe600"/>
+  </g>
+</g>
+
+<!-- ======================================================== -->
+<!-- BANKAI 4: DAIGUREN HYŌRINMARU (HITSUGAYA) [15s - 20s]    -->
+<!-- ======================================================== -->
+<g class="bankai-stage" style="animation-delay: 15s;">
+  <!-- LEFT EMBLEM -->
+  <rect x="55" y="80" width="70" height="150" rx="6" fill="#081826" stroke="#00f0ff" stroke-width="1.8" filter="url(#glow)"/>
+  <text x="90" y="125" class="kanji-title" font-size="28" fill="#00f0ff" text-anchor="middle">卍</text>
+  <text x="90" y="165" class="kanji-title" font-size="28" fill="#00f0ff" text-anchor="middle">解</text>
+  <text x="90" y="195" class="mono" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="700">TOSHIRO</text>
+
+  <!-- CONTENT -->
+  <g transform="translate(150, 75)">
+    <text x="0" y="32" class="kanji-title" font-size="26" fill="#00f0ff" filter="url(#intenseGlow)">
+      【 卍 解 】 大 紅 蓮 氷 輪 丸  <tspan font-size="16" fill="#ffffff" font-family="'Fira Code', monospace">(DAIGUREN HYŌRINMARU)</tspan>
+    </text>
+    <text x="0" y="66" class="kanji-title" font-size="17" fill="#00f0ff">
+      「霜天に坐せ、氷輪丸。四界氷結、触れるものすべてを４秒で永久凍結せしむ」
+    </text>
+    <text x="0" y="98" class="mono" font-size="13" fill="#ffffff">
+      COMMAND: <tspan fill="#00f0ff">「霜天に坐せ」</tspan> · ATTRIBUTE: Absolute Zero Flash-Freeze &amp; Ice Armor
+    </text>
+    <text x="0" y="128" class="mono" font-size="12" fill="#7b82aa">
+      REIATSU SIGNATURE: Complete Petal Maturation · CEASES ALL MOLECULAR MOTION
+    </text>
+    <rect x="0" y="142" width="1040" height="4" rx="2" fill="#0e2438"/>
+    <rect x="0" y="142" width="1000" height="4" rx="2" fill="#00f0ff"/>
+  </g>
+</g>
+
+<!-- ======================================================== -->
+<!-- BANKAI 5: TENSA ZANGETSU (ICHIGO) [20s - 25s]            -->
+<!-- ======================================================== -->
+<g class="bankai-stage" style="animation-delay: 20s;">
+  <!-- LEFT EMBLEM -->
+  <rect x="55" y="80" width="70" height="150" rx="6" fill="#1a0818" stroke="#ff0055" stroke-width="1.8" filter="url(#glow)"/>
+  <text x="90" y="125" class="kanji-title" font-size="28" fill="#ffe600" text-anchor="middle">卍</text>
+  <text x="90" y="165" class="kanji-title" font-size="28" fill="#ffe600" text-anchor="middle">解</text>
+  <text x="90" y="195" class="mono" font-size="10" fill="#c77dff" text-anchor="middle" font-weight="700">ICHIGO</text>
+
+  <!-- CONTENT -->
+  <g transform="translate(150, 75)">
+    <text x="0" y="32" class="kanji-title" font-size="26" fill="#ffffff" filter="url(#intenseGlow)">
+      【 卍 解 】 天 鎖 斬 月  <tspan font-size="16" fill="#ff0055" font-family="'Fira Code', monospace">(TENSA ZANGETSU)</tspan>
+    </text>
+    <text x="0" y="66" class="kanji-title" font-size="17" fill="#ff0055">
+      「月牙天衝！ 膨大な霊圧を圧縮し、神速の超音速連撃を放つ！」
+    </text>
+    <text x="0" y="98" class="mono" font-size="13" fill="#ffffff">
+      COMMAND: <tspan fill="#ff0055">「月牙天衝」 (GETSUGA TENSHO)</tspan> · ATTRIBUTE: Hyper-Compressed Jet Reiatsu
+    </text>
+    <text x="0" y="128" class="mono" font-size="12" fill="#7b82aa">
+      REIATSU SIGNATURE: Hypersonic Blade Speed · INSTANT CODE LATENCY SHREDDER
+    </text>
+    <rect x="0" y="142" width="1040" height="4" rx="2" fill="#2c0c24"/>
+    <rect x="0" y="142" width="1020" height="4" rx="2" fill="#ff0055"/>
+  </g>
+</g>
+
+<!-- ======================================================== -->
+<!-- BANKAI 6: BENIHIME ARATAME (URAHARA - SCIENTIST) [25s-30s]-->
+<!-- ======================================================== -->
+<g class="bankai-stage" style="animation-delay: 25s;">
+  <!-- LEFT EMBLEM -->
+  <rect x="55" y="80" width="70" height="150" rx="6" fill="#081a14" stroke="#00ff66" stroke-width="1.8" filter="url(#glow)"/>
+  <text x="90" y="125" class="kanji-title" font-size="28" fill="#00ff66" text-anchor="middle">卍</text>
+  <text x="90" y="165" class="kanji-title" font-size="28" fill="#00ff66" text-anchor="middle">解</text>
+  <text x="90" y="195" class="mono" font-size="10" fill="#ffe600" text-anchor="middle" font-weight="700">URAHARA</text>
+
+  <!-- CONTENT -->
+  <g transform="translate(150, 75)">
+    <text x="0" y="32" class="kanji-title" font-size="26" fill="#00ff66" filter="url(#intenseGlow)">
+      【 卍 解 】 観 音 開 紅 姫 改 メ  <tspan font-size="16" fill="#ffe600" font-family="'Fira Code', monospace">(BENIHIME ARATAME)</tspan>
+    </text>
+    <text x="0" y="66" class="kanji-title" font-size="17" fill="#00ff66">
+      「啼け、紅姫。触れたものすべてを切り裂き、作り変える再構築の極致」
+    </text>
+    <text x="0" y="98" class="mono" font-size="13" fill="#ffffff">
+      COMMAND: <tspan fill="#00ff66">「啼け、紅姫」</tspan> · ATTRIBUTE: Structural Deconstruction &amp; Chemical Restructuring
+    </text>
+    <text x="0" y="128" class="mono" font-size="12" fill="#7b82aa">
+      REIATSU SIGNATURE: Pure Scientific Transmutation · 100億% RECONSTRUCTIVE ARCHITECTURE
+    </text>
+    <rect x="0" y="142" width="1040" height="4" rx="2" fill="#0c2618"/>
+    <rect x="0" y="142" width="1040" height="4" rx="2" fill="#00ff66"/>
+  </g>
+</g>
+
+<!-- FOOTER SYSTEM NOTIFICATION -->
+<line x1="60" y1="240" x2="1220" y2="240" stroke="#9d4edd" stroke-opacity="0.3" stroke-width="1"/>
+<text x="60" y="258" class="mono" font-size="11" fill="#7b82aa">
+  PROTOCOL: CONTINUOUS BANKAI TRANSFORMATION // SOUL SOCIETY SEIREITEI ARCHIVE // 10 BILLION % REALM SHIFT
+</text>
+<text x="1220" y="258" class="mono" font-size="11" fill="#00ff66" text-anchor="end">
+  SYSTEM: FULLY ACTIVE // SHIFT FREQ: 5.0 SECONDS
+</text>
+
+</svg>

@@ -20,8 +20,12 @@
   <a href="https://pypi.org/project/speclab-spectrum-analyzer/"><img src="https://img.shields.io/badge/SCIENCE-10_BILLION_%25-00FF66?style=for-the-badge" alt="10 Billion Percent Science" /></a>
 </p>
 
-<!-- BLEACH BANKAI ANIMATION BANNER -->
-<img src="./assets/gifs/bankai.gif" alt="Bleach Bankai Release Animation" width="100%"/>
+<br/>
+
+<!-- ======================================================== -->
+<!-- DYNAMIC CYCLING BANKAI REALM SHIFTER (6 BANKAIS CYCLING) -->
+<!-- ======================================================== -->
+<img src="./assets/cards/bankai_cycler.svg" alt="Bleach Bankai Realm Shift Engine" width="100%"/>
 
 </div>
 
@@ -31,7 +35,7 @@
 
 <!-- LOG HORIZON SHIROE ANIMATION (THE VILLAIN IN GLASSES) -->
 <div align="center">
-  <img src="./assets/gifs/shiroe.gif" alt="Shiroe - The Villain in Glasses" width="380"/>
+  <img src="./assets/gifs/shiroe.gif" alt="Shiroe - The Villain in Glasses" width="360"/>
   <br/>
   <b><i>"Database, database! If this world has rules, we will learn them. If it doesn't, we will write the contracts ourselves."</i></b><br/>
   <sub>— Shiroe // The Villain in Glasses (腹ぐろ眼鏡) · Akiba Round Table</sub>
@@ -48,7 +52,7 @@
 
 <!-- BLEACH AIZEN SOUSUKE ANIMATION & CREED -->
 <div align="center">
-  <img src="./assets/gifs/aizen.gif" alt="Aizen Sōsuke — Complete Hypnosis" width="400"/>
+  <img src="./assets/gifs/aizen.gif" alt="Aizen Sōsuke — Complete Hypnosis" width="380"/>
   <br/><br/>
   <img src="./assets/cards/aizen_creed.svg" alt="Bleach Aizen Creed &amp; Kyōka Suigetsu" width="100%"/>
 </div>
