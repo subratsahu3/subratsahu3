@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 125" width="1200" height="125" role="img" aria-label="phantasm-mesh">
+<title>phantasm-mesh — Autonomous Tarpit &amp; Semantic Mesh</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#190b1c"/>
+    <stop offset="60%" stop-color="#0e0717"/>
+    <stop offset="100%" stop-color="#240c1d"/>
+  </linearGradient>
+  <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <style>
+    @keyframes hoverGlow {
+      0%, 100% { stroke-opacity: 0.5; }
+      50% { stroke-opacity: 1; filter: drop-shadow(0 0 8px #ff0055); }
+    }
+    .card-border { animation: hoverGlow 4s ease-in-out infinite; }
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
+    .sans { font-family: 'SF Pro Display', -apple-system, 'Segoe UI', Roboto, sans-serif; }
+  </style>
+</defs>
+
+<rect class="card-border" x="2" y="2" width="1196" height="121" rx="8" fill="url(#bg)" stroke="#ff0055" stroke-width="1.6"/>
+<path d="M2 25 V2 H25" fill="none" stroke="#ff0055" stroke-width="3"/>
+<path d="M1198 25 V2 H1175" fill="none" stroke="#ff0055" stroke-width="3"/>
+<path d="M2 100 V123 H25" fill="none" stroke="#ff0055" stroke-width="3"/>
+<path d="M1198 100 V123 H1175" fill="none" stroke="#ff0055" stroke-width="3"/>
+
+<!-- BADGE TAGS -->
+<rect x="25" y="16" width="75" height="20" rx="3" fill="#ff0055" fill-opacity="0.2"/>
+<text x="62" y="30" class="mono" font-size="10.5" fill="#ff0055" text-anchor="middle" font-weight="700">A-RANK</text>
+
+<rect x="110" y="16" width="145" height="20" rx="3" fill="#ff0055" fill-opacity="0.15" stroke="#ff0055" stroke-width="0.8"/>
+<text x="182" y="30" class="mono" font-size="10.5" fill="#ffe600" text-anchor="middle" font-weight="700">CYBER INTELLIGENCE</text>
+
+<text x="270" y="30" class="mono" font-size="11" fill="#7b82aa">Programmable Tarpit · Adversarial Semantic Mesh · Deception Tech</text>
+
+<!-- TITLE -->
+<text x="25" y="65" class="sans" font-size="21" fill="#ffffff" font-weight="900" letter-spacing="0.5">
+  🛡️ phantasm-mesh
+</text>
+
+<!-- DESCRIPTION -->
+<text x="25" y="90" class="sans" font-size="13" fill="#a4b0d4">
+  Programmable Hyper-Adaptive Autonomous Network Tarpit &amp; Adversarial Semantic Mesh for defensive cyber deception and threat neutralization.
+</text>
+
+<!-- EXPLORE ARROW -->
+<rect x="990" y="42" width="185" height="38" rx="6" fill="#ff0055" fill-opacity="0.12" stroke="#ff0055" stroke-width="1"/>
+<text x="1082" y="66" class="mono" font-size="12" fill="#ffe600" text-anchor="middle" font-weight="700">
+  EXPLORE ARTIFACT →
+</text>
+</svg>

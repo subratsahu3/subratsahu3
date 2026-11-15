@@ -13,12 +13,15 @@
 </a>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=subratsahu3&color=9D4EDD&style=for-the-badge&label=DATABASE+LOGINS" alt="Database Logins" />
-  <img src="https://img.shields.io/badge/BLEACH-卍解_BANKAI-FF0055?style=for-the-badge" alt="Bankai Release" />
-  <img src="https://img.shields.io/badge/AIZEN-SOUL_SOCIETY-181717?style=for-the-badge&labelColor=000000" alt="Soul Society" />
-  <img src="https://img.shields.io/badge/GUILD-LOG_HORIZON-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Guild Log Horizon" />
-  <img src="https://img.shields.io/badge/SCIENCE-10_BILLION_%25-00FF66?style=for-the-badge" alt="10 Billion Percent Science" />
+  <a href="https://subratsahu3.github.io"><img src="https://komarev.com/ghpvc/?username=subratsahu3&color=9D4EDD&style=for-the-badge&label=DATABASE+LOGINS" alt="Database Logins" /></a>
+  <a href="https://github.com/subratsahu3"><img src="https://img.shields.io/badge/BLEACH-卍解_BANKAI-FF0055?style=for-the-badge" alt="Bankai Release" /></a>
+  <a href="https://github.com/subratsahu3"><img src="https://img.shields.io/badge/AIZEN-SOUL_SOCIETY-181717?style=for-the-badge&labelColor=000000" alt="Soul Society" /></a>
+  <a href="https://github.com/subratsahu3"><img src="https://img.shields.io/badge/GUILD-LOG_HORIZON-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Guild Log Horizon" /></a>
+  <a href="https://pypi.org/project/speclab-spectrum-analyzer/"><img src="https://img.shields.io/badge/SCIENCE-10_BILLION_%25-00FF66?style=for-the-badge" alt="10 Billion Percent Science" /></a>
 </p>
+
+<!-- BLEACH BANKAI ANIMATION BANNER -->
+<img src="./assets/gifs/bankai.gif" alt="Bleach Bankai Release Animation" width="100%"/>
 
 </div>
 
@@ -26,9 +29,12 @@
 
 # 💫 About Me (The Awakened Mastermind)
 
-<!-- ANIMATION 1: PIXEL CODER AT DESK -->
+<!-- LOG HORIZON SHIROE ANIMATION (THE VILLAIN IN GLASSES) -->
 <div align="center">
-  <img src="./assets/gifs/mario.gif" alt="Pixel-art coder at desk" width="100%"/>
+  <img src="./assets/gifs/shiroe.gif" alt="Shiroe - The Villain in Glasses" width="380"/>
+  <br/>
+  <b><i>"Database, database! If this world has rules, we will learn them. If it doesn't, we will write the contracts ourselves."</i></b><br/>
+  <sub>— Shiroe // The Villain in Glasses (腹ぐろ眼鏡) · Akiba Round Table</sub>
 </div>
 
 <br/>
@@ -40,8 +46,10 @@
 
 <br/>
 
-<!-- BLEACH AIZEN CREED & ZANPAKUTO KYOKA SUIGETSU CARD -->
+<!-- BLEACH AIZEN SOUSUKE ANIMATION & CREED -->
 <div align="center">
+  <img src="./assets/gifs/aizen.gif" alt="Aizen Sōsuke — Complete Hypnosis" width="400"/>
+  <br/><br/>
   <img src="./assets/cards/aizen_creed.svg" alt="Bleach Aizen Creed &amp; Kyōka Suigetsu" width="100%"/>
 </div>
 
@@ -54,7 +62,7 @@
 
 <br/>
 
-<!-- ANIMATION 2: GRIM REAPER CHASING CODER ALONG PROGRESS BAR -->
+<!-- ANIMATION: GRIM REAPER CHASING CODER ALONG PROGRESS BAR -->
 <div align="center">
   <img src="./assets/gifs/deadline.gif" alt="Deadline progress bar" width="600"/>
 </div>
@@ -151,8 +159,34 @@
 
 <div align="center">
 
-<!-- S-RANK PROJECTS HUD CARD -->
-<img src="./assets/cards/projects.svg" alt="S-Rank Artifacts: SpecLab, Senku AI Bot, Neural Deck, Kyōka Suigetsu Protocol" width="100%"/>
+<!-- FULLY FUNCTIONAL CLICKABLE MISSION CARDS -->
+<a href="https://github.com/subratsahu3/SpecLab-Spectrum-Analyzer">
+  <img src="./assets/cards/missions/speclab.svg" alt="SpecLab-Spectrum-Analyzer" width="100%"/>
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/subratsahu3/agentops-platform">
+  <img src="./assets/cards/missions/agentops.svg" alt="agentops-platform" width="100%"/>
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/subratsahu3/isomorph">
+  <img src="./assets/cards/missions/isomorph.svg" alt="isomorph" width="100%"/>
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/subratsahu3/phantasm-mesh">
+  <img src="./assets/cards/missions/phantasm.svg" alt="phantasm-mesh" width="100%"/>
+</a>
+
+<br/><br/>
+
+<a href="https://subratsahu3.github.io">
+  <img src="./assets/cards/missions/portfolio.svg" alt="NEURAL DECK v3.0 Portfolio" width="100%"/>
+</a>
 
 <br/><br/>
 
@@ -166,7 +200,7 @@
 
 <div align="center">
 
-<!-- ANIMATION 3: LO-FI CODER UNDER NIGHT SKY -->
+<!-- ANIMATION: LO-FI BALCONY CODER UNDER NIGHT SKY -->
 <img src="./assets/gifs/girl.gif" alt="Lo-fi coder on balcony at night" width="100%"/>
 
 <br/><br/>
@@ -176,7 +210,7 @@
 
 <br/><br/>
 
-<!-- ANIMATION 4: RUNNING PIXEL DINOSAUR -->
+<!-- ANIMATION: RUNNING PIXEL DINOSAUR -->
 <img src="./assets/gifs/dini.gif" alt="Pixel dinosaur running" width="100%"/>
 
 </div>
