@@ -1,0 +1,252 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 250" width="1280" height="250" role="img" aria-label="Naruto Jutsu &amp; Bleach Bankai Animation Engine">
+<title>Naruto Jutsu &amp; Bleach Bankai Engine</title>
+<desc>Dynamic animation window cycling smoothly through iconic Naruto Jutsu and Bleach Bankai with concise Japanese calligraphy.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#050714"/>
+    <stop offset="50%" stop-color="#0c0a22"/>
+    <stop offset="100%" stop-color="#060816"/>
+  </linearGradient>
+  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="3.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="strongGlow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="6" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <style>
+    @keyframes chakraBreathe {
+      0%, 100% { stroke: #00f0ff; stroke-opacity: 0.7; }
+      20% { stroke: #ff7700; stroke-opacity: 0.9; }
+      40% { stroke: #ff0055; stroke-opacity: 0.8; }
+      60% { stroke: #9d4edd; stroke-opacity: 0.9; }
+      80% { stroke: #ffe600; stroke-opacity: 0.8; }
+    }
+    @keyframes scanHolo {
+      0% { transform: translateY(0); opacity: 0.2; }
+      50% { opacity: 0.6; }
+      100% { transform: translateY(180px); opacity: 0.2; }
+    }
+    @keyframes floatParticle {
+      0% { transform: translateY(0) scale(0.8); opacity: 0; }
+      20% { opacity: 0.9; }
+      80% { opacity: 0.7; }
+      100% { transform: translateY(-220px) scale(1.3); opacity: 0; }
+    }
+    
+    /* 6 JUTSU & BANKAI PHASES (24s cycle total, 4s each) */
+    .jutsu-phase {
+      opacity: 0;
+      animation: jutsuCycle 24s infinite;
+    }
+    @keyframes jutsuCycle {
+      0% { opacity: 0; transform: translateY(6px); }
+      1.5%, 15% { opacity: 1; transform: translateY(0); }
+      16.67%, 100% { opacity: 0; transform: translateY(-6px); }
+    }
+
+    .p { animation: floatParticle ease-in-out infinite; }
+    .frame { animation: chakraBreathe 10s linear infinite; }
+    .scan { animation: scanHolo 3.5s linear infinite; }
+    .kanji-hero {
+      font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', 'Noto Sans JP', 'Yu Gothic', sans-serif;
+      font-weight: 900;
+      letter-spacing: 6px;
+    }
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
+    .sans { font-family: 'SF Pro Display', -apple-system, 'Segoe UI', Roboto, sans-serif; }
+  </style>
+</defs>
+
+<!-- BASE CONTAINER -->
+<rect x="20" y="15" width="1240" height="220" rx="10" fill="url(#bg)"/>
+<rect class="frame" x="20" y="15" width="1240" height="220" rx="10" fill="none" stroke="#00f0ff" stroke-width="1.8" filter="url(#glow)"/>
+
+<!-- SCANLINE -->
+<line class="scan" x1="22" y1="55" x2="1258" y2="55" stroke="#00f0ff" stroke-width="1.2" opacity="0.4"/>
+
+<!-- CORNER BRACKETS -->
+<path d="M20 45 V15 H50" fill="none" stroke="#00f0ff" stroke-width="3.5"/>
+<path d="M1260 45 V15 H1230" fill="none" stroke="#00f0ff" stroke-width="3.5"/>
+<path d="M20 205 V235 H50" fill="none" stroke="#ffe600" stroke-width="3.5"/>
+<path d="M1260 205 V235 H1230" fill="none" stroke="#ffe600" stroke-width="3.5"/>
+
+<!-- HEADER BAR -->
+<rect x="20" y="15" width="1240" height="38" rx="10" fill="#00f0ff" fill-opacity="0.1"/>
+<line x1="20" y1="53" x2="1260" y2="53" stroke="#00f0ff" stroke-opacity="0.4" stroke-width="1"/>
+<circle cx="48" cy="34" r="5" fill="#ff7700"/>
+<text x="68" y="38" class="mono" font-size="12" fill="#00f0ff" font-weight="700" letter-spacing="2">
+  ⟨ SHINOBI CHAKRA &amp; REIATSU ENGINE // JUTSU × BANKAI MATRIX ⟩
+</text>
+<text x="1230" y="38" class="mono" font-size="11" fill="#ffe600" text-anchor="end" font-weight="700">
+  CHAKRA PEAKING · RANDOM JUTSU ACTIVE
+</text>
+
+<!-- FLOATING CHAKRA PARTICLES -->
+<g fill="#00f0ff">
+  <circle class="p" cx="150" cy="220" r="2.5" style="animation-duration: 5.5s; animation-delay: 0.2s;"/>
+  <circle class="p" cx="420" cy="220" r="2" style="animation-duration: 6.8s; animation-delay: 1.5s;"/>
+  <circle class="p" cx="750" cy="220" r="3" style="animation-duration: 5s; animation-delay: 2.8s;"/>
+  <circle class="p" cx="1080" cy="220" r="2.5" style="animation-duration: 7s; animation-delay: 0.7s;"/>
+</g>
+<g fill="#ff7700">
+  <circle class="p" cx="280" cy="220" r="2" style="animation-duration: 6s; animation-delay: 1.2s;"/>
+  <circle class="p" cx="610" cy="220" r="1.5" style="animation-duration: 7.2s; animation-delay: 3s;"/>
+  <circle class="p" cx="920" cy="220" r="2.5" style="animation-duration: 5.8s; animation-delay: 0.4s;"/>
+</g>
+
+<!-- ======================================================== -->
+<!-- 1. 螺旋丸 RASENGAN [0s - 4s]                             -->
+<!-- ======================================================== -->
+<g class="jutsu-phase" style="animation-delay: 0s;">
+  <rect x="50" y="75" width="80" height="125" rx="6" fill="#0a1828" stroke="#00f0ff" stroke-width="1.8" filter="url(#glow)"/>
+  <text x="90" y="125" class="kanji-hero" font-size="24" fill="#00f0ff" text-anchor="middle">螺</text>
+  <text x="90" y="160" class="kanji-hero" font-size="24" fill="#00f0ff" text-anchor="middle">旋</text>
+  <text x="90" y="185" class="mono" font-size="10" fill="#ffe600" text-anchor="middle" font-weight="700">NARUTO</text>
+
+  <g transform="translate(160, 75)">
+    <text x="0" y="32" class="kanji-hero" font-size="28" fill="#00f0ff" filter="url(#strongGlow)">
+      螺旋丸  <tspan font-size="18" fill="#ffffff" font-family="'Fira Code', monospace">(RASENGAN)</tspan>
+    </text>
+    <text x="0" y="65" class="sans" font-size="16" fill="#ffe600" font-weight="700">
+      Chakra Nature: Pure Shape Transformation &amp; High-Density Rotation
+    </text>
+    <text x="0" y="94" class="mono" font-size="13" fill="#a4b0d4">
+      TECH ANALOGY: Zero-Latency Multi-Threaded Compute Core · Concentrated Power
+    </text>
+    <rect x="0" y="112" width="1030" height="4" rx="2" fill="#0c1d32"/>
+    <rect x="0" y="112" width="1030" height="4" rx="2" fill="#00f0ff"/>
+  </g>
+</g>
+
+<!-- ======================================================== -->
+<!-- 2. 影分身 KAGE BUNSHIN [4s - 8s]                         -->
+<!-- ======================================================== -->
+<g class="jutsu-phase" style="animation-delay: 4s;">
+  <rect x="50" y="75" width="80" height="125" rx="6" fill="#201406" stroke="#ff7700" stroke-width="1.8" filter="url(#glow)"/>
+  <text x="90" y="125" class="kanji-hero" font-size="24" fill="#ff7700" text-anchor="middle">影</text>
+  <text x="90" y="160" class="kanji-hero" font-size="24" fill="#ff7700" text-anchor="middle">分</text>
+  <text x="90" y="185" class="mono" font-size="10" fill="#ffe600" text-anchor="middle" font-weight="700">SHINOBI</text>
+
+  <g transform="translate(160, 75)">
+    <text x="0" y="32" class="kanji-hero" font-size="28" fill="#ff7700" filter="url(#strongGlow)">
+      影分身の術  <tspan font-size="18" fill="#ffffff" font-family="'Fira Code', monospace">(KAGE BUNSHIN NO JUTSU)</tspan>
+    </text>
+    <text x="0" y="65" class="sans" font-size="16" fill="#ffe600" font-weight="700">
+      Chakra Nature: Autonomous Parallel Agent Clones &amp; Real-Time Memory Sync
+    </text>
+    <text x="0" y="94" class="mono" font-size="13" fill="#a4b0d4">
+      TECH ANALOGY: Distributed Multi-Agent Cluster · Sub-Agent Auto-Spawn
+    </text>
+    <rect x="0" y="112" width="1030" height="4" rx="2" fill="#2c1808"/>
+    <rect x="0" y="112" width="980" height="4" rx="2" fill="#ff7700"/>
+  </g>
+</g>
+
+<!-- ======================================================== -->
+<!-- 3. 【 卍 解 】 BANKAI (BLEACH) [8s - 12s]                 -->
+<!-- ======================================================== -->
+<g class="jutsu-phase" style="animation-delay: 8s;">
+  <rect x="50" y="75" width="80" height="125" rx="6" fill="#1e0c24" stroke="#ff0055" stroke-width="1.8" filter="url(#glow)"/>
+  <text x="90" y="125" class="kanji-hero" font-size="24" fill="#ffe600" text-anchor="middle">卍</text>
+  <text x="90" y="160" class="kanji-hero" font-size="24" fill="#ffe600" text-anchor="middle">解</text>
+  <text x="90" y="185" class="mono" font-size="10" fill="#00f0ff" text-anchor="middle" font-weight="700">BLEACH</text>
+
+  <g transform="translate(160, 75)">
+    <text x="0" y="32" class="kanji-hero" font-size="28" fill="#ff0055" filter="url(#strongGlow)">
+      【 卍 解 】  <tspan font-size="18" fill="#ffffff" font-family="'Fira Code', monospace">(B A N - K A I)</tspan>
+    </text>
+    <text x="0" y="65" class="sans" font-size="16" fill="#ffe600" font-weight="700">
+      Reiatsu Nature: Zanpakutō Ultimate Form Unlocked · 10x Combat Factor
+    </text>
+    <text x="0" y="94" class="mono" font-size="13" fill="#a4b0d4">
+      TECH ANALOGY: Production Build Optimization · Maximum Hardware Acceleration
+    </text>
+    <rect x="0" y="112" width="1030" height="4" rx="2" fill="#2c0c1c"/>
+    <rect x="0" y="112" width="1030" height="4" rx="2" fill="#ff0055"/>
+  </g>
+</g>
+
+<!-- ======================================================== -->
+<!-- 4. 千鳥 CHIDORI [12s - 16s]                              -->
+<!-- ======================================================== -->
+<g class="jutsu-phase" style="animation-delay: 12s;">
+  <rect x="50" y="75" width="80" height="125" rx="6" fill="#081826" stroke="#00f0ff" stroke-width="1.8" filter="url(#glow)"/>
+  <text x="90" y="125" class="kanji-hero" font-size="24" fill="#00f0ff" text-anchor="middle">千</text>
+  <text x="90" y="160" class="kanji-hero" font-size="24" fill="#00f0ff" text-anchor="middle">鳥</text>
+  <text x="90" y="185" class="mono" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="700">SASUKE</text>
+
+  <g transform="translate(160, 75)">
+    <text x="0" y="32" class="kanji-hero" font-size="28" fill="#00f0ff" filter="url(#strongGlow)">
+      千鳥  <tspan font-size="18" fill="#ffffff" font-family="'Fira Code', monospace">(CHIDORI // 1,000 BIRDS)</tspan>
+    </text>
+    <text x="0" y="65" class="sans" font-size="16" fill="#ffe600" font-weight="700">
+      Chakra Nature: Lightning Release Piercing Thrust &amp; High-Speed Strike
+    </text>
+    <text x="0" y="94" class="mono" font-size="13" fill="#a4b0d4">
+      TECH ANALOGY: High-Throughput Microsecond Latency · Direct Memory Access
+    </text>
+    <rect x="0" y="112" width="1030" height="4" rx="2" fill="#0a1d30"/>
+    <rect x="0" y="112" width="990" height="4" rx="2" fill="#00f0ff"/>
+  </g>
+</g>
+
+<!-- ======================================================== -->
+<!-- 5. 鏡花水月 KYŌKA SUIGETSU [16s - 20s]                   -->
+<!-- ======================================================== -->
+<g class="jutsu-phase" style="animation-delay: 16s;">
+  <rect x="50" y="75" width="80" height="125" rx="6" fill="#120c24" stroke="#9d4edd" stroke-width="1.8" filter="url(#glow)"/>
+  <text x="90" y="125" class="kanji-hero" font-size="24" fill="#c77dff" text-anchor="middle">鏡</text>
+  <text x="90" y="160" class="kanji-hero" font-size="24" fill="#c77dff" text-anchor="middle">花</text>
+  <text x="90" y="185" class="mono" font-size="10" fill="#ffe600" text-anchor="middle" font-weight="700">AIZEN</text>
+
+  <g transform="translate(160, 75)">
+    <text x="0" y="32" class="kanji-hero" font-size="28" fill="#c77dff" filter="url(#strongGlow)">
+      鏡花水月  <tspan font-size="18" fill="#ffffff" font-family="'Fira Code', monospace">(KYŌKA SUIGETSU)</tspan>
+    </text>
+    <text x="0" y="65" class="sans" font-size="16" fill="#ffe600" font-weight="700">
+      Command: 「砕けろ」 · Complete Sensory Hypnosis &amp; Reality Illusion
+    </text>
+    <text x="0" y="94" class="mono" font-size="13" fill="#a4b0d4">
+      TECH ANALOGY: Adversarial Cyber Decoy &amp; Fault-Tolerant State Mocking
+    </text>
+    <rect x="0" y="112" width="1030" height="4" rx="2" fill="#1e1038"/>
+    <rect x="0" y="112" width="1030" height="4" rx="2" fill="#9d4edd"/>
+  </g>
+</g>
+
+<!-- ======================================================== -->
+<!-- 6. 神羅天征 SHINRA TENSEI [20s - 24s]                    -->
+<!-- ======================================================== -->
+<g class="jutsu-phase" style="animation-delay: 20s;">
+  <rect x="50" y="75" width="80" height="125" rx="6" fill="#14061a" stroke="#ffe600" stroke-width="1.8" filter="url(#glow)"/>
+  <text x="90" y="125" class="kanji-hero" font-size="24" fill="#ffe600" text-anchor="middle">神</text>
+  <text x="90" y="160" class="kanji-hero" font-size="24" fill="#ffe600" text-anchor="middle">羅</text>
+  <text x="90" y="185" class="mono" font-size="10" fill="#ff7700" text-anchor="middle" font-weight="700">RINNEGAN</text>
+
+  <g transform="translate(160, 75)">
+    <text x="0" y="32" class="kanji-hero" font-size="28" fill="#ffe600" filter="url(#strongGlow)">
+      神羅天征  <tspan font-size="18" fill="#ffffff" font-family="'Fira Code', monospace">(SHINRA TENSEI // ALMIGHTY PUSH)</tspan>
+    </text>
+    <text x="0" y="65" class="sans" font-size="16" fill="#ff7700" font-weight="700">
+      Dōjutsu Nature: Repulsive Gravitational Field Repelling All Attacks
+    </text>
+    <text x="0" y="94" class="mono" font-size="13" fill="#a4b0d4">
+      TECH ANALOGY: DDoS Rate-Limiting Barrier &amp; Infinite Buffer Protection
+    </text>
+    <rect x="0" y="112" width="1030" height="4" rx="2" fill="#2c1e08"/>
+    <rect x="0" y="112" width="1030" height="4" rx="2" fill="#ffe600"/>
+  </g>
+</g>
+
+<!-- FOOTER -->
+<line x1="60" y1="210" x2="1220" y2="210" stroke="#00f0ff" stroke-opacity="0.3" stroke-width="1"/>
+<text x="60" y="226" class="mono" font-size="11" fill="#7b82aa">
+  PROTOCOL: JUTSU &amp; BANKAI AUTO-CYCLE // 4.0s INTERVAL // FEW JAPANESE CHARACTERS
+</text>
+<text x="1220" y="226" class="mono" font-size="11" fill="#00ff66" text-anchor="end">
+  CHAKRA + REIATSU: 100% OPERATIONAL
+</text>
+
+</svg>

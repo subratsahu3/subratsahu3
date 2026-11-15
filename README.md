@@ -9,12 +9,13 @@
 
 <!-- LIVE TELEMETRY WITH AIZEN + SHIROE + SENKU -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=15&pause=1000&color=00F0FF&center=true&vCenter=true&width=780&lines=%E3%80%8C%E3%82%84%E3%82%8c%E3%82%84%E3%82%8c%E2%80%A6+%E3%82%88%E3%81%86%E3%81%93%E3%81%9d%E3%80%81%E7%A7%81%E3%81%AE%E5%B0%B8%E9%AD%82%E7%95%8C%E3%81%B8%E3%80%8D+%2F%2F+YOKOSO+WATASHI+NO+SOUL+SOCIETY;%E3%80%90+%E5%8D%8D+%E8%A7%A3+%E3%80%91+B+A+N+--+K+A+I+%2F%2F+REIATSU+PEAKING+TO+INFINITY%21;%5BLog+Horizon%5D+DATABASE%2C+DATABASE...JUST+LIVING+IN+THE+DATABASE%21;%5BDr.+STONE%5D+REBUILDING+CIVILIZATION+FROM+0+TO+1...+10+BILLION+%25%21;%E3%80%8C%E7%A0%95%E3%81%91%E3%82%83%E3%80%81%E9%8F%A1%E8%8A%B1%E6%B0%B4%E6%9C%88%E3%80%8D+%2F%2F+SHATTER%2C+KYOKA+SUIGETSU" alt="Typing Telemetry" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=15&pause=1000&color=00F0FF&center=true&vCenter=true&width=780&lines=%E3%80%8C%E3%82%84%E3%82%8c%E3%82%84%E3%82%8c%E2%80%A6+%E3%82%88%E3%81%86%E3%81%93%E3%81%9d%E3%80%81%E7%A7%81%E3%81%AE%E5%B0%B8%E9%AD%82%E7%95%8C%E3%81%B8%E3%80%8D+%2F%2F+YOKOSO+WATASHI+NO+SOUL+SOCIETY;%E3%80%90+%E5%8D%8D+%E8%A7%A3+%E3%80%91+B+A+N+--+K+A+I+%2F%2F+REIATSU+PEAKING+TO+INFINITY%21;%E8%9E%ba%E6%97%8B%E4%B8%B8+%2F%2F+RASENGAN+%C3%97+%E5%8D%83%E9%B8%9F+%2F%2F+CHIDORI+%C3%97+%E5%BD%B1%E5%88%86%E8%BA%AB;%5BLog+Horizon%5D+DATABASE%2C+DATABASE...JUST+LIVING+IN+THE+DATABASE%21;%5BDr.+STONE%5D+REBUILDING+CIVILIZATION+FROM+0+TO+1...+10+BILLION+%25%21;%E3%80%8C%E7%A0%95%E3%81%91%E3%82%83%E3%80%81%E9%8F%A1%E8%8A%B1%E6%B0%B4%E6%9C%88%E3%80%8D+%2F%2F+SHATTER%2C+KYOKA+SUIGETSU" alt="Typing Telemetry" />
 </a>
 
 <p align="center">
   <a href="https://subratsahu3.github.io"><img src="https://komarev.com/ghpvc/?username=subratsahu3&color=9D4EDD&style=for-the-badge&label=DATABASE+LOGINS" alt="Database Logins" /></a>
   <a href="https://github.com/subratsahu3"><img src="https://img.shields.io/badge/BLEACH-卍解_BANKAI-FF0055?style=for-the-badge" alt="Bankai Release" /></a>
+  <a href="https://github.com/subratsahu3"><img src="https://img.shields.io/badge/NARUTO-忍法_JUTSU-FF7700?style=for-the-badge" alt="Naruto Jutsu" /></a>
   <a href="https://github.com/subratsahu3"><img src="https://img.shields.io/badge/AIZEN-SOUL_SOCIETY-181717?style=for-the-badge&labelColor=000000" alt="Soul Society" /></a>
   <a href="https://github.com/subratsahu3"><img src="https://img.shields.io/badge/GUILD-LOG_HORIZON-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Guild Log Horizon" /></a>
   <a href="https://pypi.org/project/speclab-spectrum-analyzer/"><img src="https://img.shields.io/badge/SCIENCE-10_BILLION_%25-00FF66?style=for-the-badge" alt="10 Billion Percent Science" /></a>
@@ -23,9 +24,9 @@
 <br/>
 
 <!-- ======================================================== -->
-<!-- DYNAMIC CYCLING BANKAI REALM SHIFTER (6 BANKAIS CYCLING) -->
+<!-- DYNAMIC JUTSU & BANKAI ANIMATION ENGINE (RANDOM CYCLING) -->
 <!-- ======================================================== -->
-<img src="./assets/cards/bankai_cycler.svg" alt="Bleach Bankai Realm Shift Engine" width="100%"/>
+<img src="./assets/cards/jutsu_bankai_engine.svg" alt="Naruto Jutsu and Bleach Bankai Animation Engine" width="100%"/>
 
 </div>
 
@@ -50,11 +51,22 @@
 
 <br/>
 
-<!-- BLEACH AIZEN SOUSUKE ANIMATION & CREED -->
+<!-- BLEACH BANKAI ANIMATION & AIZEN SOUSUKE CREED -->
 <div align="center">
-  <img src="./assets/gifs/aizen.gif" alt="Aizen Sōsuke — Complete Hypnosis" width="380"/>
+  <img src="./assets/gifs/byakuya_bankai.gif" alt="Bleach Bankai Release — Senbonzakura Kageyoshi" width="460"/>
   <br/><br/>
   <img src="./assets/cards/aizen_creed.svg" alt="Bleach Aizen Creed &amp; Kyōka Suigetsu" width="100%"/>
+</div>
+
+<br/>
+
+<!-- NARUTO JUTSU CHAKRA ANIMATIONS -->
+<div align="center">
+  <img src="./assets/gifs/naruto_jutsu.gif" alt="Naruto Hand Signs Jutsu Activation" height="175"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./assets/gifs/rasengan.gif" alt="Naruto Rasengan Spiral" height="175"/>
+  <br/>
+  <sub>忍法 · 影分身の術 (Kage Bunshin) &amp; 螺旋丸 (Rasengan) // Autonomous Sub-Agent Parallel Spawning</sub>
 </div>
 
 <br/>
@@ -211,11 +223,6 @@
 
 <!-- OPERATOR DOSSIER CARD -->
 <img src="./assets/cards/profile.svg" alt="Operator Dossier &amp; Scico Philosophy" width="100%"/>
-
-<br/><br/>
-
-<!-- ANIMATION: RUNNING PIXEL DINOSAUR -->
-<img src="./assets/gifs/dini.gif" alt="Pixel dinosaur running" width="100%"/>
 
 </div>
 
