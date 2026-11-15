@@ -1,0 +1,270 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 430" width="1280" height="430" role="img" aria-label="Log Horizon Cyber Database Console — The Villain in Mask">
+<title>Log Horizon Cyber Database Console — The Villain in Mask</title>
+<desc>Ultra-stylish glassmorphic cyber database telemetry console with live SQL query records, rotating holographic memory rings, and the Villain in Mask persona.</desc>
+
+<defs>
+  <!-- BACKGROUND & GLASS GRADIENTS -->
+  <linearGradient id="dbGlassBg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#070a1a" stop-opacity="0.94"/>
+    <stop offset="50%" stop-color="#120e2a" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#060914" stop-opacity="0.96"/>
+  </linearGradient>
+
+  <linearGradient id="termGlass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#0b1126" stop-opacity="0.95"/>
+    <stop offset="100%" stop-color="#060a16" stop-opacity="0.98"/>
+  </linearGradient>
+
+  <linearGradient id="dbBorder" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.9"/>
+    <stop offset="35%" stop-color="#9d4edd" stop-opacity="0.8"/>
+    <stop offset="70%" stop-color="#ffe600" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#00ff66" stop-opacity="0.9"/>
+  </linearGradient>
+
+  <linearGradient id="coreGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.8"/>
+    <stop offset="50%" stop-color="#9d4edd" stop-opacity="0.7"/>
+    <stop offset="100%" stop-color="#ff0055" stop-opacity="0.8"/>
+  </linearGradient>
+
+  <linearGradient id="scanBeam" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#00f0ff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+  </linearGradient>
+
+  <!-- FILTERS -->
+  <filter id="dbGlow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="3.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+
+  <filter id="intenseDbGlow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="6" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+
+  <style>
+    @keyframes cursorBlink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes ringSpinRight {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes ringSpinLeft {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+    @keyframes corePulse {
+      0%, 100% { transform: scale(1); opacity: 0.85; }
+      50% { transform: scale(1.06); opacity: 1; filter: drop-shadow(0 0 16px #00f0ff); }
+    }
+    @keyframes dataBeamSweep {
+      0% { transform: translateY(0px); opacity: 0; }
+      15% { opacity: 0.9; }
+      85% { opacity: 0.9; }
+      100% { transform: translateY(370px); opacity: 0; }
+    }
+    @keyframes packetFloat {
+      0% { transform: translateY(0px); opacity: 0; }
+      20% { opacity: 1; }
+      80% { opacity: 0.9; }
+      100% { transform: translateY(-160px); opacity: 0; }
+    }
+
+    .cursor { animation: cursorBlink 0.9s infinite; }
+    .spin-r { transform-origin: 0px 0px; animation: ringSpinRight 22s linear infinite; }
+    .spin-l { transform-origin: 0px 0px; animation: ringSpinLeft 16s linear infinite; }
+    .pulse-core { transform-origin: 0px 0px; animation: corePulse 3.5s ease-in-out infinite; }
+    .scan-beam { animation: dataBeamSweep 4.5s ease-in-out infinite; }
+    .p-float { animation: packetFloat 3.8s ease-in-out infinite; }
+    
+    .mono { font-family: 'Fira Code', 'SF Mono', Consolas, monospace; }
+    .sans { font-family: 'SF Pro Display', -apple-system, 'Segoe UI', Roboto, sans-serif; }
+  </style>
+</defs>
+
+<!-- BACKGROUND PANEL -->
+<rect x="20" y="15" width="1240" height="400" rx="14" fill="url(#dbGlassBg)"/>
+<rect x="20" y="15" width="1240" height="400" rx="14" fill="none" stroke="url(#dbBorder)" stroke-width="1.8" filter="url(#dbGlow)"/>
+
+<!-- BACKGROUND CYBER GRID LINES -->
+<g stroke="#9d4edd" stroke-opacity="0.08" stroke-width="1">
+  <line x1="20" y1="80" x2="1260" y2="80"/>
+  <line x1="20" y1="140" x2="1260" y2="140"/>
+  <line x1="20" y1="200" x2="1260" y2="200"/>
+  <line x1="20" y1="260" x2="1260" y2="260"/>
+  <line x1="20" y1="320" x2="1260" y2="320"/>
+  <line x1="20" y1="380" x2="1260" y2="380"/>
+  <line x1="200" y1="15" x2="200" y2="415"/>
+  <line x1="450" y1="15" x2="450" y2="415"/>
+  <line x1="720" y1="15" x2="720" y2="415"/>
+  <line x1="900" y1="15" x2="900" y2="415"/>
+  <line x1="1100" y1="15" x2="1100" y2="415"/>
+</g>
+
+<!-- SWEEPING LASER BEAM -->
+<g class="scan-beam">
+  <rect x="22" y="15" width="1236" height="3" fill="url(#scanBeam)" filter="url(#dbGlow)"/>
+</g>
+
+<!-- CORNER TECH BRACKETS -->
+<path d="M20 45 V15 H50" fill="none" stroke="#00f0ff" stroke-width="3.5"/>
+<path d="M1260 45 V15 H1230" fill="none" stroke="#00f0ff" stroke-width="3.5"/>
+<path d="M20 385 V415 H50" fill="none" stroke="#ffe600" stroke-width="3.5"/>
+<path d="M1260 385 V415 H1230" fill="none" stroke="#ffe600" stroke-width="3.5"/>
+
+<!-- TOP HEADER STRIP -->
+<rect x="20" y="15" width="1240" height="42" rx="14" fill="#00f0ff" fill-opacity="0.08"/>
+<line x1="20" y1="57" x2="1260" y2="57" stroke="url(#dbBorder)" stroke-width="1.2"/>
+
+<!-- HEADER LED STATUS INDICATORS -->
+<circle cx="50" cy="36" r="5" fill="#00f0ff" filter="url(#dbGlow)"/>
+<circle cx="68" cy="36" r="5" fill="#00ff66" filter="url(#dbGlow)"/>
+<circle cx="86" cy="36" r="5" fill="#ffe600" filter="url(#dbGlow)"/>
+<circle cx="104" cy="36" r="5" fill="#ff0055" filter="url(#dbGlow)"/>
+
+<text x="130" y="41" class="mono" font-size="12.5" fill="#00f0ff" font-weight="700" letter-spacing="2">
+  ⟨ LOG HORIZON CYBER DATABASE // AKIBA SERVER MATRIX v4.2 ⟩
+</text>
+
+<!-- THE VILLAIN IN MASK BADGE -->
+<rect x="940" y="24" width="290" height="24" rx="4" fill="#160f2f" stroke="#ffe600" stroke-width="1.2" filter="url(#dbGlow)"/>
+<text x="955" y="40" class="mono" font-size="11.5" fill="#ffe600" font-weight="700">
+  OPERATOR: THE VILLAIN IN MASK 🎭
+</text>
+
+<!-- ======================================================== -->
+<!-- LEFT COLUMN: LIVE SQL & TELEMETRY TERMINAL              -->
+<!-- ======================================================== -->
+<g transform="translate(45, 75)">
+  <!-- TERMINAL CONSOLE FRAME -->
+  <rect x="0" y="0" width="760" height="295" rx="8" fill="url(#termGlass)" stroke="#00f0ff" stroke-opacity="0.4" stroke-width="1"/>
+  
+  <!-- TERMINAL TITLE BAR -->
+  <rect x="0" y="0" width="760" height="28" rx="8" fill="#111936"/>
+  <line x1="0" y1="28" x2="760" y2="28" stroke="#00f0ff" stroke-opacity="0.3" stroke-width="1"/>
+  <circle cx="16" cy="14" r="4" fill="#ff5f56"/>
+  <circle cx="30" cy="14" r="4" fill="#ffbd2e"/>
+  <circle cx="44" cy="14" r="4" fill="#27c93f"/>
+  <text x="65" y="18" class="mono" font-size="11" fill="#7b82aa">akiba-sql-terminal // user@subratsahu3 [database: log_horizon_core]</text>
+  <text x="745" y="18" class="mono" font-size="10.5" fill="#00ff66" text-anchor="end">STATUS: 200 OK (0.04ms)</text>
+
+  <!-- TERMINAL CODE & QUERY STREAM -->
+  <g transform="translate(20, 52)" class="mono" font-size="11.8">
+    <!-- PROMPT 1 -->
+    <text x="0" y="0" fill="#00ff66" font-weight="700">root@akiba-matrix:~$ <tspan fill="#ffffff">akiba-db --query "SELECT * FROM persona WHERE id='THE_VILLAIN_IN_MASK'"</tspan></text>
+    
+    <!-- RESULT 1 -->
+    <text x="0" y="20" fill="#7b82aa">[AUTH] Sovereign Mask Verified · Akiba Guild Master · S-Rank Alchemist</text>
+    
+    <!-- TABLE HEADER -->
+    <text x="0" y="42" fill="#c77dff" font-weight="700">┌───────────────────────────┬──────────────────────────────────────────┐</text>
+    <text x="0" y="58" fill="#c77dff" font-weight="700">│ <tspan fill="#ffe600">DATABASE TELEMETRY</tspan>        │ <tspan fill="#00f0ff">LIVE VALUE // RECORD STATUS</tspan>              │</text>
+    <text x="0" y="74" fill="#c77dff" font-weight="700">├───────────────────────────┼──────────────────────────────────────────┤</text>
+    
+    <!-- ROWS -->
+    <text x="0" y="90" fill="#ffffff">│ Code Repositories Index   │ <tspan fill="#00ff66" font-weight="700">16 Active Public Systems</tspan> (<tspan fill="#7b82aa">SpecLab, PyPI</tspan>) │</text>
+    <text x="0" y="106" fill="#ffffff">│ Annual Git Commits (2026) │ <tspan fill="#00f0ff" font-weight="700">134+ Verified Blocks</tspan> (<tspan fill="#7b82aa">Streak Active</tspan>)   │</text>
+    <text x="0" y="122" fill="#ffffff">│ Stargazer Constellations  │ <tspan fill="#ffe600" font-weight="700">7+ Celestial Stars</tspan> (<tspan fill="#7b82aa">Expanding Rate</tspan>)  │</text>
+    <text x="0" y="138" fill="#ffffff">│ Mastered Dialects         │ <tspan fill="#00ff66" font-weight="700">Python 36% · HTML 22% · TS/JS 32%</tspan>        │</text>
+    <text x="0" y="154" fill="#ffffff">│ Scientific Precision      │ <tspan fill="#ff0055" font-weight="700">10 Billion %</tspan> (<tspan fill="#7b82aa">Dr. Stone Craft Tree</tspan>)      │</text>
+    <text x="0" y="170" fill="#ffffff">│ Bankai Resonance &amp; Jutsu  │ <tspan fill="#ffe600" font-weight="700">100% Release (All 12 Archetypes Online)</tspan>  │</text>
+    <text x="0" y="186" fill="#c77dff" font-weight="700">└───────────────────────────┴──────────────────────────────────────────┘</text>
+
+    <!-- LIVE CURSOR -->
+    <text x="0" y="210" fill="#00ff66" font-weight="700">root@akiba-matrix:~$ <tspan fill="#00f0ff">sync --target soul_society --auto-update</tspan><tspan class="cursor" fill="#00f0ff">_</tspan></text>
+    <text x="0" y="228" fill="#7b82aa">> Synced with Vercel Fast Mirror &amp; Demolab Streak Core · Latency 0.00ms</text>
+  </g>
+</g>
+
+<!-- ======================================================== -->
+<!-- RIGHT COLUMN: HOLOGRAPHIC DATABASE REACTOR CORE          -->
+<!-- ======================================================== -->
+<g transform="translate(830, 75)">
+  <!-- REACTOR FRAME -->
+  <rect x="0" y="0" width="405" height="295" rx="8" fill="url(#termGlass)" stroke="#9d4edd" stroke-opacity="0.4" stroke-width="1"/>
+  
+  <text x="20" y="25" class="mono" font-size="11.5" fill="#00f0ff" font-weight="700">
+    HOLOGRAPHIC DATA CLUSTER
+  </text>
+  <text x="385" y="25" class="mono" font-size="11" fill="#ffe600" text-anchor="end" font-weight="700">
+    CLUSTER: ACTIVE
+  </text>
+  <line x1="20" y1="35" x2="385" y2="35" stroke="#9d4edd" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- FLOATING DATA PARTICLES -->
+  <g fill="#00f0ff" transform="translate(215, 140)">
+    <circle class="p-float" cx="-50" cy="50" r="2" style="animation-delay: 0.2s;"/>
+    <circle class="p-float" cx="30" cy="60" r="1.5" style="animation-delay: 1.1s;"/>
+    <circle class="p-float" cx="60" cy="40" r="2.5" style="animation-delay: 2.3s;"/>
+    <circle class="p-float" cx="-20" cy="70" r="2" style="animation-delay: 1.7s;"/>
+  </g>
+
+  <!-- 3D HOLOGRAPHIC ROTATING RINGS (SPINNING GYRO) -->
+  <g transform="translate(202, 125)">
+    <g class="spin-r">
+      <ellipse cx="0" cy="0" rx="90" ry="38" fill="none" stroke="#00f0ff" stroke-width="1.8" stroke-dasharray="14 10" filter="url(#dbGlow)"/>
+      <ellipse cx="0" cy="0" rx="72" ry="30" fill="none" stroke="#ffe600" stroke-width="1.4" stroke-dasharray="8 6"/>
+    </g>
+    <g class="spin-l">
+      <ellipse cx="0" cy="0" rx="82" ry="70" fill="none" stroke="#9d4edd" stroke-width="1.6" stroke-dasharray="18 12" filter="url(#dbGlow)"/>
+    </g>
+  </g>
+
+  <!-- CENTRAL DATABASE CYLINDERS (LOG HORIZON DATA TIERS) -->
+  <g transform="translate(202, 125)">
+    <!-- DISK 1 (TOP) -->
+    <ellipse cx="0" cy="-25" rx="55" ry="16" fill="#18224a" stroke="#00f0ff" stroke-width="2" filter="url(#dbGlow)"/>
+    <path d="M-55 -25 V-10 A55 16 0 0 0 55 -10 V-25 Z" fill="#0f1738" stroke="#00f0ff" stroke-width="1.5"/>
+    
+    <!-- DISK 2 (MIDDLE) -->
+    <ellipse cx="0" cy="5" rx="55" ry="16" fill="#201548" stroke="#9d4edd" stroke-width="2" filter="url(#dbGlow)"/>
+    <path d="M-55 5 V20 A55 16 0 0 0 55 20 V5 Z" fill="#130d30" stroke="#9d4edd" stroke-width="1.5"/>
+    
+    <!-- DISK 3 (BASE) -->
+    <ellipse cx="0" cy="35" rx="55" ry="16" fill="#241a18" stroke="#ffe600" stroke-width="2" filter="url(#dbGlow)"/>
+    <path d="M-55 35 V50 A55 16 0 0 0 55 50 V35 Z" fill="#19110f" stroke="#ffe600" stroke-width="1.5"/>
+    
+    <!-- CORE GLOW -->
+    <circle cx="0" cy="12" r="14" fill="#00f0ff" class="pulse-core" filter="url(#intenseDbGlow)"/>
+    <text x="0" y="16" class="mono" font-size="10" fill="#070a1a" text-anchor="middle" font-weight="900">SQL</text>
+  </g>
+
+  <!-- TELEMETRY BARS (BOTTOM OF REACTOR) -->
+  <g transform="translate(25, 205)" class="mono" font-size="11">
+    <!-- BAR 1: REIATSU THROUGHPUT -->
+    <text x="0" y="12" fill="#7b82aa">REIATSU THROUGHPUT (CPU)</text>
+    <text x="355" y="12" fill="#00ff66" text-anchor="end" font-weight="700">100% (10B IOPS)</text>
+    <rect x="0" y="18" width="355" height="7" rx="3.5" fill="#111936"/>
+    <rect x="0" y="18" width="355" height="7" rx="3.5" fill="#00ff66" filter="url(#dbGlow)"/>
+
+    <!-- BAR 2: MEMORY CAPACITY -->
+    <text x="0" y="44" fill="#7b82aa">DATABASE CACHE RATIO</text>
+    <text x="355" y="44" fill="#00f0ff" text-anchor="end" font-weight="700">99.98% HIT</text>
+    <rect x="0" y="50" width="355" height="7" rx="3.5" fill="#111936"/>
+    <rect x="0" y="50" width="345" height="7" rx="3.5" fill="#00f0ff" filter="url(#dbGlow)"/>
+
+    <!-- BAR 3: MASK CONTRACT ENGINE -->
+    <text x="0" y="74" fill="#7b82aa">CONTRACT ENGINE</text>
+    <text x="355" y="74" fill="#ffe600" text-anchor="end" font-weight="700">UNRESTRICTED ⚡</text>
+    <rect x="0" y="80" width="355" height="7" rx="3.5" fill="#111936"/>
+    <rect x="0" y="80" width="355" height="7" rx="3.5" fill="#ffe600" filter="url(#dbGlow)"/>
+  </g>
+</g>
+
+<!-- ======================================================== -->
+<!-- FOOTER TICKER STRIP                                      -->
+<!-- ======================================================== -->
+<line x1="20" y1="385" x2="1260" y2="385" stroke="url(#dbBorder)" stroke-width="1.2" opacity="0.6"/>
+<text x="45" y="404" class="mono" font-size="11" fill="#7b82aa">
+  DATABASE // DATABASE: "IF THIS WORLD HAS RULES, WE LEARN THEM. IF IT DOESN'T, WE REWRITE THE CONTRACTS OURSELVES."
+</text>
+<text x="1235" y="404" class="mono" font-size="11" fill="#00ff66" text-anchor="end" font-weight="700">
+  AUTO-UPDATE: ACTIVE · ZERO-DEFECT PROTOCOL
+</text>
+
+</svg>

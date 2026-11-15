@@ -100,7 +100,7 @@
 
     <!-- ROW 2 -->
     <text x="0" y="52" fill="#7b82aa">ANIME ALIGNMENT</text>
-    <text x="230" y="52" fill="#ffe600" font-weight="600">Bleach (藍染 惣右介) × Log Horizon (腹ぐろ眼鏡) × Dr. STONE (Senku)</text>
+    <text x="230" y="52" fill="#ffe600" font-weight="600">Bleach (Aizen) × Log Horizon (The Villain in Mask) × Dr. STONE (Senku)</text>
 
     <!-- ROW 3 -->
     <text x="0" y="84" fill="#7b82aa">GUILD &amp; DOMAIN</text>
@@ -116,7 +116,7 @@
 
     <!-- ROW 6 -->
     <text x="0" y="180" fill="#7b82aa">ULTIMATE MOVE</text>
-    <text x="230" y="180" fill="#ff0055" font-weight="800">【 卍 解 】 B A N - K A I  &amp;  100億% Scientific Precision</text>
+    <text x="230" y="180" fill="#ff0055" font-weight="800">【 卍解 】 B A N - K A I  &amp;  10 Billion % Precision</text>
   </g>
 </g>
 
@@ -134,7 +134,7 @@
   <!-- INNER CORE SYMBOL -->
   <circle cx="1080" cy="225" r="55" fill="#0c0e24" stroke="#00f0ff" stroke-width="2" filter="url(#cardGlow)"/>
   <text x="1080" y="215" class="kanji" font-size="28" fill="#ffe600" text-anchor="middle" font-weight="900" filter="url(#cardGlow)">卍解</text>
-  <text x="1080" y="240" class="mono" font-size="11" fill="#00ff66" text-anchor="middle" font-weight="700">100億%</text>
+  <text x="1080" y="240" class="mono" font-size="11" fill="#00ff66" text-anchor="middle" font-weight="700">10B %</text>
 
   <!-- BADGE SUB-LABEL -->
   <rect x="990" y="325" width="180" height="24" rx="4" fill="#080c1e" stroke="#9d4edd" stroke-width="1"/>

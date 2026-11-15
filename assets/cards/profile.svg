@@ -86,7 +86,7 @@
         "Database, database! If this world has rules, we will learn them. If it doesn't, we will write the contracts ourselves."
       </text>
       <text x="0" y="55" class="mono" font-size="11" fill="#7b82aa">
-        ― Shiroe // The Villain in Glasses (腹ぐろ眼鏡)
+        ― Mastermind // The Villain in Mask
       </text>
 
       <!-- SENKU -->
@@ -94,7 +94,7 @@
         "Science doesn't lie. Step by step, we craft the civilization of tomorrow. 10 billion percent exhilarating!"
       </text>
       <text x="0" y="102" class="mono" font-size="11" fill="#7b82aa">
-        ― Senku Ishigami // Kingdom of Science (唆るぜ、これは！)
+        ― Senku Ishigami // Kingdom of Science (10 Billion %)
       </text>
 
       <!-- AIZEN -->
@@ -102,12 +102,12 @@
         "No one stands on top from the beginning... but that unbearable vacancy shall end. From now on, I will stand at the top."
       </text>
       <text x="0" y="149" class="mono" font-size="11" fill="#7b82aa">
-        ― Sōsuke Aizen // Bleach Soul Society (藍染 惣右介)
+        ― Sōsuke Aizen // Bleach Soul Society
       </text>
 
-      <!-- GLASSES ADJUSTMENT -->
+      <!-- MASK ADJUSTMENT -->
       <text x="550" y="150" class="mono glow-line" font-size="12" fill="#00f0ff" text-anchor="end">
-        *Pushes glasses up* 👓⚡
+        *Adjusts mask* 🎭⚡
       </text>
     </g>
   </g>
@@ -120,7 +120,7 @@
   PROTOCOL STATUS: SCICO INTELLECT ACTIVE // 0% CONFORMITY // 100% INDEPENDENT LOGIC
 </text>
 <text x="1220" y="312" class="kanji" font-size="11" fill="#00ff66" text-anchor="end">
-  科学の力は無限大 (POWER OF SCIENCE IS BOUNDLESS)
+  POWER OF SCIENCE IS BOUNDLESS // 10 BILLION %
 </text>
 
 </svg>

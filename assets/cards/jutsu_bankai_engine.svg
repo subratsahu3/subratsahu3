@@ -35,7 +35,7 @@
       100% { transform: translateY(-220px) scale(1.3); opacity: 0; }
     }
     
-    /* 6 JUTSU & BANKAI PHASES (24s cycle total, 4s each) */
+    /* 6 JUTSU &amp; BANKAI PHASES (24s cycle total, 4s each) */
     .jutsu-phase {
       opacity: 0;
       animation: jutsuCycle 24s infinite;

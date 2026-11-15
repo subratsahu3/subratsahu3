@@ -9,13 +9,13 @@
 
 <!-- LIVE TELEMETRY WITH AIZEN + SHIROE + SENKU -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=15&pause=1000&color=00F0FF&center=true&vCenter=true&width=780&lines=%E3%80%8C%E3%82%84%E3%82%8c%E3%82%84%E3%82%8c%E2%80%A6+%E3%82%88%E3%81%86%E3%81%93%E3%81%9d%E3%80%81%E7%A7%81%E3%81%AE%E5%B0%B8%E9%AD%82%E7%95%8C%E3%81%B8%E3%80%8D+%2F%2F+YOKOSO+WATASHI+NO+SOUL+SOCIETY;%E3%80%90+%E5%8D%8D+%E8%A7%A3+%E3%80%91+B+A+N+--+K+A+I+%2F%2F+REIATSU+PEAKING+TO+INFINITY%21;%E8%9E%ba%E6%97%8B%E4%B8%B8+%2F%2F+RASENGAN+%C3%97+%E5%8D%83%E9%B8%9F+%2F%2F+CHIDORI+%C3%97+%E5%BD%B1%E5%88%86%E8%BA%AB;%5BLog+Horizon%5D+DATABASE%2C+DATABASE...JUST+LIVING+IN+THE+DATABASE%21;%5BDr.+STONE%5D+REBUILDING+CIVILIZATION+FROM+0+TO+1...+10+BILLION+%25%21;%E3%80%8C%E7%A0%95%E3%81%91%E3%82%83%E3%80%81%E9%8F%A1%E8%8A%B1%E6%B0%B4%E6%9C%88%E3%80%8D+%2F%2F+SHATTER%2C+KYOKA+SUIGETSU" alt="Typing Telemetry" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=15&pause=1000&color=00F0FF&center=true&vCenter=true&width=780&lines=%5BDATABASE%20PROTOCOL%5D%20//%20YOKOSO%2C%20TO%20MY%20SOUL%20SOCIETY%3B%E3%80%90%20%E5%8D%8D%E8%A7%A3%20%E3%80%91%20BAN--KAI%20//%20REIATSU%20PEAKING%20TO%20INFINITY%21%3BRASENGAN%20%C3%97%20CHIDORI%20%C3%97%20SHINRA%20TENSEI%20//%20CHAKRA%20ONLINE%3B%5BLOG%20HORIZON%5D%20//%20THE%20VILLAIN%20IN%20MASK%20INITIALIZED%3B%5BDr.%20STONE%5D%20//%20REBUILDING%20CIVILIZATION%20FROM%200%20TO%201...%2010%20BILLION%20%25%21%3B%5BAIZEN%20DIRECTIVE%5D%20//%20SHATTER%2C%20KYOKA%20SUIGETSU" alt="Typing Telemetry" />
 </a>
 
 <p align="center">
   <a href="https://subratsahu3.github.io"><img src="https://komarev.com/ghpvc/?username=subratsahu3&color=9D4EDD&style=for-the-badge&label=DATABASE+LOGINS" alt="Database Logins" /></a>
-  <a href="https://github.com/subratsahu3"><img src="https://img.shields.io/badge/BLEACH-卍解_BANKAI-FF0055?style=for-the-badge" alt="Bankai Release" /></a>
-  <a href="https://github.com/subratsahu3"><img src="https://img.shields.io/badge/NARUTO-忍法_JUTSU-FF7700?style=for-the-badge" alt="Naruto Jutsu" /></a>
+  <a href="https://github.com/subratsahu3"><img src="https://img.shields.io/badge/BLEACH-BANKAI_RELEASE-FF0055?style=for-the-badge" alt="Bankai Release" /></a>
+  <a href="https://github.com/subratsahu3"><img src="https://img.shields.io/badge/NARUTO-JUTSU_CHAKRA-FF7700?style=for-the-badge" alt="Naruto Jutsu" /></a>
   <a href="https://github.com/subratsahu3"><img src="https://img.shields.io/badge/AIZEN-SOUL_SOCIETY-181717?style=for-the-badge&labelColor=000000" alt="Soul Society" /></a>
   <a href="https://github.com/subratsahu3"><img src="https://img.shields.io/badge/GUILD-LOG_HORIZON-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Guild Log Horizon" /></a>
   <a href="https://pypi.org/project/speclab-spectrum-analyzer/"><img src="https://img.shields.io/badge/SCIENCE-10_BILLION_%25-00FF66?style=for-the-badge" alt="10 Billion Percent Science" /></a>
@@ -35,12 +35,12 @@
 
 # 💫 About Me (The Awakened Mastermind)
 
-<!-- LOG HORIZON SHIROE ANIMATION (THE VILLAIN IN GLASSES) -->
+<!-- LOG HORIZON MASTERMIND (THE VILLAIN IN MASK) -->
 <div align="center">
-  <img src="./assets/gifs/shiroe.gif" alt="Shiroe - The Villain in Glasses" width="360"/>
+  <img src="./assets/gifs/shiroe.gif" alt="The Villain in Mask" width="360"/>
   <br/>
   <b><i>"Database, database! If this world has rules, we will learn them. If it doesn't, we will write the contracts ourselves."</i></b><br/>
-  <sub>— Shiroe // The Villain in Glasses (腹ぐろ眼鏡) · Akiba Round Table</sub>
+  <sub>— Mastermind // The Villain in Mask (仮面の策士) · Akiba Round Table</sub>
 </div>
 
 <br/>
@@ -127,18 +127,35 @@
 
 ---
 
-# 📊 GitHub Stats & Telemetry
+# 📊 Cyber Database &amp; GitHub Telemetry
 
 <div align="center">
 
-<!-- GITHUB STATS & STREAK CARDS -->
-<img src="https://github-readme-stats.vercel.app/api?username=subratsahu3&show_icons=true&theme=radical&bg_color=080c14&title_color=FFE600&text_color=00F0FF&icon_color=FF0055&border_color=9D4EDD&hide_border=false&border_radius=8" width="49%" alt="Subrat Sahu GitHub Stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=subratsahu3&theme=radical&background=080C14&border=9D4EDD&stroke=9D4EDD&ring=FF0055&fire=00FF66&currStreakLabel=00F0FF&sideLabels=FFE600&dates=FFFFFF&border_radius=8" width="49%" alt="Subrat Sahu Streak Stats"/>
+<!-- ======================================================== -->
+<!-- BESPOKE LOG HORIZON CYBER DATABASE CONSOLE (HUD)         -->
+<!-- ======================================================== -->
+<img src="./assets/cards/database_telemetry.svg" alt="Log Horizon Cyber Database Console — The Villain in Mask" width="100%"/>
 
 <br/><br/>
 
-<!-- TOP LANGUAGES STATS -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=subratsahu3&layout=compact&theme=radical&bg_color=080c14&title_color=FFE600&text_color=00F0FF&border_color=00F0FF&hide_border=false&border_radius=8" width="58%" alt="Dialects Mastered"/>
+<!-- ======================================================== -->
+<!-- AUTO-UPDATING GITHUB STATS & STREAK CARDS (VERIFIED 200) -->
+<!-- ======================================================== -->
+<a href="https://github.com/subratsahu3">
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=subratsahu3&show_icons=true&theme=radical&bg_color=080c14&title_color=FFE600&text_color=00F0FF&icon_color=FF0055&border_color=9D4EDD&hide_border=false&border_radius=8&cache_seconds=1800" width="49%" alt="Subrat Sahu GitHub Stats"/>
+</a>
+<a href="https://github.com/subratsahu3">
+  <img src="https://streak-stats.demolab.com/?user=subratsahu3&theme=radical&background=080C14&border=9D4EDD&stroke=9D4EDD&ring=FF0055&fire=00FF66&currStreakLabel=00F0FF&sideLabels=FFE600&dates=FFFFFF&border_radius=8" width="49%" alt="Subrat Sahu Streak Stats"/>
+</a>
+
+<br/><br/>
+
+<!-- ======================================================== -->
+<!-- AUTO-UPDATING DIALECTS MASTERED (TOP LANGUAGES)           -->
+<!-- ======================================================== -->
+<a href="https://github.com/subratsahu3">
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=subratsahu3&layout=compact&theme=radical&bg_color=080c14&title_color=FFE600&text_color=00F0FF&border_color=00F0FF&hide_border=false&border_radius=8&cache_seconds=1800" width="58%" alt="Dialects Mastered"/>
+</a>
 
 <br/><br/>
 
@@ -237,6 +254,6 @@
 
 <br/>
 
-<h1><i>"ようこそ、私の尸魂界へ。The Database is Watching."</i></h1>
+<h1><i>"Yokoso, to my Soul Society. The Villain in Mask is Watching."</i></h1>
 
 </div>
