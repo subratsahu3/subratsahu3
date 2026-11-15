@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 260" width="1280" height="260" role="img" aria-label="Soul Society x Kingdom of Science — Subrat Sahu">
+<title>Soul Society × Kingdom of Science — Subrat Sahu</title>
+<desc>Futuristic animated banner in violet, cyan, and neon gold featuring Bleach Aizen, Log Horizon, and Dr. Stone themes.</desc>
+<defs>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#04060e"/>
+    <stop offset="50%" stop-color="#090b1c"/>
+    <stop offset="100%" stop-color="#060812"/>
+  </linearGradient>
+  <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#00f0ff"/>
+    <stop offset="35%" stop-color="#c77dff"/>
+    <stop offset="70%" stop-color="#ffe600"/>
+    <stop offset="100%" stop-color="#00ff66"/>
+  </linearGradient>
+  <linearGradient id="sweepLine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#00f0ff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.95"/>
+    <stop offset="100%" stop-color="#9d4edd" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="glowBorder" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#9d4edd"/>
+    <stop offset="50%" stop-color="#00f0ff"/>
+    <stop offset="100%" stop-color="#ffe600"/>
+  </linearGradient>
+  <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+  <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 0.88; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.01); }
+    }
+    @keyframes sweep {
+      0% { transform: translateX(-1280px); }
+      100% { transform: translateX(1280px); }
+    }
+    @keyframes floatParticle {
+      0% { transform: translateY(0px) scale(0.8); opacity: 0; }
+      20% { opacity: 0.9; }
+      80% { opacity: 0.8; }
+      100% { transform: translateY(-220px) scale(1.2); opacity: 0; }
+    }
+    @keyframes reiatsuBreathe {
+      0%, 100% { stroke-opacity: 0.45; }
+      50% { stroke-opacity: 0.95; }
+    }
+    .p { animation: floatParticle ease-in-out infinite; }
+    .title-text {
+      font-family: 'SF Pro Display', -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 900;
+      letter-spacing: 7px;
+    }
+    .mono-text {
+      font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
+      letter-spacing: 2px;
+    }
+    .kanji-text {
+      font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', 'Noto Sans JP', sans-serif;
+      letter-spacing: 4px;
+    }
+    .sweep-bar { animation: sweep 5s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+    .frame-border { animation: reiatsuBreathe 4s ease-in-out infinite; }
+  </style>
+</defs>
+
+<!-- BACKGROUND -->
+<rect width="1280" height="260" fill="url(#bgGrad)" rx="10"/>
+
+<!-- FLOATING REIATSU & SCIENCE PARTICLES -->
+<g fill="#9d4edd">
+  <circle class="p" cx="120" cy="250" r="2.5" style="animation-duration: 6s; animation-delay: 0s;"/>
+  <circle class="p" cx="240" cy="250" r="2" style="animation-duration: 8s; animation-delay: 1.5s;"/>
+  <circle class="p" cx="380" cy="250" r="3" style="animation-duration: 7s; animation-delay: 2.8s;"/>
+  <circle class="p" cx="640" cy="250" r="2" style="animation-duration: 9s; animation-delay: 0.5s;"/>
+  <circle class="p" cx="890" cy="250" r="2.5" style="animation-duration: 7.5s; animation-delay: 3s;"/>
+  <circle class="p" cx="1120" cy="250" r="2" style="animation-duration: 6.5s; animation-delay: 2s;"/>
+</g>
+<g fill="#00f0ff">
+  <circle class="p" cx="180" cy="250" r="1.5" style="animation-duration: 7s; animation-delay: 3.2s;"/>
+  <circle class="p" cx="490" cy="250" r="2.5" style="animation-duration: 6.2s; animation-delay: 0.8s;"/>
+  <circle class="p" cx="780" cy="250" r="2" style="animation-duration: 8.5s; animation-delay: 1.8s;"/>
+  <circle class="p" cx="1020" cy="250" r="3" style="animation-duration: 7.2s; animation-delay: 1.2s;"/>
+  <circle class="p" cx="1180" cy="250" r="1.5" style="animation-duration: 6.8s; animation-delay: 4.1s;"/>
+</g>
+<g fill="#00ff66">
+  <circle class="p" cx="320" cy="250" r="2" style="animation-duration: 8s; animation-delay: 2.2s;"/>
+  <circle class="p" cx="720" cy="250" r="1.5" style="animation-duration: 7.5s; animation-delay: 3.5s;"/>
+  <circle class="p" cx="950" cy="250" r="2.5" style="animation-duration: 6s; animation-delay: 0.3s;"/>
+</g>
+
+<!-- OUTER CYBER-FRAME WITH CORNER NOTCHES -->
+<rect class="frame-border" x="25" y="20" width="1230" height="220" rx="8" fill="none" stroke="url(#glowBorder)" stroke-width="1.6" filter="url(#softGlow)"/>
+
+<!-- CORNER ACCENT BRACKETS -->
+<path d="M25 50 V20 H55" fill="none" stroke="#00f0ff" stroke-width="3.5"/>
+<path d="M1255 50 V20 H1225" fill="none" stroke="#00f0ff" stroke-width="3.5"/>
+<path d="M25 210 V240 H55" fill="none" stroke="#ffe600" stroke-width="3.5"/>
+<path d="M1255 210 V240 H1225" fill="none" stroke="#ffe600" stroke-width="3.5"/>
+
+<!-- TOP HEADER TELEMETRY BADGE -->
+<rect x="360" y="32" width="560" height="26" rx="4" fill="#9d4edd" fill-opacity="0.12" stroke="#9d4edd" stroke-opacity="0.6" stroke-width="1"/>
+<text x="640" y="49" class="mono-text" font-size="12" fill="#00f0ff" text-anchor="middle" font-weight="700">⟨ SOUL SOCIETY // AKIBA ROUND TABLE // KINGDOM OF SCIENCE ⟩</text>
+
+<!-- MAIN TITLE -->
+<text x="640" y="118" class="title-text" font-size="44" fill="url(#titleGrad)" text-anchor="middle" filter="url(#glow)">SUBRAT SAHU</text>
+
+<!-- JAPANESE CALLIGRAPHIC SUBTITLE -->
+<text x="640" y="156" class="kanji-text" font-size="18" fill="#ffe600" text-anchor="middle" font-weight="700" filter="url(#softGlow)">
+  【 卍 解 】 藍染 惣右介  ·  唆るぜ、これは！ (100億%)  ·  腹ぐろ眼鏡
+</text>
+
+<!-- TECH DOMAIN SUBTITLE -->
+<text x="640" y="188" class="mono-text" font-size="14" fill="#c77dff" text-anchor="middle" font-weight="600">
+  KYŌKA SUIGETSU PROTOCOL  ✦  FULL CONTROL ENCOUNTER  ✦  COMPUTATIONAL SPECTROSCOPY
+</text>
+
+<!-- SWEEPING HOLOGRAPHIC SCANLINE -->
+<rect class="sweep-bar" x="0" y="214" width="1280" height="2" fill="url(#sweepLine)"/>
+
+<!-- BOTTOM STATUS TICKER -->
+<line x1="120" y1="215" x2="1160" y2="215" stroke="#9d4edd" stroke-opacity="0.3" stroke-width="1"/>
+<text x="140" y="233" class="mono-text" font-size="11" fill="#7b82aa">NODE: SUBRATSAHU3</text>
+<text x="640" y="233" class="mono-text" font-size="11" fill="#00ff66" text-anchor="middle">STATUS: ACTIVE // REIATSU PEAKING 100%</text>
+<text x="1140" y="233" class="mono-text" font-size="11" fill="#7b82aa" text-anchor="end">DOMAIN: GITHUB SPECIAL ARCHIVE</text>
+
+</svg>

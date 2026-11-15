@@ -1,9 +1,9 @@
 <div align="center">
 
 <!-- ======================================================== -->
-<!-- TITLE BANNER: BLEACH x LOG HORIZON x DR. STONE           -->
+<!-- BESPOKE ANIMATED TITLE CARD: BLEACH x LOG HORIZON x DR. STONE -->
 <!-- ======================================================== -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,24,30&height=240&section=header&text=SOUL%20SOCIETY%20//%20KINGDOM%20OF%20SCIENCE&fontSize=34&fontAlignY=36&fontColor=FFE600&animation=twinkling" width="100%" alt="Header Banner"/>
+<img src="./assets/cards/title.svg" alt="Soul Society x Kingdom of Science — Subrat Sahu" width="100%"/>
 
 <br/>
 
@@ -26,79 +26,35 @@
 
 # 💫 About Me (The Awakened Mastermind)
 
-<!-- ANIMATION 1: PIXEL CODER AT DESK (FROM REFERENCE REPO) -->
+<!-- ANIMATION 1: PIXEL CODER AT DESK -->
 <div align="center">
   <img src="./assets/gifs/mario.gif" alt="Pixel-art coder at desk" width="100%"/>
 </div>
 
 <br/>
 
+<!-- SYSTEM NOTIFICATION HUD CARD -->
 <div align="center">
-
-```ansi
-╔══════════════════════════════════════════════════════════════════════════════════════╗
-║  ✦ S Y S T E M   N O T I F I C A T I O N : A D V E N T U R E R   A W A K E N E D     ║
-╠══════════════════════════════════════════════════════════════════════════════════════╣
-║  • OPERATOR       : Subrat Sahu (Callsign: Shiroe / @subratsahu3)                   ║
-║  • BLEACH DOMAIN  : 藍染 惣右介 (Sōsuke Aizen) — Kyōka Suigetsu Protocol             ║
-║  • ALIAS          : "The Villain in Glasses" (腹ぐろ眼鏡) & Chief Science Strategist ║
-║  • AFFILIATION    : Soul Society // Akiba Round Table // Kingdom of Science          ║
-║  • PASSIVE SKILL  : Full Control Encounter (Predicting execution bottlenecks in adv) ║
-║  • ULTIMATE MOVE  : 【 卍 解 】 ( B A N - K A I ) & 10 Billion Percent Scientific AI  ║
-╚══════════════════════════════════════════════════════════════════════════════════════╝
-```
-
+  <img src="./assets/cards/hero.svg" alt="System Window: Subrat Sahu Awakened" width="100%"/>
 </div>
-
----
-
-### 🗡️ `[ BLEACH // AIZEN SŌSUKE CREED (藍染 惣右介) ]`
-
-<div align="center">
-
-```text
-┌───────────────────────────────────────────────────────────────────────────┐
-│  「やれやれ… ようこそ、私の尸魂界（ソウル・ソサエティ）へ」                │
-│  "Yare yare... Yokoso, watashi no Sōru Sosaeti e."                        │
-│  (Good grief... Welcome to my Soul Society.)                              │
-│                                                                           │
-│  「憧れは、理解から最も遠い感情だよ」                                     │
-│  "Admiration is the emotion furthest from understanding."                 │
-│                                                                           │
-│  「一体いつから――鏡花水月を使っていないと錯覚していた？」                 │
-│  "Since when were you under the impression that you were not under        │
-│   my Kyōka Suigetsu?"                                                     │
-│                                                                           │
-│  【 卍 解 】 ( B A N - K A I )                                            │
-└───────────────────────────────────────────────────────────────────────────┘
-```
-
-</div>
-
----
-
-### 📜 `[ ADVENTURER LOG & QUEST OBJECTIVES ]`
-
-- 🧪 **Primary Creation**: Built [**SpecLab**](https://github.com/subratsahu3/SpecLab-Spectrum-Analyzer) — an open-source scientific IR & Raman spectrum analysis toolkit, published globally on [PyPI](https://pypi.org/project/speclab-spectrum-analyzer/).
-- 🤖 **Neural Machinery**: Architecting multi-provider conversational AI agents, autonomous decision routers, and contextual memory models.
-- 🔭 **Current Focus**: Computational spectroscopy, digital signal baseline algorithms (AsLS), and LLM agent orchestration.
-- 🤝 **Collaborations**: Open to deep scientific computing, autonomous agent development, and high-performance Python architectures.
-- 💬 **Inquiries**: Ask me about spectral peak-detection, Savitzky-Golay filters, Gemini LLM integrations, and modern full-stack workflows.
-
----
-
-### 🎯 `[ DAILY QUESTS & ACTIVE DIRECTIVES ]`
-
-| QUEST ID | DIFFICULTY | OBJECTIVE | SYSTEM REWARD |
-| :---: | :---: | :--- | :---: |
-| **Q-01** | **`S-RANK`** | Expand SpecLab open spectral database library search | `10_BILLION_% EXP` |
-| **Q-02** | **`A-RANK`** | Deploy multi-model autonomous agent harnesses with Gemini & Groq | `GUILD REPUTATION` |
-| **Q-03** | **`B-RANK`** | Optimize Asymmetric Least Squares (AsLS) baseline engine speed | `CODE EXCELLENCE` |
-| **Q-04** | **`S-RANK`** | Soul Society Mastery — Complete Hypnosis with Bug-Free Runtime | `卍解 BANKAI UNLOCKED` |
 
 <br/>
 
-<!-- ANIMATION 2: GRIM REAPER CHASING CODER ALONG PROGRESS BAR (FROM REFERENCE REPO) -->
+<!-- BLEACH AIZEN CREED & ZANPAKUTO KYOKA SUIGETSU CARD -->
+<div align="center">
+  <img src="./assets/cards/aizen_creed.svg" alt="Bleach Aizen Creed &amp; Kyōka Suigetsu" width="100%"/>
+</div>
+
+<br/>
+
+<!-- DAILY QUESTS & DIRECTIVES CARD -->
+<div align="center">
+  <img src="./assets/cards/quest.svg" alt="Daily Quests: Science &amp; Strategy Directives" width="100%"/>
+</div>
+
+<br/>
+
+<!-- ANIMATION 2: GRIM REAPER CHASING CODER ALONG PROGRESS BAR -->
 <div align="center">
   <img src="./assets/gifs/deadline.gif" alt="Deadline progress bar" width="600"/>
 </div>
@@ -112,6 +68,11 @@
 > *"There's nothing you can't create if you follow the scientific method. Step by step, we craft the technology of tomorrow." — Senku Ishigami*
 
 <br/>
+
+<!-- SKILLS MATRIX HUD CARD -->
+<img src="./assets/cards/skills.svg" alt="Science Craft Tree Skills Matrix" width="100%"/>
+
+<br/><br/>
 
 ### `[ ELEMENTAL PROGRAMMING LANGUAGES // SCRIBE RUNES ]`
 <p align="center">
@@ -167,6 +128,11 @@
 <!-- TOP LANGUAGES STATS -->
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=subratsahu3&layout=compact&theme=radical&bg_color=080c14&title_color=FFE600&text_color=00F0FF&border_color=00F0FF&hide_border=false&border_radius=8" width="58%" alt="Dialects Mastered"/>
 
+<br/><br/>
+
+<!-- RPG STATUS SHEET CARD -->
+<img src="./assets/cards/status.svg" alt="Status Window: Player ID card and attributes" width="100%"/>
+
 </div>
 
 ---
@@ -185,14 +151,10 @@
 
 <div align="center">
 
-| RAID DESIGNATION | REALM & UNIVERSE | ARTIFACT / REPOSITORY | SPELL SPECIFICATION & POWER | DEPLOYMENT STATUS |
-| :---: | :--- | :--- | :--- | :---: |
-| 🧪 | **Dr. STONE** | [**SpecLab-Spectrum-Analyzer**](https://github.com/subratsahu3/SpecLab-Spectrum-Analyzer) | Scientific IR & Raman spectroscopy engine + Streamlit web GUI | [![PyPI](https://img.shields.io/pypi/v/speclab-spectrum-analyzer?color=00f0ff&style=flat-square)](https://pypi.org/project/speclab-spectrum-analyzer/) |
-| 🤖 | **Dr. STONE / Cyber** | [**Senku-AI-Assistant**](https://github.com/subratsahu3/FriendlyAIBot) | Autonomous conversational AI agent with Gemini, Groq & memory | `[CHROMED_ACTIVE]` |
-| 🌐 | **Log Horizon** | [**subratsahu3.github.io**](https://github.com/subratsahu3/subratsahu3.github.io) | `NEURAL DECK v3.0` live interactive 3D web portfolio & API sync | `[PORTAL_ONLINE]` |
-| 🗡️ | **Bleach // Aizen** | [**Kyoka-Suigetsu-Engine**](https://github.com/subratsahu3) | Complete Event-Driven Protocol & Autonomous Agent Orchestrator | `【 卍 解 】` |
+<!-- S-RANK PROJECTS HUD CARD -->
+<img src="./assets/cards/projects.svg" alt="S-Rank Artifacts: SpecLab, Senku AI Bot, Neural Deck, Kyōka Suigetsu Protocol" width="100%"/>
 
-<br/>
+<br/><br/>
 
 <a href="https://github.com/subratsahu3?tab=repositories"><b>⚡ → VIEW ALL REPOSITORIES IN THE DATABASE</b></a>
 
@@ -204,45 +166,17 @@
 
 <div align="center">
 
-```text
-┌─── [OPERATOR LIFE PHILOSOPHY] ────────────────────────────────────────┐
-│  🔭 Exploring the Universe & Tech.                                     │
-│  😈 Scico. 🎵 Audiophile.                                              │
-│  🚫 3D Girls = Syntax Error.                                           │
-│  ⛩️ 2D Waifus = Compiled Successfully.                                 │
-│  🚶‍♂️ Solitude is peace. 🌑                                               │
-└────────────────────────────────────────────────────────────────────────┘
-```
-
-</div>
-
----
-
-### ✍️ Strategist & Alchemist Quotes
-
-<div align="center">
-
-<!-- ANIMATION 3: LO-FI CODER UNDER NIGHT SKY (FROM REFERENCE REPO) -->
+<!-- ANIMATION 3: LO-FI CODER UNDER NIGHT SKY -->
 <img src="./assets/gifs/girl.gif" alt="Lo-fi coder on balcony at night" width="100%"/>
 
 <br/><br/>
 
-> *"Database, database! If this world has rules, we will learn them. If it doesn't, we will write the contracts ourselves."*  
-> — **Shiroe // The Villain in Glasses (腹ぐろ眼鏡)**
+<!-- OPERATOR DOSSIER CARD -->
+<img src="./assets/cards/profile.svg" alt="Operator Dossier &amp; Scico Philosophy" width="100%"/>
 
-> *"Step by step, humanity climbed out of the stone age. Science doesn't lie. This is ten billion percent exhilarating!"*  
-> — **Senku Ishigami // Kingdom of Science (唆るぜ、これは！)**
+<br/><br/>
 
-> *"No one stands on top of the world from the beginning... but that unbearable vacancy of the throne shall end. From now on, I will stand at the top."*  
-> — **Sōsuke Aizen // Bleach (藍染 惣右介)**
-
-<p align="center">
-  <b>*Pushes glasses up with palm* 👓⚡ // 【 卍 解 】</b>
-</p>
-
-<br/>
-
-<!-- ANIMATION 4: RUNNING PIXEL DINOSAUR (FROM REFERENCE REPO) -->
+<!-- ANIMATION 4: RUNNING PIXEL DINOSAUR -->
 <img src="./assets/gifs/dini.gif" alt="Pixel dinosaur running" width="100%"/>
 
 </div>
@@ -253,6 +187,11 @@
 
 <div align="center">
 
+<!-- SOCIALS HUD CARD -->
+<img src="./assets/cards/socials.svg" alt="Transmission Beacons and Contact Relays" width="100%"/>
+
+<br/><br/>
+
 <a href="https://subratsahu3.github.io"><img src="https://img.shields.io/badge/Portfolio-00f0ff?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Website"/></a>
 <a href="https://github.com/subratsahu3"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 <a href="https://pypi.org/project/speclab-spectrum-analyzer/"><img src="https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI"/></a>
@@ -262,10 +201,6 @@
 <br/><br/>
 
 <h1>Rebuilding Civilization from 0 to 1. 🧪🚀</h1>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,24,30&height=110&section=footer" width="100%" alt="Footer Banner"/>
 
 <br/>
 

@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 430" width="1280" height="430" role="img" aria-label="S-Rank Artifacts: Guild Raids &amp; Codebases">
+<title>S-Rank Artifacts — Codebases &amp; Projects</title>
+<desc>Anime RPG mission matrix featuring SpecLab on PyPI, Senku Autonomous AI Agent, Neural Deck Portfolio, and Kyōka Suigetsu Protocol.</desc>
+<defs>
+  <linearGradient id="projBg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#070a1a"/>
+    <stop offset="100%" stop-color="#0d0822"/>
+  </linearGradient>
+  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="3.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <style>
+    @keyframes cardShimmer {
+      0%, 100% { stroke-opacity: 0.4; }
+      50% { stroke-opacity: 0.95; }
+    }
+    .proj-card { animation: cardShimmer 4s ease-in-out infinite; }
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; }
+    .sans { font-family: 'SF Pro Display', -apple-system, 'Segoe UI', Roboto, sans-serif; }
+  </style>
+</defs>
+
+<!-- BASE CONTAINER -->
+<rect x="25" y="15" width="1230" height="400" rx="10" fill="url(#projBg)"/>
+<rect x="25" y="15" width="1230" height="400" rx="10" fill="none" stroke="#9d4edd" stroke-width="1.8" filter="url(#glow)"/>
+
+<!-- CORNER ACCENTS -->
+<path d="M25 45 V15 H55" fill="none" stroke="#00f0ff" stroke-width="3.5"/>
+<path d="M1255 45 V15 H1225" fill="none" stroke="#00f0ff" stroke-width="3.5"/>
+<path d="M25 385 V415 H55" fill="none" stroke="#ffe600" stroke-width="3.5"/>
+<path d="M1255 385 V415 H1225" fill="none" stroke="#ffe600" stroke-width="3.5"/>
+
+<!-- HEADER STRIP -->
+<rect x="25" y="15" width="1230" height="42" rx="10" fill="#9d4edd" fill-opacity="0.15"/>
+<line x1="25" y1="57" x2="1255" y2="57" stroke="#9d4edd" stroke-opacity="0.5" stroke-width="1"/>
+<text x="55" y="41" class="mono" font-size="13" fill="#00f0ff" font-weight="700" letter-spacing="2">
+  ⟨ S-RANK ARTIFACTS // MASTERPIECE CODEBASES &amp; REPOSITORIES ⟩
+</text>
+<text x="1225" y="41" class="mono" font-size="12" fill="#ffe600" text-anchor="end" font-weight="600">
+  4 / 4 ACTIVE WEAPONS DEPLOYED
+</text>
+
+<!-- 2x2 PROJECT MATRIX -->
+<g transform="translate(55, 75)">
+
+  <!-- CARD 1: SPECLAB -->
+  <g transform="translate(0, 0)">
+    <rect class="proj-card" x="0" y="0" width="570" height="150" rx="8" fill="#090f24" stroke="#00f0ff" stroke-width="1.3"/>
+    <rect x="15" y="15" width="70" height="20" rx="4" fill="#00f0ff" fill-opacity="0.2"/>
+    <text x="50" y="29" class="mono" font-size="10" fill="#00f0ff" text-anchor="middle" font-weight="700">ARTIFACT 01</text>
+    <rect x="430" y="15" width="125" height="20" rx="4" fill="#00ff66" fill-opacity="0.15" stroke="#00ff66" stroke-width="1"/>
+    <text x="492" y="29" class="mono" font-size="10" fill="#00ff66" text-anchor="middle" font-weight="700">PyPI: v0.2.0 LIVE</text>
+    
+    <text x="15" y="60" class="sans" font-size="19" fill="#ffffff" font-weight="800">
+      🧪 SpecLab-Spectrum-Analyzer
+    </text>
+    <text x="15" y="85" class="sans" font-size="13" fill="#7b82aa">
+      Scientific IR &amp; Raman spectrum analysis toolkit: AsLS baseline, Savitzky-Golay, peak fitting &amp; Streamlit GUI.
+    </text>
+    <text x="15" y="112" class="mono" font-size="11" fill="#ffe600">
+      BUILT WITH: Python 3.12 · SciPy · NumPy · Streamlit · PyPI Distribution
+    </text>
+    <text x="15" y="134" class="mono" font-size="11" fill="#00f0ff">
+      → github.com/subratsahu3/SpecLab-Spectrum-Analyzer
+    </text>
+  </g>
+
+  <!-- CARD 2: SENKU AI BOT -->
+  <g transform="translate(600, 0)">
+    <rect class="proj-card" x="0" y="0" width="570" height="150" rx="8" fill="#090f24" stroke="#9d4edd" stroke-width="1.3"/>
+    <rect x="15" y="15" width="70" height="20" rx="4" fill="#9d4edd" fill-opacity="0.25"/>
+    <text x="50" y="29" class="mono" font-size="10" fill="#c77dff" text-anchor="middle" font-weight="700">ARTIFACT 02</text>
+    <rect x="430" y="15" width="125" height="20" rx="4" fill="#c77dff" fill-opacity="0.15" stroke="#c77dff" stroke-width="1"/>
+    <text x="492" y="29" class="mono" font-size="10" fill="#c77dff" text-anchor="middle" font-weight="700">AGENT ONLINE</text>
+    
+    <text x="15" y="60" class="sans" font-size="19" fill="#ffffff" font-weight="800">
+      🤖 Senku-AI-Assistant (FriendlyAIBot)
+    </text>
+    <text x="15" y="85" class="sans" font-size="13" fill="#7b82aa">
+      Autonomous conversational AI agent engine featuring multi-LLM routing, long-term memory &amp; live tool calls.
+    </text>
+    <text x="15" y="112" class="mono" font-size="11" fill="#ffe600">
+      BUILT WITH: Google Gemini API · Groq Cloud · Persistent Memory · Python
+    </text>
+    <text x="15" y="134" class="mono" font-size="11" fill="#c77dff">
+      → github.com/subratsahu3/FriendlyAIBot
+    </text>
+  </g>
+
+  <!-- CARD 3: NEURAL DECK V3.0 -->
+  <g transform="translate(0, 165)">
+    <rect class="proj-card" x="0" y="0" width="570" height="150" rx="8" fill="#090f24" stroke="#00ff66" stroke-width="1.3"/>
+    <rect x="15" y="15" width="70" height="20" rx="4" fill="#00ff66" fill-opacity="0.2"/>
+    <text x="50" y="29" class="mono" font-size="10" fill="#00ff66" text-anchor="middle" font-weight="700">ARTIFACT 03</text>
+    <rect x="430" y="15" width="125" height="20" rx="4" fill="#00ff66" fill-opacity="0.15" stroke="#00ff66" stroke-width="1"/>
+    <text x="492" y="29" class="mono" font-size="10" fill="#00ff66" text-anchor="middle" font-weight="700">VERIFIED LIVE</text>
+    
+    <text x="15" y="60" class="sans" font-size="19" fill="#ffffff" font-weight="800">
+      🌐 Neural Deck v3.0 (Portfolio Portal)
+    </text>
+    <text x="15" y="85" class="sans" font-size="13" fill="#7b82aa">
+      3D cyber deck portfolio with procedural Web Audio synthesizer, live GitHub API sync &amp; Google Console verification.
+    </text>
+    <text x="15" y="112" class="mono" font-size="11" fill="#ffe600">
+      BUILT WITH: Vanilla JS · Web Audio API · 3D Canvas · CSS Cyber Glass
+    </text>
+    <text x="15" y="134" class="mono" font-size="11" fill="#00ff66">
+      → subratsahu3.github.io
+    </text>
+  </g>
+
+  <!-- CARD 4: KYOKA SUIGETSU ENGINE -->
+  <g transform="translate(600, 165)">
+    <rect class="proj-card" x="0" y="0" width="570" height="150" rx="8" fill="#090f24" stroke="#ff0055" stroke-width="1.3"/>
+    <rect x="15" y="15" width="70" height="20" rx="4" fill="#ff0055" fill-opacity="0.25"/>
+    <text x="50" y="29" class="mono" font-size="10" fill="#ff0055" text-anchor="middle" font-weight="700">ARTIFACT 04</text>
+    <rect x="430" y="15" width="125" height="20" rx="4" fill="#ff0055" fill-opacity="0.15" stroke="#ff0055" stroke-width="1"/>
+    <text x="492" y="29" class="mono" font-size="10" fill="#ffe600" text-anchor="middle" font-weight="700">【 卍 解 】 ACTIVE</text>
+    
+    <text x="15" y="60" class="sans" font-size="19" fill="#ffffff" font-weight="800">
+      🗡️ Kyōka-Suigetsu-Protocol
+    </text>
+    <text x="15" y="85" class="sans" font-size="13" fill="#7b82aa">
+      Event-driven orchestration, background state synchronization, automated deployments &amp; self-healing automation.
+    </text>
+    <text x="15" y="112" class="mono" font-size="11" fill="#ffe600">
+      BUILT WITH: Event Streams · Async Python · GitHub Actions · CI/CD
+    </text>
+    <text x="15" y="134" class="mono" font-size="11" fill="#ff0055">
+      → github.com/subratsahu3
+    </text>
+  </g>
+
+</g>
+
+<!-- FOOTER SYSTEM NOTIFICATION -->
+<line x1="60" y1="385" x2="1220" y2="385" stroke="#9d4edd" stroke-opacity="0.3" stroke-width="1"/>
+<text x="60" y="402" class="mono" font-size="12" fill="#7b82aa">
+  GLOBAL DEPLOYMENTS: PYPI DISTRIBUTED · GITHUB PAGES ONLINE · AUTONOMOUS HARNESS PRIMED
+</text>
+<text x="1220" y="402" class="mono" font-size="12" fill="#00ff66" text-anchor="end">
+  REBUILDING FROM 0 TO 1 (100億%)
+</text>
+
+</svg>
