@@ -170,7 +170,9 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=subratsahu3&theme=radical&no-frame=false&no-bg=false&margin-w=4&row=1&column=7" width="100%" alt="GitHub Trophies"/>
+<a href="https://github.com/subratsahu3">
+  <img src="https://github-trophies.vercel.app/?username=subratsahu3&theme=radical&no-frame=false&no-bg=false&margin-w=4&row=1&column=7" width="100%" alt="GitHub Trophies"/>
+</a>
 
 </div>
 

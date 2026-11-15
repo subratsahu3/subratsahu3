@@ -23,4 +23,5 @@ jobs:
           curl -s -I "https://github-readme-stats-fast.vercel.app/api?username=subratsahu3&show_icons=true&theme=radical&bg_color=080c14&title_color=FFE600&text_color=00F0FF&icon_color=FF0055&border_color=9D4EDD&hide_border=false&border_radius=8&cache_seconds=1800" | head -n 1
           curl -s -I "https://streak-stats.demolab.com/?user=subratsahu3&theme=radical&background=080C14&border=9D4EDD&stroke=9D4EDD&ring=FF0055&fire=00FF66&currStreakLabel=00F0FF&sideLabels=FFE600&dates=FFFFFF&border_radius=8" | head -n 1
           curl -s -I "https://github-readme-stats-fast.vercel.app/api/top-langs?username=subratsahu3&layout=compact&theme=radical&bg_color=080c14&title_color=FFE600&text_color=00F0FF&border_color=00F0FF&hide_border=false&border_radius=8&cache_seconds=1800" | head -n 1
+          curl -s -I "https://github-trophies.vercel.app/?username=subratsahu3&theme=radical&no-frame=false&no-bg=false&margin-w=4&row=1&column=7" | head -n 1
           echo "All endpoints warmed and verified!"
