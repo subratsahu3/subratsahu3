@@ -24,9 +24,10 @@
 <br/>
 
 <!-- ======================================================== -->
-<!-- DYNAMIC JUTSU & BANKAI ANIMATION ENGINE (RANDOM CYCLING) -->
+<!-- GLASSMORPHIC ANTIGRAVITIC ANIMATION PANEL                -->
+<!-- RANDOMLY ANIMATING BLEACH ALL BANKAI & NARUTO ALL JUTSU   -->
 <!-- ======================================================== -->
-<img src="./assets/cards/jutsu_bankai_engine.svg" alt="Naruto Jutsu and Bleach Bankai Animation Engine" width="100%"/>
+<img src="./assets/cards/antigravity_jutsu_bankai.svg" alt="Antigravitic Glassmorphic Anime Animation Panel" width="100%"/>
 
 </div>
 
@@ -51,22 +52,9 @@
 
 <br/>
 
-<!-- BLEACH BANKAI ANIMATION & AIZEN SOUSUKE CREED -->
+<!-- BLEACH AIZEN CREED & ZANPAKUTO KYOKA SUIGETSU CARD -->
 <div align="center">
-  <img src="./assets/gifs/byakuya_bankai.gif" alt="Bleach Bankai Release — Senbonzakura Kageyoshi" width="460"/>
-  <br/><br/>
   <img src="./assets/cards/aizen_creed.svg" alt="Bleach Aizen Creed &amp; Kyōka Suigetsu" width="100%"/>
-</div>
-
-<br/>
-
-<!-- NARUTO JUTSU CHAKRA ANIMATIONS -->
-<div align="center">
-  <img src="./assets/gifs/naruto_jutsu.gif" alt="Naruto Hand Signs Jutsu Activation" height="175"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./assets/gifs/rasengan.gif" alt="Naruto Rasengan Spiral" height="175"/>
-  <br/>
-  <sub>忍法 · 影分身の術 (Kage Bunshin) &amp; 螺旋丸 (Rasengan) // Autonomous Sub-Agent Parallel Spawning</sub>
 </div>
 
 <br/>
@@ -74,13 +62,6 @@
 <!-- DAILY QUESTS & DIRECTIVES CARD -->
 <div align="center">
   <img src="./assets/cards/quest.svg" alt="Daily Quests: Science &amp; Strategy Directives" width="100%"/>
-</div>
-
-<br/>
-
-<!-- ANIMATION: GRIM REAPER CHASING CODER ALONG PROGRESS BAR -->
-<div align="center">
-  <img src="./assets/gifs/deadline.gif" alt="Deadline progress bar" width="600"/>
 </div>
 
 ---
