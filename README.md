@@ -45,6 +45,13 @@
 
 <br/>
 
+<!-- CYBER TECH ANTIGRAVITIC ANIME ID LICENSE PANEL -->
+<div align="center">
+  <img src="./assets/cards/anime_id_license.svg" alt="Cyber Tech Antigravity Anime ID License Panel" width="100%"/>
+</div>
+
+<br/>
+
 <!-- SYSTEM NOTIFICATION HUD CARD -->
 <div align="center">
   <img src="./assets/cards/hero.svg" alt="System Window: Subrat Sahu Awakened" width="100%"/>
