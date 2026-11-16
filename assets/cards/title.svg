@@ -1,138 +1,152 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 260" width="1280" height="260" role="img" aria-label="Soul Society x Kingdom of Science — Subrat Sahu">
 <title>Soul Society × Kingdom of Science — Subrat Sahu</title>
-<desc>Futuristic animated banner in violet, cyan, and neon gold featuring Bleach Aizen, Log Horizon, and Dr. Stone themes.</desc>
+<desc>Apple UI Glassic animated banner in violet, cyan, and neon gold featuring Bleach Aizen, Log Horizon, and Dr. Stone themes.</desc>
 <defs>
-  <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#04060e"/>
-    <stop offset="50%" stop-color="#090b1c"/>
-    <stop offset="100%" stop-color="#060812"/>
+  <!-- APPLE FROSTED GLASS GRADIENTS -->
+  <linearGradient id="appleGlassBg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#080c1a" stop-opacity="0.94"/>
+    <stop offset="50%" stop-color="#101530" stop-opacity="0.90"/>
+    <stop offset="100%" stop-color="#060914" stop-opacity="0.96"/>
   </linearGradient>
+
+  <linearGradient id="appleSpecular" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.05"/>
+    <stop offset="25%" stop-color="#ffffff" stop-opacity="0.45"/>
+    <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.6"/>
+    <stop offset="75%" stop-color="#c77dff" stop-opacity="0.45"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+  </linearGradient>
+
+  <linearGradient id="appleGlassBorder" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3"/>
+    <stop offset="35%" stop-color="#00f0ff" stop-opacity="0.5"/>
+    <stop offset="70%" stop-color="#9d4edd" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0.15"/>
+  </linearGradient>
+
   <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0%" stop-color="#00f0ff"/>
     <stop offset="35%" stop-color="#c77dff"/>
     <stop offset="70%" stop-color="#ffe600"/>
     <stop offset="100%" stop-color="#00ff66"/>
   </linearGradient>
+
   <linearGradient id="sweepLine" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0%" stop-color="#00f0ff" stop-opacity="0"/>
-    <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.95"/>
+    <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.8"/>
     <stop offset="100%" stop-color="#9d4edd" stop-opacity="0"/>
   </linearGradient>
-  <linearGradient id="glowBorder" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#9d4edd"/>
-    <stop offset="50%" stop-color="#00f0ff"/>
-    <stop offset="100%" stop-color="#ffe600"/>
-  </linearGradient>
-  <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
-    <feGaussianBlur stdDeviation="5" result="blur"/>
-    <feMerge>
-      <feMergeNode in="blur"/>
-      <feMergeNode in="SourceGraphic"/>
-    </feMerge>
+
+  <!-- APPLE SOFT SHADOWS & GLOW -->
+  <filter id="appleShadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000000" flood-opacity="0.55"/>
+    <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00f0ff" flood-opacity="0.15"/>
   </filter>
+
   <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
     <feGaussianBlur stdDeviation="3" result="blur"/>
-    <feMerge>
-      <feMergeNode in="blur"/>
-      <feMergeNode in="SourceGraphic"/>
-    </feMerge>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
+
   <style>
-    @keyframes pulse {
-      0%, 100% { opacity: 0.88; transform: scale(1); }
-      50% { opacity: 1; transform: scale(1.01); }
+    /* APPLE SPRING EASING (FLUID PHYSICAL TRANSITIONS) */
+    @keyframes floatParticle {
+      0% { transform: translateY(0px) scale(0.8); opacity: 0; }
+      20% { opacity: 0.85; }
+      80% { opacity: 0.75; }
+      100% { transform: translateY(-210px) scale(1.15); opacity: 0; }
     }
     @keyframes sweep {
       0% { transform: translateX(-1280px); }
       100% { transform: translateX(1280px); }
     }
-    @keyframes floatParticle {
-      0% { transform: translateY(0px) scale(0.8); opacity: 0; }
-      20% { opacity: 0.9; }
-      80% { opacity: 0.8; }
-      100% { transform: translateY(-220px) scale(1.2); opacity: 0; }
+    @keyframes glassBreathe {
+      0%, 100% { opacity: 0.75; }
+      50% { opacity: 1; }
     }
-    @keyframes reiatsuBreathe {
-      0%, 100% { stroke-opacity: 0.45; }
-      50% { stroke-opacity: 0.95; }
-    }
+
     .p { animation: floatParticle ease-in-out infinite; }
+    .sweep-bar { animation: sweep 6s cubic-bezier(0.16, 1, 0.3, 1) infinite; }
+    .glass-pulse { animation: glassBreathe 4s cubic-bezier(0.25, 1, 0.5, 1) infinite; }
+
     .title-text {
-      font-family: 'SF Pro Display', -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
       font-weight: 900;
-      letter-spacing: 7px;
+      letter-spacing: 6px;
     }
     .mono-text {
-      font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
-      letter-spacing: 2px;
+      font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', Consolas, monospace;
+      letter-spacing: 1.5px;
     }
     .kanji-text {
       font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', 'Noto Sans JP', sans-serif;
-      letter-spacing: 4px;
+      letter-spacing: 3px;
     }
-    .sweep-bar { animation: sweep 5s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
-    .frame-border { animation: reiatsuBreathe 4s ease-in-out infinite; }
   </style>
 </defs>
 
-<!-- BACKGROUND -->
-<rect width="1280" height="260" fill="url(#bgGrad)" rx="10"/>
+<!-- BASE CANVAS -->
+<rect width="1280" height="260" rx="20" fill="#04060e"/>
+
+<!-- AMBIENT BACKDROP LIGHT -->
+<ellipse cx="640" cy="130" rx="550" ry="90" fill="#9d4edd" fill-opacity="0.08" filter="url(#softGlow)"/>
+<ellipse cx="640" cy="130" rx="350" ry="60" fill="#00f0ff" fill-opacity="0.06" filter="url(#softGlow)"/>
+
+<!-- MAIN APPLE FROSTED GLASS CHASSIS -->
+<rect x="25" y="16" width="1230" height="228" rx="20" fill="url(#appleGlassBg)" filter="url(#appleShadow)"/>
+<rect x="25" y="16" width="1230" height="228" rx="20" fill="none" stroke="url(#appleGlassBorder)" stroke-width="1.2"/>
+
+<!-- SPECULAR GLASS BEVEL (TOP-EDGE REFRACTION) -->
+<path d="M45 16 L1235 16" stroke="url(#appleSpecular)" stroke-width="1.2" stroke-linecap="round"/>
 
 <!-- FLOATING REIATSU & SCIENCE PARTICLES -->
 <g fill="#9d4edd">
-  <circle class="p" cx="120" cy="250" r="2.5" style="animation-duration: 6s; animation-delay: 0s;"/>
-  <circle class="p" cx="240" cy="250" r="2" style="animation-duration: 8s; animation-delay: 1.5s;"/>
-  <circle class="p" cx="380" cy="250" r="3" style="animation-duration: 7s; animation-delay: 2.8s;"/>
-  <circle class="p" cx="640" cy="250" r="2" style="animation-duration: 9s; animation-delay: 0.5s;"/>
-  <circle class="p" cx="890" cy="250" r="2.5" style="animation-duration: 7.5s; animation-delay: 3s;"/>
-  <circle class="p" cx="1120" cy="250" r="2" style="animation-duration: 6.5s; animation-delay: 2s;"/>
+  <circle class="p" cx="140" cy="240" r="2.5" style="animation-duration: 6.5s; animation-delay: 0s;"/>
+  <circle class="p" cx="280" cy="240" r="2" style="animation-duration: 8.2s; animation-delay: 1.4s;"/>
+  <circle class="p" cx="640" cy="240" r="2" style="animation-duration: 9.5s; animation-delay: 0.6s;"/>
+  <circle class="p" cx="980" cy="240" r="2.5" style="animation-duration: 7.8s; animation-delay: 2.8s;"/>
+  <circle class="p" cx="1140" cy="240" r="2" style="animation-duration: 7s; animation-delay: 1.8s;"/>
 </g>
 <g fill="#00f0ff">
-  <circle class="p" cx="180" cy="250" r="1.5" style="animation-duration: 7s; animation-delay: 3.2s;"/>
-  <circle class="p" cx="490" cy="250" r="2.5" style="animation-duration: 6.2s; animation-delay: 0.8s;"/>
-  <circle class="p" cx="780" cy="250" r="2" style="animation-duration: 8.5s; animation-delay: 1.8s;"/>
-  <circle class="p" cx="1020" cy="250" r="3" style="animation-duration: 7.2s; animation-delay: 1.2s;"/>
-  <circle class="p" cx="1180" cy="250" r="1.5" style="animation-duration: 6.8s; animation-delay: 4.1s;"/>
-</g>
-<g fill="#00ff66">
-  <circle class="p" cx="320" cy="250" r="2" style="animation-duration: 8s; animation-delay: 2.2s;"/>
-  <circle class="p" cx="720" cy="250" r="1.5" style="animation-duration: 7.5s; animation-delay: 3.5s;"/>
-  <circle class="p" cx="950" cy="250" r="2.5" style="animation-duration: 6s; animation-delay: 0.3s;"/>
+  <circle class="p" cx="210" cy="240" r="1.8" style="animation-duration: 7.2s; animation-delay: 3s;"/>
+  <circle class="p" cx="520" cy="240" r="2.2" style="animation-duration: 6.8s; animation-delay: 0.8s;"/>
+  <circle class="p" cx="780" cy="240" r="2" style="animation-duration: 8.8s; animation-delay: 1.6s;"/>
+  <circle class="p" cx="1060" cy="240" r="2.5" style="animation-duration: 7.5s; animation-delay: 1.1s;"/>
 </g>
 
-<!-- OUTER CYBER-FRAME WITH CORNER NOTCHES -->
-<rect class="frame-border" x="25" y="20" width="1230" height="220" rx="8" fill="none" stroke="url(#glowBorder)" stroke-width="1.6" filter="url(#softGlow)"/>
+<!-- MACOS / VISIONOS WINDOW CONTROLS -->
+<g transform="translate(48, 34)">
+  <circle cx="0" cy="0" r="5.5" fill="#ff5f56"/>
+  <circle cx="18" cy="0" r="5.5" fill="#ffbd2e"/>
+  <circle cx="36" cy="0" r="5.5" fill="#27c93f"/>
+</g>
 
-<!-- CORNER ACCENT BRACKETS -->
-<path d="M25 50 V20 H55" fill="none" stroke="#00f0ff" stroke-width="3.5"/>
-<path d="M1255 50 V20 H1225" fill="none" stroke="#00f0ff" stroke-width="3.5"/>
-<path d="M25 210 V240 H55" fill="none" stroke="#ffe600" stroke-width="3.5"/>
-<path d="M1255 210 V240 H1225" fill="none" stroke="#ffe600" stroke-width="3.5"/>
-
-<!-- TOP HEADER TELEMETRY BADGE -->
-<rect x="360" y="32" width="560" height="26" rx="4" fill="#9d4edd" fill-opacity="0.12" stroke="#9d4edd" stroke-opacity="0.6" stroke-width="1"/>
-<text x="640" y="49" class="mono-text" font-size="12" fill="#00f0ff" text-anchor="middle" font-weight="700">⟨ SOUL SOCIETY // AKIBA ROUND TABLE // KINGDOM OF SCIENCE ⟩</text>
+<!-- TOP GLASS PILL BADGE -->
+<g transform="translate(360, 24)">
+  <rect x="0" y="0" width="560" height="26" rx="13" fill="#ffffff" fill-opacity="0.06" stroke="url(#appleGlassBorder)" stroke-width="0.8"/>
+  <text x="280" y="17" class="mono-text" font-size="11.5" fill="#00f0ff" text-anchor="middle" font-weight="700">⟨ SOUL SOCIETY · AKIBA ROUND TABLE · KINGDOM OF SCIENCE ⟩</text>
+</g>
 
 <!-- MAIN TITLE -->
-<text x="640" y="118" class="title-text" font-size="44" fill="url(#titleGrad)" text-anchor="middle" filter="url(#glow)">SUBRAT SAHU</text>
+<text x="640" y="116" class="title-text" font-size="44" fill="url(#titleGrad)" text-anchor="middle" filter="url(#softGlow)">SUBRAT SAHU</text>
 
-<!-- JAPANESE CALLIGRAPHIC SUBTITLE -->
-<text x="640" y="156" class="kanji-text" font-size="18" fill="#ffe600" text-anchor="middle" font-weight="700" filter="url(#softGlow)">
+<!-- CALLIGRAPHIC SUBTITLE -->
+<text x="640" y="154" class="kanji-text" font-size="17" fill="#ffe600" text-anchor="middle" font-weight="700" filter="url(#softGlow)">
   【 卍解 】 AIZEN CREED  ·  THE VILLAIN IN MASK  ·  10 BILLION % SCIENCE
 </text>
 
-<!-- TECH DOMAIN SUBTITLE -->
-<text x="640" y="188" class="mono-text" font-size="14" fill="#c77dff" text-anchor="middle" font-weight="600">
+<!-- TECH DOMAIN SUBTITLE (APPLE GLASS STYLE) -->
+<text x="640" y="186" class="mono-text" font-size="13" fill="#c77dff" text-anchor="middle" font-weight="600">
   KYŌKA SUIGETSU PROTOCOL  ✦  FULL CONTROL ENCOUNTER  ✦  COMPUTATIONAL SPECTROSCOPY
 </text>
 
-<!-- SWEEPING HOLOGRAPHIC SCANLINE -->
-<rect class="sweep-bar" x="0" y="214" width="1280" height="2" fill="url(#sweepLine)"/>
+<!-- SMOOTH LASER SWEEP BAR -->
+<rect class="sweep-bar" x="0" y="216" width="1280" height="1.8" fill="url(#sweepLine)"/>
 
 <!-- BOTTOM STATUS TICKER -->
-<line x1="120" y1="215" x2="1160" y2="215" stroke="#9d4edd" stroke-opacity="0.3" stroke-width="1"/>
+<line x1="120" y1="216" x2="1160" y2="216" stroke="#9d4edd" stroke-opacity="0.25" stroke-width="1"/>
 <text x="140" y="233" class="mono-text" font-size="11" fill="#7b82aa">NODE: SUBRATSAHU3</text>
-<text x="640" y="233" class="mono-text" font-size="11" fill="#00ff66" text-anchor="middle">STATUS: ACTIVE // REIATSU PEAKING 100%</text>
+<text x="640" y="233" class="mono-text" font-size="11" fill="#00ff66" text-anchor="middle" font-weight="700">STATUS: ACTIVE // REIATSU PEAKING 100%</text>
 <text x="1140" y="233" class="mono-text" font-size="11" fill="#7b82aa" text-anchor="end">DOMAIN: GITHUB SPECIAL ARCHIVE</text>
 
 </svg>
