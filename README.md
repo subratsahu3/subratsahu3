@@ -37,7 +37,7 @@
 
 <!-- ======================================================== -->
 <!-- ANTIGRAVITIC CHAKRA & REIATSU DESK (CLICKABLE PROFILE CONSOLE) -->
-<!-- NARUTO SHINOBI & BLEACH GOTEI 13 PROFILES CYCLING AT 4s DELAYS -->
+<!-- NARUTO SHINOBI & BLEACH GOTEI 13 PROFILES CYCLING AT 12s DELAYS -->
 <!-- ======================================================== -->
 <a href="https://github.com/subratsahu3?tab=repositories" title="Click to inspect all active Jutsu and Bankai codebases">
   <img src="./assets/cards/antigravity_jutsu_bankai.svg" alt="Antigravitic Anime Character Profile Desk — Naruto & Bleach" width="100%"/>
@@ -285,12 +285,16 @@ python -m speclab.gui
 | **飛雷神の術 (Flying Raijin)** | Minato Namikaze (Yellow Flash) | Instantaneous RPC / P2P Sync | [Isomorph State Sync](https://github.com/subratsahu3/isomorph) |
 | **天照 (Amaterasu)** | Itachi Uchiha (Akatsuki Enigma) | Inextinguishable Self-Healing Loop | [Agent Telemetry & Recovery](https://github.com/subratsahu3/agentops-platform) |
 | **神羅天征 (Shinra Tensei)** | Pain / Nagato (Six Paths) | Zero-Trust Defense & Rate-Limiting | [API Gateways & Security Shield](https://github.com/subratsahu3) |
+| **天碍震星 (Tengai Shinsei)** | Madara Uchiha (Ghost of Uchiha) | Planetary Disaster Recovery & Multi-Region Failover | [High-Availability Architecture](https://github.com/subratsahu3) |
+| **仙法・超大玉螺旋丸 (Senpō Rasengan)** | Jiraiya (Toad Sage) | Natural Compute Resource Harvester | [SpecLab Compute Cluster](https://github.com/subratsahu3/SpecLab-Spectrum-Analyzer) |
 | **【 卍解 】 天鎖斬月 (Tensa Zangetsu)** | Ichigo Kurosaki (Substitute Shinigami) | Hyper-Optimized Native C++ Bindings | [High-Performance Algorithms](https://github.com/subratsahu3) |
 | **【 卍解 】 鏡花水月 (Kyōka Suigetsu)** | Sōsuke Aizen (Sovereign) | Adversarial Simulation & Mocking | [AgentOps Evals Suite](https://github.com/subratsahu3/agentops-platform) |
 | **【 卍解 】 千本桜景厳 (Senbonzakura)** | Byakuya Kuchiki (Squad 6) | Distributed Microservice Cluster | [Distributed Mesh Workers](https://github.com/subratsahu3/phantasm-mesh) |
 | **【 卍解 】 残火の太刀 (Zanka no Tachi)** | Genryūsai Yamamoto (Commander) | High-Throughput GPU Compute Core | [Scientific Spectroscopy AI](https://github.com/subratsahu3/SpecLab-Spectrum-Analyzer) |
 | **【 卍解 】 大紅蓮氷輪丸 (Hyōrinmaru)** | Tōshirō Hitsugaya (Squad 10) | Immutable Zero-Loss Cold Storage | [State Persistence Engine](https://github.com/subratsahu3/isomorph) |
 | **【 卍解 】 観音開紅姫改メ (Benihime)** | Kisuke Urahara (Architect) | Dynamic AST Code Restructuring | [Autonomous Agent Compiler](https://github.com/subratsahu3) |
+| **【 卍解 】 野晒 (Nozarashi)** | Kenpachi Zaraki (11th Kenpachi) | High-Concurrency Stress Testing Core | [AgentOps Load Testing Suite](https://github.com/subratsahu3/agentops-platform) |
+| **【 卍解 】 花天狂骨枯松心中 (Karamatsu)** | Shunsui Kyōraku (Squad 1 Commander) | Multi-Stage State Consensus Protocol | [Phantasm Mesh Consensus](https://github.com/subratsahu3/phantasm-mesh) |
 
 </div>
 </details>

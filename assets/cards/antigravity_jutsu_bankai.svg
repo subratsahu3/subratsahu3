@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" width="1280" height="560" role="img" aria-label="Antigravitic Glassmorphic Anime Animation Panel">
 <title>Antigravity Shinobi &amp; Soul Society Nexus — All Naruto &amp; Bleach Character Desks</title>
-<desc>Antigravity frosted glass anime desk console featuring Naruto shinobi profiles with generated Jutsu visualizers and Bleach Gotei 13 profiles with generated Bankai visualizers, cycling with an exact 4-second delay per profile.</desc>
+<desc>Antigravity frosted glass anime desk console featuring Naruto shinobi profiles with generated Jutsu visualizers and Bleach Gotei 13 profiles with generated Bankai visualizers, cycling with an exact 12-second delay per profile.</desc>
 
 <defs>
   <!-- FROSTED GLASS BACKGROUND GRADIENTS -->
@@ -67,6 +67,24 @@
     <stop offset="100%" stop-color="#0044aa"/>
   </linearGradient>
 
+  <linearGradient id="susanooAura" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#00f0ff"/>
+    <stop offset="50%" stop-color="#0044ff"/>
+    <stop offset="100%" stop-color="#110033"/>
+  </linearGradient>
+
+  <linearGradient id="kenpachiAura" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#ffe600"/>
+    <stop offset="50%" stop-color="#ff7700"/>
+    <stop offset="100%" stop-color="#331100"/>
+  </linearGradient>
+
+  <linearGradient id="shunsuiShadow" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#c77dff"/>
+    <stop offset="60%" stop-color="#1a0b2e"/>
+    <stop offset="100%" stop-color="#04020a"/>
+  </linearGradient>
+
   <!-- SOFT AMBIENT GLOW AND SHADOW FILTERS -->
   <filter id="consoleShadow" x="-20%" y="-20%" width="140%" height="140%">
     <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#000000" flood-opacity="0.6"/>
@@ -117,17 +135,17 @@
       100% { transform: translateY(-500px) scale(1.2); opacity: 0; }
     }
 
-    /* EXACT 4.0s DELAY PROFILE CYCLING (24s TOTAL LOOP) */
+    /* EXACT 12.0s DELAY PROFILE CYCLING (96s TOTAL LOOP FOR 8 CHARACTERS) */
     .profile-card {
       opacity: 0;
-      animation: profileCycle 24s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+      animation: profileCycle12s 96s cubic-bezier(0.16, 1, 0.3, 1) infinite;
       pointer-events: none;
     }
 
-    @keyframes profileCycle {
+    @keyframes profileCycle12s {
       0% { opacity: 0; transform: translateY(10px) scale(0.98); }
-      1.5%, 15.17% { opacity: 1; transform: translateY(0px) scale(1); pointer-events: auto; }
-      16.67%, 100% { opacity: 0; transform: translateY(-10px) scale(0.98); pointer-events: none; }
+      0.625%, 11.875% { opacity: 1; transform: translateY(0px) scale(1); pointer-events: auto; }
+      12.5%, 100% { opacity: 0; transform: translateY(-10px) scale(0.98); pointer-events: none; }
     }
 
     /* GENERATED JUTSU &amp; BANKAI DYNAMIC ANIMATIONS */
@@ -176,6 +194,19 @@
       0%, 100% { stroke-dashoffset: 0; }
       50% { stroke-dashoffset: 24; }
     }
+    @keyframes meteorFall {
+      0% { transform: translate(-15px, -20px) scale(0.8); opacity: 0.3; }
+      50% { transform: translate(0, 0) scale(1.05); opacity: 1; }
+      100% { transform: translate(15px, 20px) scale(0.8); opacity: 0.3; }
+    }
+    @keyframes kenpachiSlash {
+      0%, 100% { transform: rotate(-8deg) scale(0.95); }
+      50% { transform: rotate(8deg) scale(1.05); }
+    }
+    @keyframes theaterShadowPulse {
+      0%, 100% { opacity: 0.5; transform: scaleY(1); }
+      50% { opacity: 0.95; transform: scaleY(1.15); }
+    }
 
     .p-float { animation: particleUp ease-in-out infinite; }
     .pod-left-anim { animation: podLevitateLeft 8s cubic-bezier(0.25, 1, 0.5, 1) infinite; }
@@ -223,11 +254,11 @@
   ⟨ SHINOBI &amp; SOUL SOCIETY NEXUS // QUANTUM PROFILE DESK ⟩
 </text>
 
-<!-- LIVE DESK STATUS PILL -->
-<g transform="translate(970, 26)">
-  <rect x="0" y="0" width="265" height="24" rx="12" fill="#ffffff" fill-opacity="0.06" stroke="#00ff66" stroke-width="0.8"/>
+<!-- LIVE DESK STATUS PILL (12s DELAY DWELL) -->
+<g transform="translate(960, 26)">
+  <rect x="0" y="0" width="275" height="24" rx="12" fill="#ffffff" fill-opacity="0.06" stroke="#00ff66" stroke-width="0.8"/>
   <circle cx="14" cy="12" r="3.5" fill="#00ff66" filter="url(#neonGlow)"/>
-  <text x="25" y="16" class="mono-text" font-size="10.5" fill="#00ff66" font-weight="700">PROFILE DWELL: 4.0s ✦ ZERO-G</text>
+  <text x="25" y="16" class="mono-text" font-size="10.5" fill="#00ff66" font-weight="700">PROFILE DWELL: 12.0s ✦ ZERO-G</text>
 </g>
 
 <!-- FLOATING PARTICLES (ASYNCHRONOUS ZERO-G DRIFT) -->
@@ -262,17 +293,14 @@
   <text x="46" y="34" class="mono-text" font-size="11.5" fill="#ff9900" font-weight="700" letter-spacing="1">
     ⚡ NARUTO SHINOBI PROFILE DESK
   </text>
-  <rect x="360" y="20" width="95" height="20" rx="10" fill="#ff7700" fill-opacity="0.25"/>
-  <text x="407" y="34" class="mono-text" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="700">4s ROTATION</text>
+  <rect x="350" y="20" width="105" height="20" rx="10" fill="#ff7700" fill-opacity="0.25"/>
+  <text x="402" y="34" class="mono-text" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="700">12s ROTATION</text>
 
-  <!-- ==================== NARUTO CHARACTER 1: NARUTO UZUMAKI ==================== -->
+  <!-- ==================== NARUTO 1: NARUTO UZUMAKI (0s - 12s) ==================== -->
   <g class="profile-card" style="animation-delay: 0s;">
-    <!-- PROFILE HEADER BOX -->
     <rect x="15" y="54" width="450" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ff7700" stroke-width="0.7"/>
-    <!-- AVATAR EMBLEM (UZUMAKI SPIRAL) -->
     <circle cx="44" cy="80" r="18" fill="#1b120c" stroke="#ff7700" stroke-width="1.5"/>
     <path d="M44 80 m-10,0 a10,10 0 1,0 20,0 a7,7 0 1,0 -14,0 a4,4 0 1,0 8,0" fill="none" stroke="#ffaa00" stroke-width="1.8"/>
-    <!-- PROFILE DETAILS -->
     <text x="72" y="74" class="sans-text" font-size="14.5" fill="#ffffff" font-weight="800">NARUTO UZUMAKI</text>
     <text x="215" y="74" class="kanji-text" font-size="12" fill="#ffaa00">うずまきナルト</text>
     <rect x="72" y="81" width="130" height="17" rx="8" fill="#ff7700" fill-opacity="0.25"/>
@@ -281,27 +309,21 @@
 
     <!-- GENERATED JUTSU VISUALIZER STAGE -->
     <rect x="15" y="114" width="450" height="195" rx="14" fill="#080c1e" fill-opacity="0.85" stroke="#00f0ff" stroke-width="0.8"/>
-    <!-- RASENGAN / RASENSHURIKEN ANIMATION -->
     <g transform="translate(240, 205)">
-      <!-- EXPANDING CHAKRA SHOCKWAVE -->
       <circle cx="0" cy="0" r="28" fill="none" stroke="#00f0ff" stroke-width="1.5" class="core-ripple" style="transform-origin: 0 0;"/>
-      <!-- SPINNING WIND SHURIKEN BLADES -->
       <g style="transform-origin: 0 0; animation: spinVortexFast 2.2s linear infinite;">
         <path d="M0 -15 C25 -55 55 -25 15 0 C55 25 25 55 0 15 C-25 55 -55 25 -15 0 C-55 -25 -25 -55 0 -15 Z" fill="#00f0ff" fill-opacity="0.25" stroke="#ffffff" stroke-width="1.5" filter="url(#neonGlow)"/>
       </g>
-      <!-- REVERSE ROTATING CHAKRA RINGS -->
       <g style="transform-origin: 0 0; animation: spinVortexRev 1.6s linear infinite;">
         <ellipse cx="0" cy="0" rx="46" ry="16" fill="none" stroke="#00f0ff" stroke-width="1.8" stroke-dasharray="8 6"/>
       </g>
       <g style="transform-origin: 0 0; animation: spinVortexFast 1.2s linear infinite;">
         <ellipse cx="0" cy="0" rx="16" ry="46" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="10 8"/>
       </g>
-      <!-- CORE DENSE CHAKRA SPHERE -->
       <circle cx="0" cy="0" r="20" fill="url(#chakraCyan)" filter="url(#electricGlow)"/>
       <circle cx="0" cy="0" r="8" fill="#ffffff"/>
     </g>
 
-    <!-- TECHNIQUE TITLE &amp; ATTRIBUTES -->
     <text x="240" y="326" class="kanji-text" font-size="16" fill="#00f0ff" text-anchor="middle" filter="url(#neonGlow)">
       【 螺旋丸 】 RASENGAN // HIGH-RPM CHAKRA CORE
     </text>
@@ -309,7 +331,6 @@
       Shape Transformation · S-Rank Compression Ratio 99.8%
     </text>
 
-    <!-- COMBAT POWER OUTPUT METER -->
     <g transform="translate(35, 360)">
       <text x="0" y="10" class="mono-text" font-size="10" fill="#ffaa00" font-weight="700">CHAKRA LEVEL: 99,800</text>
       <text x="410" y="10" class="mono-text" font-size="10" fill="#00ff66" text-anchor="end" font-weight="700">SSS-TIER</text>
@@ -318,16 +339,13 @@
     </g>
   </g>
 
-  <!-- ==================== NARUTO CHARACTER 2: SASUKE UCHIHA ==================== -->
-  <g class="profile-card" style="animation-delay: 4s;">
-    <!-- PROFILE HEADER BOX -->
+  <!-- ==================== NARUTO 2: SASUKE UCHIHA (12s - 24s) ==================== -->
+  <g class="profile-card" style="animation-delay: 12s;">
     <rect x="15" y="54" width="450" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#00f0ff" stroke-width="0.7"/>
-    <!-- AVATAR EMBLEM (UCHIHA CREST) -->
     <circle cx="44" cy="80" r="18" fill="#160814" stroke="#ff0055" stroke-width="1.5"/>
     <path d="M44 68 C50 68 54 74 54 80 C54 86 44 86 44 86 C44 86 34 86 34 80 C34 74 38 68 44 68 Z" fill="#ff0044"/>
     <path d="M34 80 C34 86 44 92 44 92 C44 92 54 86 54 80 Z" fill="#ffffff"/>
     <line x1="44" y1="88" x2="44" y2="94" stroke="#ffffff" stroke-width="2"/>
-    <!-- PROFILE DETAILS -->
     <text x="72" y="74" class="sans-text" font-size="14.5" fill="#ffffff" font-weight="800">SASUKE UCHIHA</text>
     <text x="200" y="74" class="kanji-text" font-size="12" fill="#00f0ff">うちはサスケ</text>
     <rect x="72" y="81" width="130" height="17" rx="8" fill="#00f0ff" fill-opacity="0.25"/>
@@ -336,19 +354,15 @@
 
     <!-- GENERATED JUTSU VISUALIZER STAGE -->
     <rect x="15" y="114" width="450" height="195" rx="14" fill="#080c1e" fill-opacity="0.85" stroke="#00f0ff" stroke-width="0.8"/>
-    <!-- CHIDORI / KIRIN LIGHTNING ANIMATION -->
     <g transform="translate(240, 205)">
-      <!-- CRACKLING LIGHTNING ARCS -->
       <path d="M-60 -40 L-25 -10 L-35 15 L0 0 L25 -30 L45 10 L80 -20" fill="none" stroke="#00f0ff" stroke-width="2.2" class="flicker" style="animation: lightningFlicker 0.4s infinite;" filter="url(#electricGlow)"/>
       <path d="M-50 40 L-20 15 L5 45 L30 10 L65 35" fill="none" stroke="#ffffff" stroke-width="1.8" class="flicker" style="animation: lightningFlicker 0.3s infinite 0.1s;" filter="url(#electricGlow)"/>
       <path d="M-10 -60 L15 -20 L-5 10 L25 50" fill="none" stroke="#00f0ff" stroke-width="2" class="flicker" style="animation: lightningFlicker 0.5s infinite 0.2s;" filter="url(#neonGlow)"/>
-      <!-- PIERCING CHIDORI SPARK CORE -->
       <circle cx="0" cy="0" r="22" fill="#ffffff" fill-opacity="0.8" filter="url(#electricGlow)"/>
       <circle cx="0" cy="0" r="10" fill="#00f0ff"/>
       <polygon points="0,-35 8,-8 35,0 8,8 0,35 -8,8 -35,0 -8,-8" fill="#00f0ff" fill-opacity="0.5" filter="url(#neonGlow)"/>
     </g>
 
-    <!-- TECHNIQUE TITLE &amp; ATTRIBUTES -->
     <text x="240" y="326" class="kanji-text" font-size="16" fill="#00f0ff" text-anchor="middle" filter="url(#neonGlow)">
       【 千 鳥 】 CHIDORI // ONE THOUSAND BIRDS
     </text>
@@ -356,7 +370,6 @@
       Lightning Release Thrust · High-Frequency Piercing Velocity
     </text>
 
-    <!-- COMBAT POWER OUTPUT METER -->
     <g transform="translate(35, 360)">
       <text x="0" y="10" class="mono-text" font-size="10" fill="#00f0ff" font-weight="700">PIERCING OUTPUT: 97,500</text>
       <text x="410" y="10" class="mono-text" font-size="10" fill="#00ff66" text-anchor="end" font-weight="700">SS-TIER</text>
@@ -365,15 +378,12 @@
     </g>
   </g>
 
-  <!-- ==================== NARUTO CHARACTER 3: KAKASHI HATAKE ==================== -->
-  <g class="profile-card" style="animation-delay: 8s;">
-    <!-- PROFILE HEADER BOX -->
+  <!-- ==================== NARUTO 3: KAKASHI HATAKE (24s - 36s) ==================== -->
+  <g class="profile-card" style="animation-delay: 24s;">
     <rect x="15" y="54" width="450" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#c77dff" stroke-width="0.7"/>
-    <!-- AVATAR EMBLEM (MASK &amp; SCAR) -->
     <circle cx="44" cy="80" r="18" fill="#12162a" stroke="#c77dff" stroke-width="1.5"/>
     <path d="M44 65 L44 95" stroke="#ff0055" stroke-width="2"/>
     <circle cx="44" cy="80" r="5" fill="#ff0055"/>
-    <!-- PROFILE DETAILS -->
     <text x="72" y="74" class="sans-text" font-size="14.5" fill="#ffffff" font-weight="800">KAKASHI HATAKE</text>
     <text x="205" y="74" class="kanji-text" font-size="12" fill="#c77dff">はたけカカシ</text>
     <rect x="72" y="81" width="130" height="17" rx="8" fill="#c77dff" fill-opacity="0.25"/>
@@ -382,21 +392,16 @@
 
     <!-- GENERATED JUTSU VISUALIZER STAGE -->
     <rect x="15" y="114" width="450" height="195" rx="14" fill="#080c1e" fill-opacity="0.85" stroke="#c77dff" stroke-width="0.8"/>
-    <!-- KAMUI RAIKIRI SPACE-TIME VORTEX -->
     <g transform="translate(240, 205)">
-      <!-- ROTATING DIMENSIONAL SPIRALS -->
       <g style="transform-origin: 0 0; animation: spinVortexFast 3s linear infinite;">
         <ellipse cx="0" cy="0" rx="55" ry="30" fill="none" stroke="#9d4edd" stroke-width="2.5" stroke-dasharray="16 10" filter="url(#neonGlow)"/>
         <ellipse cx="0" cy="0" rx="40" ry="20" fill="none" stroke="#c77dff" stroke-width="2" stroke-dasharray="12 6"/>
       </g>
-      <!-- SINGULARITY CORE -->
       <circle cx="0" cy="0" r="22" fill="#04020a" stroke="#c77dff" stroke-width="1.8"/>
-      <!-- PIERCING VIOLET LIGHTNING BLADES -->
       <path d="M-45 -25 L0 0 L45 25 M-25 45 L0 0 L25 -45" stroke="#00f0ff" stroke-width="2" filter="url(#electricGlow)"/>
       <circle cx="0" cy="0" r="6" fill="#ffffff"/>
     </g>
 
-    <!-- TECHNIQUE TITLE &amp; ATTRIBUTES -->
     <text x="240" y="326" class="kanji-text" font-size="16" fill="#c77dff" text-anchor="middle" filter="url(#neonGlow)">
       【 神威雷切 】 KAMUI RAIKIRI // SPACE-TIME CUTTER
     </text>
@@ -404,7 +409,6 @@
       Intangible Raikiri Thrust · Dimensional Warp Obliteration
     </text>
 
-    <!-- COMBAT POWER OUTPUT METER -->
     <g transform="translate(35, 360)">
       <text x="0" y="10" class="mono-text" font-size="10" fill="#c77dff" font-weight="700">ARSENAL: 1,000+ COPIED JUTSU</text>
       <text x="410" y="10" class="mono-text" font-size="10" fill="#00ff66" text-anchor="end" font-weight="700">S-RANK</text>
@@ -413,14 +417,11 @@
     </g>
   </g>
 
-  <!-- ==================== NARUTO CHARACTER 4: MINATO NAMIKAZE ==================== -->
-  <g class="profile-card" style="animation-delay: 12s;">
-    <!-- PROFILE HEADER BOX -->
+  <!-- ==================== NARUTO 4: MINATO NAMIKAZE (36s - 48s) ==================== -->
+  <g class="profile-card" style="animation-delay: 36s;">
     <rect x="15" y="54" width="450" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ffe600" stroke-width="0.7"/>
-    <!-- AVATAR EMBLEM (YELLOW FLASH) -->
     <circle cx="44" cy="80" r="18" fill="#1c1808" stroke="#ffe600" stroke-width="1.5"/>
     <polygon points="44,67 48,77 56,80 48,83 44,93 40,83 32,80 40,77" fill="#ffe600"/>
-    <!-- PROFILE DETAILS -->
     <text x="72" y="74" class="sans-text" font-size="14.5" fill="#ffffff" font-weight="800">MINATO NAMIKAZE</text>
     <text x="220" y="74" class="kanji-text" font-size="12" fill="#ffe600">波風ミナト</text>
     <rect x="72" y="81" width="130" height="17" rx="8" fill="#ffe600" fill-opacity="0.25"/>
@@ -429,23 +430,18 @@
 
     <!-- GENERATED JUTSU VISUALIZER STAGE -->
     <rect x="15" y="114" width="450" height="195" rx="14" fill="#080c1e" fill-opacity="0.85" stroke="#ffe600" stroke-width="0.8"/>
-    <!-- FLYING RAIJIN TELEPORTATION BURST -->
     <g transform="translate(240, 205)">
-      <!-- 8-AXIS TELEPORTATION BEAMS -->
       <g style="transform-origin: 0 0; animation: spinVortexFast 4s linear infinite;">
         <line x1="-70" y1="0" x2="70" y2="0" stroke="#ffe600" stroke-width="1.5" stroke-dasharray="8 6" filter="url(#neonGlow)"/>
         <line x1="0" y1="-70" x2="0" y2="70" stroke="#ffe600" stroke-width="1.5" stroke-dasharray="8 6" filter="url(#neonGlow)"/>
         <line x1="-50" y1="-50" x2="50" y2="50" stroke="#ffe600" stroke-width="1.2" stroke-dasharray="8 6"/>
         <line x1="-50" y1="50" x2="50" y2="-50" stroke="#ffe600" stroke-width="1.2" stroke-dasharray="8 6"/>
       </g>
-      <!-- EXPANDING FLASH WAVE -->
       <circle cx="0" cy="0" r="28" fill="none" stroke="#ffe600" stroke-width="2" class="core-ripple" style="transform-origin: 0 0;"/>
-      <!-- HIRAISHIN KUNAI WITH SEAL -->
       <polygon points="0,-30 8,10 0,25 -8,10" fill="#ffe600" stroke="#ffffff" stroke-width="1.5" filter="url(#neonGlow)"/>
       <circle cx="0" cy="27" r="4" fill="none" stroke="#ffe600" stroke-width="1.5"/>
     </g>
 
-    <!-- TECHNIQUE TITLE &amp; ATTRIBUTES -->
     <text x="240" y="326" class="kanji-text" font-size="16" fill="#ffe600" text-anchor="middle" filter="url(#neonGlow)">
       【 飛雷神の術 】 FLYING RAIJIN // INSTANT TELEPORT
     </text>
@@ -453,7 +449,6 @@
       Zero-Latency Space-Time Jutsu · Guiding Thunder Barrier
     </text>
 
-    <!-- COMBAT POWER OUTPUT METER -->
     <g transform="translate(35, 360)">
       <text x="0" y="10" class="mono-text" font-size="10" fill="#ffe600" font-weight="700">VELOCITY: 0.00ms [INSTANT]</text>
       <text x="410" y="10" class="mono-text" font-size="10" fill="#00ff66" text-anchor="end" font-weight="700">GOD-TIER</text>
@@ -462,17 +457,14 @@
     </g>
   </g>
 
-  <!-- ==================== NARUTO CHARACTER 5: ITACHI UCHIHA ==================== -->
-  <g class="profile-card" style="animation-delay: 16s;">
-    <!-- PROFILE HEADER BOX -->
+  <!-- ==================== NARUTO 5: ITACHI UCHIHA (48s - 60s) ==================== -->
+  <g class="profile-card" style="animation-delay: 48s;">
     <rect x="15" y="54" width="450" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ff0055" stroke-width="0.7"/>
-    <!-- AVATAR EMBLEM (MANGEKYO PINWHEEL) -->
     <circle cx="44" cy="80" r="18" fill="#16020a" stroke="#ff0055" stroke-width="1.5"/>
     <g transform="translate(44, 80) scale(0.6)">
       <path d="M0 -18 C12 -6 6 12 -12 8 C-6 12 12 6 8 -12 Z" fill="#ff0044"/>
       <circle cx="0" cy="0" r="4" fill="#000000"/>
     </g>
-    <!-- PROFILE DETAILS -->
     <text x="72" y="74" class="sans-text" font-size="14.5" fill="#ffffff" font-weight="800">ITACHI UCHIHA</text>
     <text x="195" y="74" class="kanji-text" font-size="12" fill="#ff0055">うちはイタチ</text>
     <rect x="72" y="81" width="130" height="17" rx="8" fill="#ff0055" fill-opacity="0.25"/>
@@ -481,20 +473,16 @@
 
     <!-- GENERATED JUTSU VISUALIZER STAGE -->
     <rect x="15" y="114" width="450" height="195" rx="14" fill="#080c1e" fill-opacity="0.85" stroke="#ff0055" stroke-width="0.8"/>
-    <!-- AMATERASU BLACK FLAMES ANIMATION -->
     <g transform="translate(240, 205)">
-      <!-- ROTATING MANGEKYO IRIS BACKGROUND -->
       <g style="transform-origin: 0 0; animation: spinVortexFast 6s linear infinite;">
         <circle cx="0" cy="0" r="50" fill="none" stroke="#ff0055" stroke-width="1.5" stroke-dasharray="14 10" opacity="0.6"/>
       </g>
-      <!-- LICKING BLACK FLAME TONGUES -->
       <g style="animation: amaterasuBurn 1.6s ease-in-out infinite;">
         <path d="M-40 25 C-50 -10 -25 -45 -15 -10 C-10 -40 15 -55 20 -15 C35 -40 50 -10 40 25 C25 40 -25 40 -40 25 Z" fill="url(#amaterasuFlame)" stroke="#ff0055" stroke-width="2" filter="url(#neonGlow)"/>
         <path d="M-20 20 C-25 0 -10 -20 -5 0 C0 -25 15 -20 10 5 C5 25 -15 25 -20 20 Z" fill="#05000a" stroke="#ffffff" stroke-width="1"/>
       </g>
     </g>
 
-    <!-- TECHNIQUE TITLE &amp; ATTRIBUTES -->
     <text x="240" y="326" class="kanji-text" font-size="16" fill="#ff0055" text-anchor="middle" filter="url(#neonGlow)">
       【 天 照 】 AMATERASU // INEXTINGUISHABLE INFERNO
     </text>
@@ -502,7 +490,6 @@
       Highest Dōjutsu Blaze · Burns for 7 Days &amp; Nights
     </text>
 
-    <!-- COMBAT POWER OUTPUT METER -->
     <g transform="translate(35, 360)">
       <text x="0" y="10" class="mono-text" font-size="10" fill="#ff0055" font-weight="700">GENJUTSU POTENCY: S+</text>
       <text x="410" y="10" class="mono-text" font-size="10" fill="#00ff66" text-anchor="end" font-weight="700">UNBREAKABLE</text>
@@ -511,16 +498,13 @@
     </g>
   </g>
 
-  <!-- ==================== NARUTO CHARACTER 6: PAIN / NAGATO ==================== -->
-  <g class="profile-card" style="animation-delay: 20s;">
-    <!-- PROFILE HEADER BOX -->
+  <!-- ==================== NARUTO 6: PAIN / NAGATO (60s - 72s) ==================== -->
+  <g class="profile-card" style="animation-delay: 60s;">
     <rect x="15" y="54" width="450" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ffaa00" stroke-width="0.7"/>
-    <!-- AVATAR EMBLEM (RINNEGAN CONCENTRIC RINGS) -->
     <circle cx="44" cy="80" r="18" fill="#14101e" stroke="#c77dff" stroke-width="1.5"/>
     <circle cx="44" cy="80" r="13" fill="none" stroke="#c77dff" stroke-width="1.2"/>
     <circle cx="44" cy="80" r="8" fill="none" stroke="#c77dff" stroke-width="1.2"/>
     <circle cx="44" cy="80" r="3" fill="#c77dff"/>
-    <!-- PROFILE DETAILS -->
     <text x="72" y="74" class="sans-text" font-size="14.5" fill="#ffffff" font-weight="800">PAIN / NAGATO</text>
     <text x="200" y="74" class="kanji-text" font-size="12" fill="#ffaa00">ペイン / 長門</text>
     <rect x="72" y="81" width="130" height="17" rx="8" fill="#ffaa00" fill-opacity="0.25"/>
@@ -529,23 +513,18 @@
 
     <!-- GENERATED JUTSU VISUALIZER STAGE -->
     <rect x="15" y="114" width="450" height="195" rx="14" fill="#080c1e" fill-opacity="0.85" stroke="#ffaa00" stroke-width="0.8"/>
-    <!-- SHINRA TENSEI GRAVITATIONAL SHOCKWAVES -->
     <g transform="translate(240, 205)">
-      <!-- CONCENTRIC REPULSION BARRIERS -->
       <circle cx="0" cy="0" r="20" fill="none" stroke="#ffaa00" stroke-width="2.5" class="core-ripple" style="transform-origin: 0 0;"/>
       <circle cx="0" cy="0" r="20" fill="none" stroke="#ffffff" stroke-width="1.8" class="core-ripple" style="transform-origin: 0 0; animation-delay: 1.2s;"/>
       <circle cx="0" cy="0" r="20" fill="none" stroke="#c77dff" stroke-width="1.5" class="core-ripple" style="transform-origin: 0 0; animation-delay: 2.4s;"/>
-      <!-- GRAVITATIONAL SINGULARITY -->
       <circle cx="0" cy="0" r="14" fill="#ffffff" filter="url(#electricGlow)"/>
       <circle cx="0" cy="0" r="6" fill="#050713"/>
-      <!-- EXPELLED SHATTERED DEBRIS -->
       <polygon points="-45,-30 -38,-24 -42,-18" fill="#ffaa00"/>
       <polygon points="50,-25 58,-20 52,-15" fill="#c77dff"/>
       <polygon points="-35,40 -28,45 -32,50" fill="#ffffff"/>
       <polygon points="40,35 48,42 42,46" fill="#ffaa00"/>
     </g>
 
-    <!-- TECHNIQUE TITLE &amp; ATTRIBUTES -->
     <text x="240" y="326" class="kanji-text" font-size="16" fill="#ffaa00" text-anchor="middle" filter="url(#neonGlow)">
       【 神羅天征 】 SHINRA TENSEI // ALMIGHTY PUSH
     </text>
@@ -553,12 +532,95 @@
       Omnidirectional Gravitational Repulsion · City-Level Deflection
     </text>
 
-    <!-- COMBAT POWER OUTPUT METER -->
     <g transform="translate(35, 360)">
       <text x="0" y="10" class="mono-text" font-size="10" fill="#ffaa00" font-weight="700">GRAVITATIONAL FORCE: OMNIPOTENT</text>
       <text x="410" y="10" class="mono-text" font-size="10" fill="#00ff66" text-anchor="end" font-weight="700">GOD-TIER</text>
       <rect x="0" y="16" width="410" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
       <rect x="0" y="16" width="405" height="6" rx="3" fill="#ffaa00" filter="url(#neonGlow)"/>
+    </g>
+  </g>
+
+  <!-- ==================== NARUTO 7: MADARA UCHIHA (72s - 84s) ==================== -->
+  <g class="profile-card" style="animation-delay: 72s;">
+    <rect x="15" y="54" width="450" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#00f0ff" stroke-width="0.7"/>
+    <circle cx="44" cy="80" r="18" fill="#090a1f" stroke="#00f0ff" stroke-width="1.5"/>
+    <path d="M38 72 L50 88 M50 72 L38 88" stroke="#00f0ff" stroke-width="2"/>
+    <circle cx="44" cy="80" r="4" fill="#ff0055"/>
+    <text x="72" y="74" class="sans-text" font-size="14.5" fill="#ffffff" font-weight="800">MADARA UCHIHA</text>
+    <text x="210" y="74" class="kanji-text" font-size="12" fill="#00f0ff">うちはマダラ</text>
+    <rect x="72" y="81" width="145" height="17" rx="8" fill="#00f0ff" fill-opacity="0.25"/>
+    <text x="144" y="93" class="mono-text" font-size="9" fill="#00f0ff" text-anchor="middle" font-weight="700">GHOST OF THE UCHIHA</text>
+    <text x="227" y="93" class="mono-text" font-size="9.5" fill="#8892b0">SUSANOO · TENGAI SHINSEI</text>
+
+    <!-- GENERATED JUTSU VISUALIZER STAGE -->
+    <rect x="15" y="114" width="450" height="195" rx="14" fill="#080c1e" fill-opacity="0.85" stroke="#00f0ff" stroke-width="0.8"/>
+    <g transform="translate(240, 205)">
+      <!-- CELESTIAL METEORITE WITH SUSANOO WINGS -->
+      <g style="animation: meteorFall 3s ease-in-out infinite;">
+        <circle cx="0" cy="0" r="34" fill="#140a18" stroke="#ff4400" stroke-width="2.5" filter="url(#neonGlow)"/>
+        <path d="M-20 -20 Q0 -40 20 -20 Q40 0 20 20 Q0 40 -20 20 Z" fill="#ff5500" fill-opacity="0.3"/>
+        <circle cx="0" cy="0" r="18" fill="#ffaa00" fill-opacity="0.5"/>
+      </g>
+      <!-- SUSANOO AZURE ENERGY BLADES -->
+      <path d="M-60 30 L-25 -20 L-35 50 Z" fill="url(#susanooAura)" stroke="#00f0ff" stroke-width="1.5" filter="url(#neonGlow)"/>
+      <path d="M60 30 L25 -20 L35 50 Z" fill="url(#susanooAura)" stroke="#00f0ff" stroke-width="1.5" filter="url(#neonGlow)"/>
+      <!-- ATMOSPHERIC IMPACT RINGS -->
+      <ellipse cx="0" cy="40" rx="55" ry="12" fill="none" stroke="#ff7700" stroke-width="1.8" stroke-dasharray="10 6"/>
+    </g>
+
+    <text x="240" y="326" class="kanji-text" font-size="16" fill="#00f0ff" text-anchor="middle" filter="url(#neonGlow)">
+      【 天碍震星 】 TENGAI SHINSEI // DUAL HEAVENLY METEORS
+    </text>
+    <text x="240" y="344" class="sans-text" font-size="11.5" fill="#8892b0" text-anchor="middle">
+      Dual Rinnegan Celestial Descent · Cataclysmic Planetary Impact
+    </text>
+
+    <g transform="translate(35, 360)">
+      <text x="0" y="10" class="mono-text" font-size="10" fill="#00f0ff" font-weight="700">SUSANOO INTEGRITY: 100% PERFECT</text>
+      <text x="410" y="10" class="mono-text" font-size="10" fill="#00ff66" text-anchor="end" font-weight="700">GOD-TIER</text>
+      <rect x="0" y="16" width="410" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
+      <rect x="0" y="16" width="410" height="6" rx="3" fill="url(#chakraCyan)" filter="url(#neonGlow)"/>
+    </g>
+  </g>
+
+  <!-- ==================== NARUTO 8: JIRAIYA (84s - 96s) ==================== -->
+  <g class="profile-card" style="animation-delay: 84s;">
+    <rect x="15" y="54" width="450" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ffaa00" stroke-width="0.7"/>
+    <circle cx="44" cy="80" r="18" fill="#1b1008" stroke="#ffaa00" stroke-width="1.5"/>
+    <polygon points="44,67 52,75 52,85 44,93 36,85 36,75" fill="#ffaa00" fill-opacity="0.4"/>
+    <circle cx="44" cy="80" r="5" fill="#ff3300"/>
+    <text x="72" y="74" class="sans-text" font-size="14.5" fill="#ffffff" font-weight="800">JIRAIYA (TOAD SAGE)</text>
+    <text x="240" y="74" class="kanji-text" font-size="12" fill="#ffaa00">自来也</text>
+    <rect x="72" y="81" width="130" height="17" rx="8" fill="#ffaa00" fill-opacity="0.25"/>
+    <text x="137" y="93" class="mono-text" font-size="9" fill="#ffaa00" text-anchor="middle" font-weight="700">LEGENDARY SANNIN</text>
+    <text x="212" y="93" class="mono-text" font-size="9.5" fill="#8892b0">MYOBOKU SAGE · OIL &amp; FLAME</text>
+
+    <!-- GENERATED JUTSU VISUALIZER STAGE -->
+    <rect x="15" y="114" width="450" height="195" rx="14" fill="#080c1e" fill-opacity="0.85" stroke="#ffaa00" stroke-width="0.8"/>
+    <g transform="translate(240, 205)">
+      <!-- ULTRA-BIG BALL SAGE RASENGAN WITH FIRE OIL -->
+      <circle cx="0" cy="0" r="42" fill="url(#narutoOrange)" fill-opacity="0.3" stroke="#ffe600" stroke-width="2" class="core-ripple" style="transform-origin: 0 0;"/>
+      <g style="transform-origin: 0 0; animation: spinVortexRev 2s linear infinite;">
+        <ellipse cx="0" cy="0" rx="55" ry="24" fill="none" stroke="#ff7700" stroke-width="2" stroke-dasharray="14 8" filter="url(#neonGlow)"/>
+      </g>
+      <circle cx="0" cy="0" r="28" fill="#ffe600" fill-opacity="0.8" filter="url(#electricGlow)"/>
+      <circle cx="0" cy="0" r="12" fill="#ffffff"/>
+      <!-- SAGE MARKINGS -->
+      <path d="M-22 35 C-10 45 10 45 22 35" fill="none" stroke="#ff3300" stroke-width="2.5"/>
+    </g>
+
+    <text x="240" y="326" class="kanji-text" font-size="16" fill="#ffaa00" text-anchor="middle" filter="url(#neonGlow)">
+      【 仙法・超大玉螺旋丸 】 SENPŌ CHŌ ŌDAMA RASENGAN
+    </text>
+    <text x="240" y="344" class="sans-text" font-size="11.5" fill="#8892b0" text-anchor="middle">
+      Natural Energy Sage Infusion · Mountain-Carving Gigantic Core
+    </text>
+
+    <g transform="translate(35, 360)">
+      <text x="0" y="10" class="mono-text" font-size="10" fill="#ffaa00" font-weight="700">NATURAL SAGE CHAKRA: 100%</text>
+      <text x="410" y="10" class="mono-text" font-size="10" fill="#00ff66" text-anchor="end" font-weight="700">SANNIN-TIER</text>
+      <rect x="0" y="16" width="410" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
+      <rect x="0" y="16" width="395" height="6" rx="3" fill="#ffaa00" filter="url(#neonGlow)"/>
     </g>
   </g>
 </g>
@@ -567,11 +629,9 @@
 <!-- CENTER GYROSCOPIC CORE (QUANTUM LEVITATION GIMBAL)      -->
 <!-- ======================================================== -->
 <g transform="translate(0, 0)">
-  <!-- PULSATING GRAVITATIONAL RIPPLES -->
   <circle class="core-ripple" cx="640" cy="285" r="35" fill="none" stroke="#00f0ff" opacity="0.8"/>
   <circle class="core-ripple" cx="640" cy="285" r="35" fill="none" stroke="#9d4edd" opacity="0.8" style="animation-delay: 1.9s;"/>
 
-  <!-- 3 ROTATING GYROSCOPIC GIMBAL RINGS -->
   <g class="g1">
     <ellipse cx="640" cy="285" rx="90" ry="34" fill="none" stroke="#00f0ff" stroke-width="1.8" stroke-dasharray="12 8" opacity="0.8" filter="url(#neonGlow)"/>
   </g>
@@ -582,11 +642,10 @@
     <ellipse cx="640" cy="285" rx="50" ry="88" fill="none" stroke="#ffaa00" stroke-width="1.4" stroke-dasharray="10 6" opacity="0.85" filter="url(#neonGlow)"/>
   </g>
 
-  <!-- INNER CORE POWER DISK -->
   <circle cx="640" cy="285" r="50" fill="#090e24" stroke="url(#glassBorder)" stroke-width="2" filter="url(#neonGlow)"/>
   <text x="640" y="277" class="kanji-text" font-size="24" fill="#ffaa00" text-anchor="middle" font-weight="900" filter="url(#neonGlow)">卍・忍</text>
   <text x="640" y="297" class="mono-text" font-size="9" fill="#00f0ff" text-anchor="middle" font-weight="700">QUANTUM</text>
-  <text x="640" y="310" class="mono-text" font-size="8.5" fill="#00ff66" text-anchor="middle">SYNC 4.0s</text>
+  <text x="640" y="310" class="mono-text" font-size="8.5" fill="#00ff66" text-anchor="middle">SYNC 12.0s</text>
 </g>
 
 <!-- ======================================================== -->
@@ -603,17 +662,14 @@
   <text x="46" y="34" class="mono-text" font-size="11.5" fill="#c77dff" font-weight="700" letter-spacing="1">
     ⚔️ BLEACH GOTEI 13 PROFILE DESK
   </text>
-  <rect x="360" y="20" width="95" height="20" rx="10" fill="#9d4edd" fill-opacity="0.25"/>
-  <text x="407" y="34" class="mono-text" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="700">4s ROTATION</text>
+  <rect x="350" y="20" width="105" height="20" rx="10" fill="#9d4edd" fill-opacity="0.25"/>
+  <text x="402" y="34" class="mono-text" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="700">12s ROTATION</text>
 
-  <!-- ==================== BLEACH CHARACTER 1: ICHIGO KUROSAKI ==================== -->
-  <g class="profile-card" style="animation-delay: 2s;">
-    <!-- PROFILE HEADER BOX -->
+  <!-- ==================== BLEACH 1: ICHIGO KUROSAKI (6s - 18s) ==================== -->
+  <g class="profile-card" style="animation-delay: 6s;">
     <rect x="15" y="54" width="450" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ff0044" stroke-width="0.7"/>
-    <!-- AVATAR EMBLEM (VISORED MASK STRIPES) -->
     <circle cx="44" cy="80" r="18" fill="#140810" stroke="#ff0044" stroke-width="1.5"/>
     <path d="M36 70 L42 90 M42 70 L48 90 M48 70 L54 90" stroke="#ff0044" stroke-width="1.8"/>
-    <!-- PROFILE DETAILS -->
     <text x="72" y="74" class="sans-text" font-size="14.5" fill="#ffffff" font-weight="800">ICHIGO KUROSAKI</text>
     <text x="215" y="74" class="kanji-text" font-size="12" fill="#ff5577">黒崎一護</text>
     <rect x="72" y="81" width="135" height="17" rx="8" fill="#ff0044" fill-opacity="0.25"/>
@@ -622,22 +678,17 @@
 
     <!-- GENERATED BANKAI VISUALIZER STAGE -->
     <rect x="15" y="114" width="450" height="195" rx="14" fill="#080c1e" fill-opacity="0.85" stroke="#ff0044" stroke-width="0.8"/>
-    <!-- TENSA ZANGETSU KUROI GETSUGA SLASH -->
     <g transform="translate(240, 205)">
-      <!-- CRESCENT REIATSU SLASH WAVE -->
       <g style="animation: getsugaSlash 1.8s ease-in-out infinite;">
         <path d="M-60 -20 C-20 -50 40 -30 65 15 C30 5 -10 -15 -60 -20 Z" fill="#000000" stroke="#ff0044" stroke-width="2.5" filter="url(#neonGlow)"/>
         <path d="M-50 -15 C-15 -35 30 -20 50 10 C25 2 -5 -10 -50 -15 Z" fill="#ff0044" stroke="#ffffff" stroke-width="1"/>
       </g>
-      <!-- SLENDER BLACK DAITO KATANA BLADE -->
       <line x1="-55" y1="40" x2="55" y2="-40" stroke="#000000" stroke-width="3.5"/>
       <line x1="-55" y1="40" x2="55" y2="-40" stroke="#ffffff" stroke-width="1"/>
-      <!-- MANJI TSUBA &amp; CHAIN -->
       <rect x="-4" y="-4" width="8" height="8" fill="#ff0044"/>
       <path d="M-40 30 Q-35 45 -25 50" fill="none" stroke="#ff0044" stroke-width="1.2" stroke-dasharray="3 2"/>
     </g>
 
-    <!-- TECHNIQUE TITLE &amp; ATTRIBUTES -->
     <text x="240" y="326" class="kanji-text" font-size="16" fill="#ff0044" text-anchor="middle" filter="url(#neonGlow)">
       【 卍解・天鎖斬月 】 TENSA ZANGETSU // KUROI GETSUGA
     </text>
@@ -645,7 +696,6 @@
       Extreme Condensed Reiatsu · Hypersonic Movement Speed
     </text>
 
-    <!-- COMBAT POWER OUTPUT METER -->
     <g transform="translate(35, 360)">
       <text x="0" y="10" class="mono-text" font-size="10" fill="#ff0044" font-weight="700">REIATSU: HYBRID TRANSCENDENT</text>
       <text x="410" y="10" class="mono-text" font-size="10" fill="#00ff66" text-anchor="end" font-weight="700">SSS-TIER</text>
@@ -654,14 +704,11 @@
     </g>
   </g>
 
-  <!-- ==================== BLEACH CHARACTER 2: SOSUKE AIZEN ==================== -->
-  <g class="profile-card" style="animation-delay: 6s;">
-    <!-- PROFILE HEADER BOX -->
+  <!-- ==================== BLEACH 2: SOSUKE AIZEN (18s - 30s) ==================== -->
+  <g class="profile-card" style="animation-delay: 18s;">
     <rect x="15" y="54" width="450" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#00f0ff" stroke-width="0.7"/>
-    <!-- AVATAR EMBLEM (HOGYOKU CORE) -->
     <circle cx="44" cy="80" r="18" fill="#0e1828" stroke="#00f0ff" stroke-width="1.5"/>
     <polygon points="44,69 51,76 44,83 37,76" fill="#c77dff" stroke="#00f0ff" stroke-width="1"/>
-    <!-- PROFILE DETAILS -->
     <text x="72" y="74" class="sans-text" font-size="14.5" fill="#ffffff" font-weight="800">SŌSUKE AIZEN</text>
     <text x="195" y="74" class="kanji-text" font-size="12" fill="#00f0ff">藍染惣右介</text>
     <rect x="72" y="81" width="135" height="17" rx="8" fill="#00f0ff" fill-opacity="0.25"/>
@@ -670,23 +717,18 @@
 
     <!-- GENERATED BANKAI VISUALIZER STAGE -->
     <rect x="15" y="114" width="450" height="195" rx="14" fill="#080c1e" fill-opacity="0.85" stroke="#00f0ff" stroke-width="0.8"/>
-    <!-- KYOKA SUIGETSU COMPLETE HYPNOSIS PRISM -->
     <g transform="translate(240, 205)">
-      <!-- ROTATING HYPNOTIC PRISMATIC HEXAGON -->
       <g style="transform-origin: 0 0; animation: spinVortexRev 5s linear infinite;">
         <polygon points="0,-48 42,-24 42,24 0,48 -42,24 -42,-24" fill="none" stroke="#00f0ff" stroke-width="1.8" stroke-dasharray="14 8" filter="url(#neonGlow)"/>
       </g>
-      <!-- SHATTERED REALITY MIRROR SHARDS -->
       <polygon points="-30,-20 -15,-40 -10,-15" fill="#00f0ff" fill-opacity="0.3" stroke="#ffffff" stroke-width="1"/>
       <polygon points="20,-35 40,-15 25,-10" fill="#c77dff" fill-opacity="0.3" stroke="#ffffff" stroke-width="1"/>
       <polygon points="-25,20 -10,38 -5,15" fill="#c77dff" fill-opacity="0.3" stroke="#ffffff" stroke-width="1"/>
       <polygon points="15,15 35,30 20,40" fill="#00f0ff" fill-opacity="0.3" stroke="#ffffff" stroke-width="1"/>
-      <!-- CENTER TRANSCENDENT CORE -->
       <circle cx="0" cy="0" r="14" fill="#090f24" stroke="#00f0ff" stroke-width="2" filter="url(#neonGlow)"/>
       <circle cx="0" cy="0" r="5" fill="#ffffff"/>
     </g>
 
-    <!-- TECHNIQUE TITLE &amp; ATTRIBUTES -->
     <text x="240" y="326" class="kanji-text" font-size="16" fill="#00f0ff" text-anchor="middle" filter="url(#neonGlow)">
       【 鏡花水月 】 KYŌKA SUIGETSU // COMPLETE HYPNOSIS
     </text>
@@ -694,7 +736,6 @@
       Total Sensory Control · Flawless Reality Manipulation
     </text>
 
-    <!-- COMBAT POWER OUTPUT METER -->
     <g transform="translate(35, 360)">
       <text x="0" y="10" class="mono-text" font-size="10" fill="#00f0ff" font-weight="700">HYPNOSIS: ALL 5 SENSES [DEICIDE]</text>
       <text x="410" y="10" class="mono-text" font-size="10" fill="#00ff66" text-anchor="end" font-weight="700">TRANSCENDENT</text>
@@ -703,18 +744,15 @@
     </g>
   </g>
 
-  <!-- ==================== BLEACH CHARACTER 3: BYAKUYA KUCHIKI ==================== -->
-  <g class="profile-card" style="animation-delay: 10s;">
-    <!-- PROFILE HEADER BOX -->
+  <!-- ==================== BLEACH 3: BYAKUYA KUCHIKI (30s - 42s) ==================== -->
+  <g class="profile-card" style="animation-delay: 30s;">
     <rect x="15" y="54" width="450" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ff77a8" stroke-width="0.7"/>
-    <!-- AVATAR EMBLEM (SAKURA BLOSSOM) -->
     <circle cx="44" cy="80" r="18" fill="#180b14" stroke="#ff77a8" stroke-width="1.5"/>
     <circle cx="44" cy="74" r="4" fill="#ff77a8"/>
     <circle cx="50" cy="78" r="4" fill="#ff77a8"/>
     <circle cx="48" cy="85" r="4" fill="#ff77a8"/>
     <circle cx="40" cy="85" r="4" fill="#ff77a8"/>
     <circle cx="38" cy="78" r="4" fill="#ff77a8"/>
-    <!-- PROFILE DETAILS -->
     <text x="72" y="74" class="sans-text" font-size="14.5" fill="#ffffff" font-weight="800">BYAKUYA KUCHIKI</text>
     <text x="215" y="74" class="kanji-text" font-size="12" fill="#ff77a8">朽木白哉</text>
     <rect x="72" y="81" width="135" height="17" rx="8" fill="#ff77a8" fill-opacity="0.25"/>
@@ -723,15 +761,11 @@
 
     <!-- GENERATED BANKAI VISUALIZER STAGE -->
     <rect x="15" y="114" width="450" height="195" rx="14" fill="#080c1e" fill-opacity="0.85" stroke="#ff77a8" stroke-width="0.8"/>
-    <!-- SENBONZAKURA KAGEYOSHI SAKURA STORM -->
     <g transform="translate(240, 205)">
-      <!-- TWIN COLOSSAL KATANAS FLANKING STAGE -->
       <line x1="-55" y1="-50" x2="-55" y2="45" stroke="#ffffff" stroke-width="2.5" filter="url(#neonGlow)"/>
       <line x1="55" y1="-50" x2="55" y2="45" stroke="#ffffff" stroke-width="2.5" filter="url(#neonGlow)"/>
-      <!-- WATER RIPPLE BASES -->
       <ellipse cx="-55" cy="45" rx="14" ry="4" fill="none" stroke="#ff77a8" stroke-width="1.2"/>
       <ellipse cx="55" cy="45" rx="14" ry="4" fill="none" stroke="#ff77a8" stroke-width="1.2"/>
-      <!-- 12 SWIRLING SAKURA BLADE PETALS -->
       <g style="animation: sakuraSwirl 3.5s ease-in-out infinite;">
         <ellipse cx="-20" cy="-25" rx="7" ry="3.5" fill="#ff77a8" stroke="#ffffff" stroke-width="0.8"/>
         <ellipse cx="25" cy="-18" rx="8" ry="4" fill="#ff99bb" stroke="#ffffff" stroke-width="0.8"/>
@@ -742,7 +776,6 @@
       </g>
     </g>
 
-    <!-- TECHNIQUE TITLE &amp; ATTRIBUTES -->
     <text x="240" y="326" class="kanji-text" font-size="16" fill="#ff77a8" text-anchor="middle" filter="url(#neonGlow)">
       【 卍解・千本桜景厳 】 SENBONZAKURA KAGEYOSHI
     </text>
@@ -750,7 +783,6 @@
       100 Million Razor Sakura Blades · Gōkei Enclosure Domain
     </text>
 
-    <!-- COMBAT POWER OUTPUT METER -->
     <g transform="translate(35, 360)">
       <text x="0" y="10" class="mono-text" font-size="10" fill="#ff77a8" font-weight="700">BLADE DENSITY: 100,000,000</text>
       <text x="410" y="10" class="mono-text" font-size="10" fill="#00ff66" text-anchor="end" font-weight="700">S-RANK</text>
@@ -759,16 +791,13 @@
     </g>
   </g>
 
-  <!-- ==================== BLEACH CHARACTER 4: GENRYUSAI YAMAMOTO ==================== -->
-  <g class="profile-card" style="animation-delay: 14s;">
-    <!-- PROFILE HEADER BOX -->
+  <!-- ==================== BLEACH 4: GENRYUSAI YAMAMOTO (42s - 54s) ==================== -->
+  <g class="profile-card" style="animation-delay: 42s;">
     <rect x="15" y="54" width="450" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ff5500" stroke-width="0.7"/>
-    <!-- AVATAR EMBLEM (1st SQUAD SUN &amp; FLAME) -->
     <circle cx="44" cy="80" r="18" fill="#1c0800" stroke="#ff5500" stroke-width="1.5"/>
     <circle cx="44" cy="80" r="8" fill="#ff5500"/>
     <line x1="44" y1="68" x2="44" y2="92" stroke="#ffe600" stroke-width="1.8"/>
     <line x1="32" y1="80" x2="56" y2="80" stroke="#ffe600" stroke-width="1.8"/>
-    <!-- PROFILE DETAILS -->
     <text x="72" y="74" class="sans-text" font-size="14.5" fill="#ffffff" font-weight="800">GENRYŪSAI YAMAMOTO</text>
     <text x="250" y="74" class="kanji-text" font-size="12" fill="#ff5500">山本元柳斎</text>
     <rect x="72" y="81" width="135" height="17" rx="8" fill="#ff5500" fill-opacity="0.25"/>
@@ -777,22 +806,17 @@
 
     <!-- GENERATED BANKAI VISUALIZER STAGE -->
     <rect x="15" y="114" width="450" height="195" rx="14" fill="#080c1e" fill-opacity="0.85" stroke="#ff5500" stroke-width="0.8"/>
-    <!-- ZANKA NO TACHI 15M DEGREE SOLAR BLADE -->
     <g transform="translate(240, 205)">
-      <!-- SOLAR CORONA RADIANCE -->
       <circle cx="0" cy="0" r="45" fill="none" stroke="#ff5500" stroke-width="2.2" stroke-dasharray="10 8" style="animation: solarFlareWave 2s ease-in-out infinite;"/>
       <circle cx="0" cy="0" r="28" fill="#ff5500" fill-opacity="0.2" filter="url(#neonGlow)"/>
-      <!-- CHARRED OBSIDIAN EDGE -->
       <line x1="0" y1="-55" x2="0" y2="45" stroke="#100502" stroke-width="4"/>
       <line x1="0" y1="-55" x2="0" y2="45" stroke="#ffffff" stroke-width="1" filter="url(#neonGlow)"/>
-      <!-- RISING HEAT EMBERS -->
       <circle cx="-18" cy="-20" r="2.5" fill="#ffe600"/>
       <circle cx="22" cy="-30" r="2" fill="#ff5500"/>
       <circle cx="-12" cy="15" r="2" fill="#ff3300"/>
       <circle cx="16" cy="25" r="2.5" fill="#ffe600"/>
     </g>
 
-    <!-- TECHNIQUE TITLE &amp; ATTRIBUTES -->
     <text x="240" y="326" class="kanji-text" font-size="16" fill="#ff5500" text-anchor="middle" filter="url(#neonGlow)">
       【 卍解・残火の太刀 】 ZANKA NO TACHI // 15,000,000°
     </text>
@@ -800,7 +824,6 @@
       Core Temperature of the Sun · West: Zanjitsu Gokui Cloak
     </text>
 
-    <!-- COMBAT POWER OUTPUT METER -->
     <g transform="translate(35, 360)">
       <text x="0" y="10" class="mono-text" font-size="10" fill="#ff5500" font-weight="700">HEAT: 15,000,000°C SOLAR FLARE</text>
       <text x="410" y="10" class="mono-text" font-size="10" fill="#00ff66" text-anchor="end" font-weight="700">EXTREME</text>
@@ -809,15 +832,12 @@
     </g>
   </g>
 
-  <!-- ==================== BLEACH CHARACTER 5: TOSHIRO HITSUGAYA ==================== -->
-  <g class="profile-card" style="animation-delay: 18s;">
-    <!-- PROFILE HEADER BOX -->
+  <!-- ==================== BLEACH 5: TOSHIRO HITSUGAYA (54s - 66s) ==================== -->
+  <g class="profile-card" style="animation-delay: 54s;">
     <rect x="15" y="54" width="450" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#00f0ff" stroke-width="0.7"/>
-    <!-- AVATAR EMBLEM (ICE DIAMOND SNOWFLAKE) -->
     <circle cx="44" cy="80" r="18" fill="#06121f" stroke="#00f0ff" stroke-width="1.5"/>
     <polygon points="44,68 52,80 44,92 36,80" fill="#00f0ff" fill-opacity="0.4"/>
     <circle cx="44" cy="80" r="4" fill="#ffffff"/>
-    <!-- PROFILE DETAILS -->
     <text x="72" y="74" class="sans-text" font-size="14.5" fill="#ffffff" font-weight="800">TŌSHIRŌ HITSUGAYA</text>
     <text x="235" y="74" class="kanji-text" font-size="12" fill="#00f0ff">日番谷冬獅郎</text>
     <rect x="72" y="81" width="135" height="17" rx="8" fill="#00f0ff" fill-opacity="0.25"/>
@@ -826,22 +846,17 @@
 
     <!-- GENERATED BANKAI VISUALIZER STAGE -->
     <rect x="15" y="114" width="450" height="195" rx="14" fill="#080c1e" fill-opacity="0.85" stroke="#00f0ff" stroke-width="0.8"/>
-    <!-- DAIGUREN HYORINMARU ICE DRAGON WINGS -->
     <g transform="translate(240, 205)">
-      <!-- FACETED CRYSTALLINE ICE WINGS -->
       <g style="animation: frostCrystalline 2.4s ease-in-out infinite;">
         <polygon points="0,0 -30,-40 -55,-15 -25,10" fill="url(#iceHyorin)" fill-opacity="0.4" stroke="#00f0ff" stroke-width="1.5" filter="url(#neonGlow)"/>
         <polygon points="0,0 30,-40 55,-15 25,10" fill="url(#iceHyorin)" fill-opacity="0.4" stroke="#00f0ff" stroke-width="1.5" filter="url(#neonGlow)"/>
       </g>
-      <!-- ROTATING 12-PETAL ICE FLOWER -->
       <g style="transform-origin: 0 0; animation: spinVortexFast 6s linear infinite;">
         <polygon points="0,-22 4,-10 16,-16 10,-4 22,0 10,4 16,16 4,10 0,22 -4,10 -16,16 -10,4 -22,0 -10,-4 -16,-16 -4,-10" fill="#ffffff" fill-opacity="0.8" filter="url(#neonGlow)"/>
       </g>
-      <!-- ABSOLUTE ZERO CORE SPARK -->
       <circle cx="0" cy="0" r="5" fill="#ffffff"/>
     </g>
 
-    <!-- TECHNIQUE TITLE &amp; ATTRIBUTES -->
     <text x="240" y="326" class="kanji-text" font-size="16" fill="#00f0ff" text-anchor="middle" filter="url(#neonGlow)">
       【 卍解・大紅蓮氷輪丸 】 DAIGUREN HYŌRINMARU
     </text>
@@ -849,7 +864,6 @@
       Absolute Zero Flash Freezing · Completed Mature Form
     </text>
 
-    <!-- COMBAT POWER OUTPUT METER -->
     <g transform="translate(35, 360)">
       <text x="0" y="10" class="mono-text" font-size="10" fill="#00f0ff" font-weight="700">TEMPERATURE: -273.15°C (ABSOLUTE 0)</text>
       <text x="410" y="10" class="mono-text" font-size="10" fill="#00ff66" text-anchor="end" font-weight="700">S-RANK</text>
@@ -858,15 +872,12 @@
     </g>
   </g>
 
-  <!-- ==================== BLEACH CHARACTER 6: KISUKE URAHARA ==================== -->
-  <g class="profile-card" style="animation-delay: -2s;">
-    <!-- PROFILE HEADER BOX -->
+  <!-- ==================== BLEACH 6: KISUKE URAHARA (66s - 78s) ==================== -->
+  <g class="profile-card" style="animation-delay: 66s;">
     <rect x="15" y="54" width="450" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ff0055" stroke-width="0.7"/>
-    <!-- AVATAR EMBLEM (STRIPED HAT SILHOUETTE) -->
     <circle cx="44" cy="80" r="18" fill="#0c1810" stroke="#00ff66" stroke-width="1.5"/>
     <path d="M30 84 L58 84" stroke="#00ff66" stroke-width="2"/>
     <path d="M36 84 L40 72 L48 72 L52 84 Z" fill="#00ff66" fill-opacity="0.4" stroke="#00ff66" stroke-width="1.2"/>
-    <!-- PROFILE DETAILS -->
     <text x="72" y="74" class="sans-text" font-size="14.5" fill="#ffffff" font-weight="800">KISUKE URAHARA</text>
     <text x="215" y="74" class="kanji-text" font-size="12" fill="#00ff66">浦原喜助</text>
     <rect x="72" y="81" width="135" height="17" rx="8" fill="#00ff66" fill-opacity="0.25"/>
@@ -875,23 +886,18 @@
 
     <!-- GENERATED BANKAI VISUALIZER STAGE -->
     <rect x="15" y="114" width="450" height="195" rx="14" fill="#080c1e" fill-opacity="0.85" stroke="#ff0055" stroke-width="0.8"/>
-    <!-- KANNONBIRAKI BENIHIME RESTRUCTURING MESH -->
     <g transform="translate(240, 205)">
-      <!-- SURGICAL SUTURE STITCH MATRIX -->
       <line x1="-50" y1="-30" x2="50" y2="30" stroke="#ff0055" stroke-width="2" stroke-dasharray="6 4" class="stitch" style="animation: matrixStitch 2s linear infinite;" filter="url(#neonGlow)"/>
       <line x1="50" y1="-30" x2="-50" y2="30" stroke="#ff0055" stroke-width="2" stroke-dasharray="6 4" class="stitch" style="animation: matrixStitch 2s linear infinite;" filter="url(#neonGlow)"/>
       <line x1="0" y1="-45" x2="0" y2="45" stroke="#ff0055" stroke-width="1.5" stroke-dasharray="8 4"/>
-      <!-- RED RESTRUCTURING NEEDLES -->
       <polygon points="0,-48 4,-38 -4,-38" fill="#ffffff"/>
       <polygon points="0,48 4,38 -4,38" fill="#ffffff"/>
       <polygon points="-52,-32 -42,-30 -45,-38" fill="#ffffff"/>
       <polygon points="52,32 42,30 45,38" fill="#ffffff"/>
-      <!-- CENTER MANNEQUIN EYE CORE -->
       <circle cx="0" cy="0" r="16" fill="#14020a" stroke="#ff0055" stroke-width="2" filter="url(#neonGlow)"/>
       <circle cx="0" cy="0" r="6" fill="#00ff66"/>
     </g>
 
-    <!-- TECHNIQUE TITLE &amp; ATTRIBUTES -->
     <text x="240" y="326" class="kanji-text" font-size="16" fill="#ff0055" text-anchor="middle" filter="url(#neonGlow)">
       【 観音開紅姫改メ 】 KANNONBIRAKI BENIHIME
     </text>
@@ -899,12 +905,96 @@
       Anatomical &amp; Spatial Restructuring · Infinite Biological Re-Engineering
     </text>
 
-    <!-- COMBAT POWER OUTPUT METER -->
     <g transform="translate(35, 360)">
       <text x="0" y="10" class="mono-text" font-size="10" fill="#00ff66" font-weight="700">RESTRUCTURING: 100% REALITY MESH</text>
       <text x="410" y="10" class="mono-text" font-size="10" fill="#00ff66" text-anchor="end" font-weight="700">MASTER-TIER</text>
       <rect x="0" y="16" width="410" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
       <rect x="0" y="16" width="405" height="6" rx="3" fill="#00ff66" filter="url(#neonGlow)"/>
+    </g>
+  </g>
+
+  <!-- ==================== BLEACH 7: KENPACHI ZARAKI (78s - 90s) ==================== -->
+  <g class="profile-card" style="animation-delay: 78s;">
+    <rect x="15" y="54" width="450" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#ffe600" stroke-width="0.7"/>
+    <circle cx="44" cy="80" r="18" fill="#1b1406" stroke="#ffe600" stroke-width="1.5"/>
+    <polygon points="44,68 54,80 44,92 34,80" fill="#ffe600"/>
+    <line x1="38" y1="74" x2="50" y2="86" stroke="#000000" stroke-width="2"/>
+    <text x="72" y="74" class="sans-text" font-size="14.5" fill="#ffffff" font-weight="800">KENPACHI ZARAKI</text>
+    <text x="220" y="74" class="kanji-text" font-size="12" fill="#ffe600">更木剣八</text>
+    <rect x="72" y="81" width="135" height="17" rx="8" fill="#ffe600" fill-opacity="0.25"/>
+    <text x="139" y="93" class="mono-text" font-size="9" fill="#ffe600" text-anchor="middle" font-weight="700">SQUAD 11 CAPTAIN</text>
+    <text x="217" y="93" class="mono-text" font-size="9.5" fill="#8892b0">11th KENPACHI · NOZARASHI</text>
+
+    <!-- GENERATED BANKAI VISUALIZER STAGE -->
+    <rect x="15" y="114" width="450" height="195" rx="14" fill="#080c1e" fill-opacity="0.85" stroke="#ffe600" stroke-width="0.8"/>
+    <g transform="translate(240, 205)">
+      <!-- COLOSSAL CLEAVER BLADE NOZARASHI -->
+      <g style="animation: kenpachiSlash 2s ease-in-out infinite;">
+        <polygon points="-40,-50 10,-45 40,40 -20,45" fill="url(#kenpachiAura)" stroke="#ffe600" stroke-width="2.5" filter="url(#neonGlow)"/>
+        <line x1="-30" y1="-45" x2="30" y2="35" stroke="#ffffff" stroke-width="2"/>
+      </g>
+      <!-- DEMONIC REIATSU FANGS -->
+      <path d="M-60 10 Q-30 -30 0 20 Q30 -30 60 10" fill="none" stroke="#ffe600" stroke-width="2" stroke-dasharray="8 6"/>
+      <!-- IMPACT SHOCKWAVES -->
+      <circle cx="0" cy="0" r="30" fill="none" stroke="#ff7700" stroke-width="1.5" class="core-ripple" style="transform-origin: 0 0;"/>
+    </g>
+
+    <text x="240" y="326" class="kanji-text" font-size="16" fill="#ffe600" text-anchor="middle" filter="url(#neonGlow)">
+      【 卍解・野晒 】 NOZARASHI // BEAST OF OBLIVION
+    </text>
+    <text x="240" y="344" class="sans-text" font-size="11.5" fill="#8892b0" text-anchor="middle">
+      Colossal Space-Cleaving Cleaver · Limitless Unbound Battle Reiatsu
+    </text>
+
+    <g transform="translate(35, 360)">
+      <text x="0" y="10" class="mono-text" font-size="10" fill="#ffe600" font-weight="700">REIATSU LEVEL: UNMEASURABLE</text>
+      <text x="410" y="10" class="mono-text" font-size="10" fill="#00ff66" text-anchor="end" font-weight="700">BEAST-TIER</text>
+      <rect x="0" y="16" width="410" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
+      <rect x="0" y="16" width="410" height="6" rx="3" fill="url(#kenpachiAura)" filter="url(#neonGlow)"/>
+    </g>
+  </g>
+
+  <!-- ==================== BLEACH 8: SHUNSUI KYORAKU (90s - 6s) ==================== -->
+  <g class="profile-card" style="animation-delay: -6s;">
+    <rect x="15" y="54" width="450" height="52" rx="12" fill="#ffffff" fill-opacity="0.04" stroke="#c77dff" stroke-width="0.7"/>
+    <circle cx="44" cy="80" r="18" fill="#140c1e" stroke="#c77dff" stroke-width="1.5"/>
+    <path d="M34 85 Q44 70 54 85" fill="none" stroke="#c77dff" stroke-width="2"/>
+    <circle cx="44" cy="74" r="3" fill="#ff77a8"/>
+    <text x="72" y="74" class="sans-text" font-size="14.5" fill="#ffffff" font-weight="800">SHUNSUI KYŌRAKU</text>
+    <text x="230" y="74" class="kanji-text" font-size="12" fill="#c77dff">京楽春水</text>
+    <rect x="72" y="81" width="135" height="17" rx="8" fill="#c77dff" fill-opacity="0.25"/>
+    <text x="139" y="93" class="mono-text" font-size="9" fill="#c77dff" text-anchor="middle" font-weight="700">CAPTAIN-COMMANDER</text>
+    <text x="217" y="93" class="mono-text" font-size="9.5" fill="#8892b0">SQUAD 1 · KARAMATSU SHINJŪ</text>
+
+    <!-- GENERATED BANKAI VISUALIZER STAGE -->
+    <rect x="15" y="114" width="450" height="195" rx="14" fill="#080c1e" fill-opacity="0.85" stroke="#c77dff" stroke-width="0.8"/>
+    <g transform="translate(240, 205)">
+      <!-- SHADOW THEATER &amp; ABYSSAL WATER OF KARAMATSU SHINJU -->
+      <g style="animation: theaterShadowPulse 3s ease-in-out infinite;">
+        <ellipse cx="0" cy="35" rx="60" ry="18" fill="url(#shunsuiShadow)" stroke="#c77dff" stroke-width="1.5" filter="url(#neonGlow)"/>
+        <!-- BLACK PINE TREE SILHOUETTES -->
+        <path d="M-40 30 L-40 -20 L-25 0 L-40 5 M40 30 L40 -20 L25 0 L40 5" stroke="#12061e" stroke-width="3"/>
+      </g>
+      <!-- TWIN CURVED KATEN KYOKOTSU BLADES -->
+      <path d="M-50 -35 Q-20 0 0 -40" fill="none" stroke="#ffffff" stroke-width="2" filter="url(#neonGlow)"/>
+      <path d="M50 -35 Q20 0 0 -40" fill="none" stroke="#ffffff" stroke-width="2" filter="url(#neonGlow)"/>
+      <!-- THEATRICAL DEATH WHITE SAKURA CORDS -->
+      <line x1="-30" y1="-25" x2="30" y2="25" stroke="#ff77a8" stroke-width="1" stroke-dasharray="4 4"/>
+      <line x1="30" y1="-25" x2="-30" y2="25" stroke="#ff77a8" stroke-width="1" stroke-dasharray="4 4"/>
+    </g>
+
+    <text x="240" y="326" class="kanji-text" font-size="16" fill="#c77dff" text-anchor="middle" filter="url(#neonGlow)">
+      【 卍解・花天狂骨枯松心中 】 KARAMATSU SHINJŪ
+    </text>
+    <text x="240" y="344" class="sans-text" font-size="11.5" fill="#8892b0" text-anchor="middle">
+      Four Acts of Theatrical Tragedy · Inescapable Abyssal Drowning
+    </text>
+
+    <g transform="translate(35, 360)">
+      <text x="0" y="10" class="mono-text" font-size="10" fill="#c77dff" font-weight="700">THEATRICAL DEPTH: LEVEL 4 TRAGEDY</text>
+      <text x="410" y="10" class="mono-text" font-size="10" fill="#00ff66" text-anchor="end" font-weight="700">DEATH-TIER</text>
+      <rect x="0" y="16" width="410" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
+      <rect x="0" y="16" width="400" height="6" rx="3" fill="url(#shunsuiShadow)" filter="url(#neonGlow)"/>
     </g>
   </g>
 </g>
@@ -917,7 +1007,7 @@
   CHAKRA ROTATION: 360° CONTINUOUS  ✦  REIATSU PURITY: MAXIMUM CAPACITY
 </text>
 <text x="1215" y="523" class="mono-text" font-size="11" fill="#00f0ff" text-anchor="end" font-weight="700">
-  SUBRAT SAHU // THE VILLAIN IN MASK  ✦  CYCLE: 4.0s DELAY
+  SUBRAT SAHU // THE VILLAIN IN MASK  ✦  CYCLE: 12.0s DELAY
 </text>
 
 </svg>
