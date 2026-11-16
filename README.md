@@ -36,11 +36,11 @@
 <br/>
 
 <!-- ======================================================== -->
-<!-- APPLE UI GLASSIC ANTIGRAVITIC ANIMATION PANEL (CLICKABLE) -->
-<!-- RANDOMLY ANIMATING BLEACH ALL BANKAI & NARUTO ALL JUTSU   -->
+<!-- ANTIGRAVITIC CHAKRA & REIATSU DESK (CLICKABLE PROFILE CONSOLE) -->
+<!-- NARUTO SHINOBI & BLEACH GOTEI 13 PROFILES CYCLING AT 4s DELAYS -->
 <!-- ======================================================== -->
 <a href="https://github.com/subratsahu3?tab=repositories" title="Click to inspect all active Jutsu and Bankai codebases">
-  <img src="./assets/cards/antigravity_jutsu_bankai.svg" alt="Antigravitic Glassmorphic Anime Animation Panel" width="100%"/>
+  <img src="./assets/cards/antigravity_jutsu_bankai.svg" alt="Antigravitic Anime Character Profile Desk — Naruto & Bleach" width="100%"/>
 </a>
 
 </div>
@@ -277,14 +277,20 @@ python -m speclab.gui
 
 <div align="left">
 
-| Shinobi / Soul Society Power | Engineering Analog | Active Implementation |
-| :--- | :--- | :--- |
-| **螺旋丸 (Rasengan)** | High-throughput Async Event Loop | [SpecLab Async Signal Engine](https://github.com/subratsahu3/SpecLab-Spectrum-Analyzer) |
-| **千鳥 (Chidori)** | Ultra-fast Streaming Inference | [AgentOps Real-Time Pipeline](https://github.com/subratsahu3/agentops-platform) |
-| **神羅天征 (Shinra Tensei)** | Zero-Trust Defense &amp; Rate-Limiting | [API Gateways &amp; Security Shield](https://github.com/subratsahu3) |
-| **【 卍解 】 鏡花水月 (Kyōka Suigetsu)** | Full-Control Simulated Testing &amp; Mocks | [Adversarial Agent Testing](https://github.com/subratsahu3/agentops-platform) |
-| **【 卍解 】 千本桜景厳 (Senbonzakura)** | Distributed Microservice Cluster | [Distributed Mesh Workers](https://github.com/subratsahu3/phantasm-mesh) |
-| **【 卍解 】 天鎖斬月 (Tensa Zangetsu)** | Hyper-Optimized Native C++ Bindings | [High-Performance Algorithms](https://github.com/subratsahu3) |
+| Shinobi / Soul Society Power | Character Profile | Engineering Analog | Active Implementation |
+| :--- | :--- | :--- | :--- |
+| **螺旋丸 (Rasengan)** | Naruto Uzumaki (7th Hokage) | High-throughput Async Event Loop | [SpecLab Async Signal Engine](https://github.com/subratsahu3/SpecLab-Spectrum-Analyzer) |
+| **千鳥 (Chidori)** | Sasuke Uchiha (Shadow Hokage) | Ultra-fast Streaming Inference | [AgentOps Real-Time Pipeline](https://github.com/subratsahu3/agentops-platform) |
+| **神威雷切 (Kamui Raikiri)** | Kakashi Hatake (Copy Ninja) | Zero-Latency Space-Time Routing | [Phantasm Mesh Router](https://github.com/subratsahu3/phantasm-mesh) |
+| **飛雷神の術 (Flying Raijin)** | Minato Namikaze (Yellow Flash) | Instantaneous RPC / P2P Sync | [Isomorph State Sync](https://github.com/subratsahu3/isomorph) |
+| **天照 (Amaterasu)** | Itachi Uchiha (Akatsuki Enigma) | Inextinguishable Self-Healing Loop | [Agent Telemetry & Recovery](https://github.com/subratsahu3/agentops-platform) |
+| **神羅天征 (Shinra Tensei)** | Pain / Nagato (Six Paths) | Zero-Trust Defense & Rate-Limiting | [API Gateways & Security Shield](https://github.com/subratsahu3) |
+| **【 卍解 】 天鎖斬月 (Tensa Zangetsu)** | Ichigo Kurosaki (Substitute Shinigami) | Hyper-Optimized Native C++ Bindings | [High-Performance Algorithms](https://github.com/subratsahu3) |
+| **【 卍解 】 鏡花水月 (Kyōka Suigetsu)** | Sōsuke Aizen (Sovereign) | Adversarial Simulation & Mocking | [AgentOps Evals Suite](https://github.com/subratsahu3/agentops-platform) |
+| **【 卍解 】 千本桜景厳 (Senbonzakura)** | Byakuya Kuchiki (Squad 6) | Distributed Microservice Cluster | [Distributed Mesh Workers](https://github.com/subratsahu3/phantasm-mesh) |
+| **【 卍解 】 残火の太刀 (Zanka no Tachi)** | Genryūsai Yamamoto (Commander) | High-Throughput GPU Compute Core | [Scientific Spectroscopy AI](https://github.com/subratsahu3/SpecLab-Spectrum-Analyzer) |
+| **【 卍解 】 大紅蓮氷輪丸 (Hyōrinmaru)** | Tōshirō Hitsugaya (Squad 10) | Immutable Zero-Loss Cold Storage | [State Persistence Engine](https://github.com/subratsahu3/isomorph) |
+| **【 卍解 】 観音開紅姫改メ (Benihime)** | Kisuke Urahara (Architect) | Dynamic AST Code Restructuring | [Autonomous Agent Compiler](https://github.com/subratsahu3) |
 
 </div>
 </details>
